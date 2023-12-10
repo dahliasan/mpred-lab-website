@@ -1,0 +1,31 @@
+---
+title: "MPred Lab Quarto Website"
+
+listing:
+  - id: blog-listings
+    type: grid
+    sort: "date desc"
+    contents: "posts/*/index.qmd"
+    sort-ui: false
+    filter-ui: false
+    categories: false
+    feed: false
+    fields: [image, date, title, author, reading-time]
+  - id: research-themes
+    contents: "research.yaml"
+    template: research.ejs
+---
+
+This is a Quarto website.
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+
+```{r}
+1 + 1
+```
+
+::: {#blog-listings}
+:::
+
+::: {#research-themes}
+:::

@@ -1,0 +1,39 @@
+project:
+  type: website
+
+website:
+  title: "MPred Lab Quarto Website"
+  navbar:
+    title: false
+    logo: mpredlab-logo-white.svg
+    logo-alt: IMAS mpred lab (marine predator lab)
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - blog.qmd
+    right: 
+      - icon: twitter 
+        href: https://twitter.com/mpred_lab
+  back-to-top-navigation: true
+  twitter-card:
+    creator: "@dahliasan"
+    site: "@mpredlab"
+  page-footer: 
+    left: "built and designed by <a href='https://read.cv/dahliafoo'>dahlia foo</a>" 
+    right: 
+      - icon: twitter 
+        href: https://twitter.com/mpred_lab 
+
+format:
+  html:
+    theme: 
+      dark: darkly
+      light: flatly
+    mainfont: Inclusive Sans
+    css: styles.css
+    toc: true
+
+editor: visual
+

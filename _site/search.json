@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n  \n\n\n\n\nPost With Code\n\n\n\n\n\n\n\n\n\nSep 22, 2023\n\n\nDahlia Foo\n\n\n1 min\n\n\n\n\n\n\n  \n\n\n\n\nTasman Fracture Marine Park\n\n\n\n\n\n\n\n\n\nSep 22, 2023\n\n\nDahlia Foo\n\n\n1 min\n\n\n\n\n\n\nNo matching items\n\n Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "MPred Lab Quarto Website",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n1 min\n\n\n\nDahlia Foo\n\n\nSep 22, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nTasman Fracture Marine Park\n\n\n1 min\n\n\n\nDahlia Foo\n\n\nSep 22, 2023\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\nAnimal Behaviour\n\n\nInvestigating the hunting, mating, and social behaviours of marine predators to understand their roles in marine ecosystems.\n\n\n\n\nAnthropogenic Interactions\n\n\nExamining the impact of human activities such as fishing, plastic pollution, and invasive species on marine predators and their habitats.\n\n\n\n\nArt-Science Collaborations\n\n\nFusing art and science to increase public engagement and awareness about marine predators and their conservation needs.\n\n\n\n\nAntarctic and the Southern Ocean\n\n\nFocused research on marine predators in the Antarctic region, studying their adaptations to extreme conditions and roles in the Southern Ocean ecosystem.\n\n\n\n\nBio-logging\n\n\nUtilising technology to track marine predators’ movements, diving patterns, and other behaviours to gather insights on their natural habitats.\n\n\n\n\nTemperate Marine Predators\n\n\nResearch on predators in temperate zones, exploring their ecology, behaviours, and interactions within these specific marine environments.\n\n\n\n\nNo matching items\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts/hello.html",
+    "href": "posts/hello.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "posts/hello-world/index.html",
+    "href": "posts/hello-world/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "HELLO HELLO\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "posts/tfmp/index.html",
+    "href": "posts/tfmp/index.html",
+    "title": "Tasman Fracture Marine Park",
+    "section": "",
+    "text": "Back to top"
+  }
+]

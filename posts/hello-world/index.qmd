@@ -1,0 +1,14 @@
+---
+title: "Post With Code"
+description: "Post description"
+author: "Dahlia Foo"
+date: "9/22/2023"
+categories:
+  - news
+  - code
+  - analysis
+---
+
+HELLO HELLO
+
+![](images/thumbnail.png)
