@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>MPred Lab Quarto Website - About</title>
+<title>MPred Lab Quarto Website - About Us</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -64,6 +30,8 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -95,11 +63,42 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-team-members-active .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-name','listing-slug','listing-photoUrl','listing-labPosition','listing-positionType','listing-isAlumni','listing-yearCompleted','listing-twitter','listing-instagram','listing-github','listing-linkedin','listing-orcid','listing-googleScholar','listing-researchgate','listing-utasProfile','listing-personalWebsite','listing-researchInFiveWords','listing-doYouPreferToFreestyleYourBio?','listing-giveAnOutlineOfYourProjectAndCurrentResearch','listing-whatDoesYourProjectInvolve?','listing-whatAreYouBroaderResearchInterests?','listing-researchProjectInAHaiku','listing-triviaFactAboutYourResearch','listing-what'sYourBackground?','listing-anEmojiToDescribeYourself','listing-whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?','listing-whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?','listing-favouriteRFunction/shortCut/resource',{ data: ['index'] },{ data: ['categories'] }],
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-name","listing-slug","listing-photoUrl","listing-labPosition","listing-positionType","listing-isAlumni","listing-yearCompleted","listing-twitter","listing-instagram","listing-github","listing-linkedin","listing-orcid","listing-googleScholar","listing-researchgate","listing-utasProfile","listing-personalWebsite","listing-researchInFiveWords","listing-doYouPreferToFreestyleYourBio?","listing-giveAnOutlineOfYourProjectAndCurrentResearch","listing-whatDoesYourProjectInvolve?","listing-whatAreYouBroaderResearchInterests?","listing-researchProjectInAHaiku","listing-triviaFactAboutYourResearch","listing-what'sYourBackground?","listing-anEmojiToDescribeYourself","listing-whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?","listing-whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?","listing-favouriteRFunction/shortCut/resource"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-team-members-active'] = new List('listing-team-members-active', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <link rel="stylesheet" href="styles.css">
-<meta name="twitter:title" content="MPred Lab Quarto Website - About">
-<meta name="twitter:description" content="">
+<meta name="twitter:title" content="MPred Lab Quarto Website - About Us">
 <meta name="twitter:creator" content="@dahliasan">
 <meta name="twitter:site" content="@mpredlab">
 <meta name="twitter:card" content="summary">
@@ -113,7 +112,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./mpredlab-logo-white.svg" alt="IMAS mpred lab (marine predator lab)" class="navbar-logo">
+    <img src="./assets/media/mpredlab-logo-white.svg" alt="IMAS mpred lab (marine predator lab)" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -128,7 +127,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="./about.html" rel="" target="" aria-current="page">
- <span class="menu-text">About</span></a>
+ <span class="menu-text">About Us</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./blog.html" rel="" target="">
@@ -161,7 +160,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">About</h1>
+<h1 class="title">About Us</h1>
 </div>
 
 
@@ -176,13 +175,437 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 </header>
 
-<p>About this site</p>
-<div class="cell">
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="dv">1</span> <span class="sc">+</span> <span class="dv">1</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-<div class="cell-output cell-output-stdout">
-<pre><code>[1] 2</code></pre>
+<div id="listing-team-members-active" class="grid-block quarto-listing quarto-listing-container-custom">
+<h2 class="anchored">
+Current Members
+</h2>
+<ul>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06e789023ae1819aeab_60bad06a7d16f450b4256cc6_ahenderson.jpeg');">
+
 </div>
+<div class="heading">
+Angus Henderson
 </div>
+<div>
+PhD Candidate
+</div>
+<div class="font-mono">
+Whale Obs from Tourist Vessels
+</div>
+<ul class="social-links">
+<li>
+<a href="http://twitter.com/afhender">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06e622dd0be6076e5d3_60bad055cd17fffca87ec52e_barthur.jpeg');">
+
+</div>
+<div class="heading">
+Dr Ben Arthur
+</div>
+<div>
+Adjunct Researcher
+</div>
+<div class="font-mono">
+marine science outreach and education
+</div>
+<ul class="social-links">
+<li>
+<a href="http://twitter.com/bluewaterben">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06e6d5c5045b4c0b683_60bad58183017e7256048f9c_bviola.jpeg');">
+
+</div>
+<div class="heading">
+Benjamin Viola
+</div>
+<div>
+PhD Candidate
+</div>
+<div class="font-mono">
+future (sub)Antarctic seabird habitat use
+</div>
+<ul class="social-links">
+<li>
+<a href="https://twitter.com/bm_viola">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f56ff43844999b5d4_60bacfa52551d71bc5865740_cm.jpeg');">
+
+</div>
+<div class="heading">
+Dr Clive McMahon
+</div>
+<div>
+Adjunct Researcher
+</div>
+<div class="font-mono">
+IMOS Antarctic seal tracking program
+</div>
+<ul class="social-links">
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c01c2040626f7449cc844b_60bad1aa9d72e099e633bcfb_dfoo.jpeg');">
+
+</div>
+<div class="heading">
+Dr Dahlia Foo
+</div>
+<div>
+Adjunct Researcher
+</div>
+<div class="font-mono">
+bad weather sucks for pups
+</div>
+<ul class="social-links">
+<li>
+<a href="https://github.com/dahliasan">GitHub</a>
+</li>
+<li>
+<a href="https://twitter.com/dahliafoo">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f7f5d65d63c27796c_60bacfbf3cf7fc2fd1959e70_dgreen.jpeg');">
+
+</div>
+<div class="heading">
+Dr David Green
+</div>
+<div>
+Postdoc
+</div>
+<div class="font-mono">
+Prey models and marine predators
+</div>
+<ul class="social-links">
+<li>
+<a href="http://twitter.com/davo.b.green">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd07050406e75f3557f0f_60bad020c2e03c5d16ef9224_dwall.jpeg');">
+
+</div>
+<div class="heading">
+Demelza Wall
+</div>
+<div>
+PhD Candidate
+</div>
+<div class="font-mono">
+new vs old seal colonies
+</div>
+<ul class="social-links">
+<li>
+<a href="http://twitter.com/demelzawall">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/6358f56f83fb345c9551044d_IMG_8187.jpg');">
+
+</div>
+<div class="heading">
+Dr Jane Younger
+</div>
+<div>
+Lecturer
+</div>
+<div class="font-mono">
+marine predators, disease, climate change
+</div>
+<ul class="social-links">
+<li>
+<a href="http://@jane_younger">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/63ed9d3e730cbae357268e7a_326708672_2188228714694298_8758376112241024385_n.jpg');">
+
+</div>
+<div class="heading">
+Georgia Mergard
+</div>
+<div>
+PhD Candidate
+</div>
+<div class="font-mono">
+DNA metabarcoding, poo, food webs
+</div>
+<ul class="social-links">
+<li>
+<a href="http://twitter.com/georgiamergard">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070024df8465e2bdb9e_60bad1409d47da2d53a95b99_jmcinnes.jpeg');">
+
+</div>
+<div class="heading">
+Dr Julie McInnes
+</div>
+<div>
+Postdoc
+</div>
+<div class="font-mono">
+Stool tool for any fool
+</div>
+<ul class="social-links">
+<li>
+<a href="http://twitter.com/pengatross">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070079cd35658326de7_60bad130320690eb03c2f935_lroman.jpeg');">
+
+</div>
+<div class="heading">
+Dr Lauren Roman
+</div>
+<div>
+Adjunct Researcher
+</div>
+<div class="font-mono">
+marine debris impact on wildlife
+</div>
+<ul class="social-links">
+<li>
+<a href="https://twitter.com/DrLaurenRoman">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070e78b6d224da21fd9_60baf4c8c880e7722324091e_mbrasier.jpeg');">
+
+</div>
+<div class="heading">
+Dr Madeleine Brasier
+</div>
+<div>
+Adjunct Researcher
+</div>
+<div class="font-mono">
+identifying humpback whales in Tasmania
+</div>
+<ul class="social-links">
+<li>
+<a href="http://twitter.com/madsbrasier">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070768f4420a04aa8f4_60bacff1c2e03c5617ef9189_mh.jpeg');">
+
+</div>
+<div class="heading">
+Prof Mark Hindell
+</div>
+<div>
+Emeritus Professor
+</div>
+<div class="font-mono">
+antarctic southern ocean marine predators
+</div>
+<ul class="social-links">
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071a056a230789909dd_60bad0084214cae8271ec17a_malea.jpeg');">
+
+</div>
+<div class="heading">
+Prof Mary-Anne Lea
+</div>
+<div>
+Lab Leader
+</div>
+<div class="font-mono">
+marine predator ecology and behaviour
+</div>
+<ul class="social-links">
+<li>
+<a href="http://twitter.com/icetempete">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071ba41c87ef5ff2365_60bad0382070983422e254ca_mwells.jpeg');">
+
+</div>
+<div class="heading">
+Melanie Wells
+</div>
+<div>
+PhD Candidate
+</div>
+<div class="font-mono">
+Factors that influence seabird parasitism
+</div>
+<ul class="social-links">
+<li>
+<a href="https://twitter.com/MelRoseWells">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c626d05f3702cbfd3df91e_milan-soljitra.jpg');">
+
+</div>
+<div class="heading">
+Milan Sojitra
+</div>
+<div>
+PhD Candidate
+</div>
+<div class="font-mono">
+Seabirds, marine mammals, climate change
+</div>
+<ul class="social-links">
+<li>
+<a href="https://twitter.com/MilanS0jitra">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd07108f411259f6fd444_60936a9a8088e2604d26953e_IMG_2085.jpeg');">
+
+</div>
+<div class="heading">
+Noémie Friscourt
+</div>
+<div>
+PhD Candidate
+</div>
+<div class="font-mono">
+southern ocean, seal, whiskers, isotopes, trace metal
+</div>
+<ul class="social-links">
+<li>
+<a href="http://twitter.com/noemie_roronoa">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071e78b6d916da21fdd_60bad0eb37e076af08d3d52a_odove.jpeg');">
+
+</div>
+<div class="heading">
+Olly Dove
+</div>
+<div>
+PhD Candidate
+</div>
+<div class="font-mono">
+Seabirds feeding in Storm Bay
+</div>
+<ul class="social-links">
+<li>
+<a href="https://twitter.com/littledove440">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd072db3214e82d736da9_60bad2427a233c3af0e69407_ppascoe.jpeg');">
+
+</div>
+<div class="heading">
+Penny Pascoe
+</div>
+<div>
+PhD Candidate
+</div>
+<div class="font-mono">
+Islands, guano, isotopes, recovery, time
+</div>
+<ul class="social-links">
+<li>
+<a href="https://twitter.com/pppascoe">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c7831da7f16b640d2a6c1f_Kunanji%20Photography%20LR.jpg');">
+
+</div>
+<div class="heading">
+Sophia Volzke
+</div>
+<div>
+PhD Candidate
+</div>
+<div class="font-mono">
+Modelling Southern Elephant Seal Demography
+</div>
+<ul class="social-links">
+<li>
+<a href="http://twitter.com/SophiaVolzke">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c01c22ad9536f913d99059_62bfeaf248259b13dd6a772b_sophie-bestley_cropped.png');">
+
+</div>
+<div class="heading">
+Dr Sophie Bestley
+</div>
+<div>
+Senior Lecturer
+</div>
+<div class="font-mono">
+Integrated Southern Ocean ecology
+</div>
+<ul class="social-links">
+<li>
+<a href="twitter.com/BestleySophie">Twitter</a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+</ul>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+<nav id="team-members-active-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div>
+
 
 
 

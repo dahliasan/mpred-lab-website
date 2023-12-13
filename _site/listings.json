@@ -12,5 +12,9 @@
       "/posts/hello-world/index.html",
       "/posts/tfmp/index.html"
     ]
+  },
+  {
+    "listing": "/about.html",
+    "items": []
   }
 ]
