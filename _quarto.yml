@@ -5,8 +5,8 @@ website:
   title: "MPred Lab Quarto Website"
   navbar:
     title: false
-    logo: images/mpredlab-logo-white.svg
-    logo-alt: IMAS mpred lab (marine predator lab)
+    logo: /images/mpredlab-logo-white.svg
+    logo-alt: IMAS MPred Lab (Marine Predator Lab)
     background: primary
     left:
       - href: index.qmd
