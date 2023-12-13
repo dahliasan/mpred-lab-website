@@ -1,5 +1,5 @@
 ---
-title: "MPred Lab Quarto Website"
+title: "IMAS MPred Lab"
 
 listing:
   - id: blog-listings
@@ -16,16 +16,12 @@ listing:
     template: research.ejs
 ---
 
-This is a Quarto website.
-
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
-
-```{r}
-1 + 1
-```
-
-::: {#blog-listings}
-:::
+## Our Research Themes
 
 ::: {#research-themes}
+:::
+
+## Latest News
+
+::: {#blog-listings}
 :::
