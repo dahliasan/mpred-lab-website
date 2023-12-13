@@ -7,18 +7,14 @@
     ]
   },
   {
+    "listing": "/team.html",
+    "items": []
+  },
+  {
     "listing": "/index.html",
     "items": [
       "/posts/hello-world/index.html",
       "/posts/tfmp/index.html"
     ]
-  },
-  {
-    "listing": "/about.html",
-    "items": []
-  },
-  {
-    "listing": "/team.html",
-    "items": []
   }
 ]
