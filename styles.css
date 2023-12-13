@@ -44,13 +44,10 @@ footer.footer .nav-footer, #quarto-header>nav {
 /* Blocks */
 
 
-
-#listing-research-themes ul {
+#listing-research-themes ul,
+.grid-block ul {
   list-style: none;
   padding-left: 0;
-}
-
-#listing-research-themes ul {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1.5em;
@@ -63,6 +60,36 @@ footer.footer .nav-footer, #quarto-header>nav {
   margin: 0;
 }
 
+.profile-image {
+  height: 100px;
+  aspect-ratio: 1;
+  border-radius: 9999px;
+  overflow: hidden;
+  background-size: cover;
 
+  
+}
+
+
+ul.social-links {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 12px;
+  
+}
+
+.heading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 0;
+}
 
 /* 
