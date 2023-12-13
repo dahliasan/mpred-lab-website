@@ -1,9 +1,11 @@
 ---
-title: "About"
+title: "About Us"
+
+listing:
+  - id: team-members-active
+    contents: "team-members.yaml"
+    template: team-members.ejs 
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+::: {#team-members-active .grid-block}
+:::

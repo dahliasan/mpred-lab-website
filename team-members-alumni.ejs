@@ -1,0 +1,25 @@
+
+<h2>Alumni</h2>
+<ul>
+  <% items.forEach(function(member) { %>
+    <% if (member.isAlumni) { %>
+      <li>
+        <div>
+          <div><%= member.name %></div>
+          <div><%= member.labPosition %></div>
+          <div><%= member.researchInFiveWords %></div>
+        </div>
+        <ul class="social-links">
+          <% if (member.github) { %>
+            <li><a href="<%= member.github %>">GitHub</a></li>
+          <% } %>
+          <% if (member.twitter) { %>
+            <li><a href="<%= member.twitter %>">Twitter</a></li>
+          <% } %>
+          <!-- Repeat for other social media links as needed -->
+        </ul>
+      </li>
+    <% } %>
+  <% }); %>
+
+

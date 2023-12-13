@@ -1,0 +1,24 @@
+<h2>Current Members</h2>
+<ul>
+  <% items.forEach(function(member) { %>
+    <% if (member.isAlumni === false && 
+          (member.labPosition.toLowerCase().includes('phd') || 
+           (member.positionType && member.positionType.toLowerCase() === 'staff'))) { %>
+      <li>
+        <div class="profile-image" style="background-image:url('<%= member.photoUrl %>');"></div>
+        <div class="heading"><%= member.name %></div>
+        <div><%= member.labPosition %></div>
+        <div class="font-mono"><%= member.researchInFiveWords %></div>
+        <ul class="social-links">
+          <% if (member.github) { %>
+            <li><a href="<%= member.github %>">GitHub</a></li>
+          <% } %>
+          <% if (member.twitter) { %>
+            <li><a href="<%= member.twitter %>">Twitter</a></li>
+          <% } %>
+          <!-- Repeat for other social media links as needed -->
+        </ul>
+      </li>
+    <% } %>
+  <% }); %>
+</ul>
