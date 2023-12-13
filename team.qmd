@@ -1,0 +1,21 @@
+---
+title: "About Us"
+
+listing:
+  - id: team-members-active
+    contents: "team-members.yaml"
+    template: /team/team-members.ejs 
+  - id: team-members-alumni
+    contents: "team-members.yaml"
+    template: /team/team-members-alumni.ejs 
+---
+
+## Current Members
+
+::: {#team-members-active .grid-block}
+:::
+
+## Alumni Members
+
+::: {#team-members-alumni .grid-block}
+:::
