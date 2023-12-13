@@ -1,0 +1,20 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/hello-world/index.html",
+      "/posts/tfmp/index.html"
+    ]
+  },
+  {
+    "listing": "/team.html",
+    "items": []
+  },
+  {
+    "listing": "/index.html",
+    "items": [
+      "/posts/hello-world/index.html",
+      "/posts/tfmp/index.html"
+    ]
+  }
+]
