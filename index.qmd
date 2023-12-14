@@ -1,6 +1,8 @@
 ---
-title: "IMAS MPred Lab"
-
+format:
+  html:
+    toc: false
+    page-layout: full
 listing:
   - id: blog-listings
     type: grid
@@ -15,6 +17,8 @@ listing:
     contents: "research.yaml"
     template: research.ejs
 ---
+
+![](images/60bacd78c96519c915e08181_hero-ba.jpg)
 
 ## Our Research Themes
 
