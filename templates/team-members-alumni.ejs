@@ -4,7 +4,7 @@
       <li>
         <div><%= member.name %></div>
         <div style="font-size: 12px; font-weight: 700;"><%= member.labPosition %></div>
-        <div class="font-mono"><%= member.researchInFiveWords %></div>
+        <div class="font-monospace" style="font-size: 12px;"><%= member.researchInFiveWords %></div>
         <ul class="social-links">
           <% if (member.github) { %>
             <li><a href="<%= member.github %>">GitHub</a></li>

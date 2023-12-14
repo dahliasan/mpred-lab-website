@@ -19,13 +19,11 @@ listing:
 ---
 
 ::: {.grid .hero-container style="padding-top: 0;"}
-
-::: {.hero-text .g-start-6 .g-col-5}
+::: {.hero-text .g-start-2 .g-col-10 .g-start-md-2 .g-col-md-8 .g-start-xl-7 .g-col-xl-5 }
 # Marine predator research that makes a difference.
+
 We study Southern Ocean and other marine predators to improve our understanding of the natural world and help inform conservation and management decision-making.
 :::
-
-
 :::
 
 ::: g-col-12
@@ -41,4 +39,5 @@ We study Southern Ocean and other marine predators to improve our understanding 
 :::
 :::
 :::
-:::
+
+

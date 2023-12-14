@@ -4,10 +4,10 @@
           (member.labPosition.toLowerCase().includes('phd') || 
            (member.positionType && member.positionType.toLowerCase() === 'staff'))) { %>
       <li>
-        <div class="profile-image" style="background-image:url('<%= member.photoUrl %>');"></div>
-        <h3 style="margin:0;"><%= member.name %></h3>
-        <div><%= member.labPosition %></div>
-        <div class="font-mono"><%= member.researchInFiveWords %></div>
+        <div class="profile-image mb-1" style="background-image:url('<%= member.photoUrl %>');"></div>
+        <h3 class="fs-5" style="margin:0;"><%= member.name %></h3>
+        <div class="fw-bold" style="font-size: 12px;"><%= member.labPosition %></div>
+        <div class="font-monospace" style="font-size: 12px;"><%= member.researchInFiveWords %></div>
         <ul class="social-links">
           <% if (member.github) { %>
             <li><a href="<%= member.github %>">GitHub</a></li>
