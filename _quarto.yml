@@ -29,9 +29,11 @@ website:
 format:
   html:
     theme: 
-      light: flatly
-      dark: darkly
+      light: [journal, custom.scss]
+      dark: [journal, theme-dark.scss, custom.scss]
     mainfont: Inclusive Sans
+    fontsize: 16px
+    linkcolor: "#5895B0"
     css: styles.css
     toc: true
 
