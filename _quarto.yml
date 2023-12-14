@@ -29,12 +29,12 @@ website:
 format:
   html:
     theme: 
-      light: [journal, custom.scss]
-      dark: [journal, theme-dark.scss, custom.scss]
+      light: [journal, "css/custom.scss"]
+      dark: [journal, "css/theme-dark.scss", "css/custom.scss"]
     mainfont: Inclusive Sans
     fontsize: 16px
     linkcolor: "#5895B0"
-    css: styles.css
+    css: "css/styles.css"
     toc: true
 
 editor: visual

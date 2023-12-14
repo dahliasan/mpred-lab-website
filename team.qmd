@@ -4,10 +4,10 @@ title: "About Us"
 listing:
   - id: team-members-active
     contents: "team-members.yaml"
-    template: /team/team-members.ejs 
+    template: "templates/team-members.ejs" 
   - id: team-members-alumni
     contents: "team-members.yaml"
-    template: /team/team-members-alumni.ejs 
+    template: "templates/team-members-alumni.ejs"
 ---
 
 ## Current Members
