@@ -5,7 +5,7 @@
            (member.positionType && member.positionType.toLowerCase() === 'staff'))) { %>
       <li>
         <div class="profile-image" style="background-image:url('<%= member.photoUrl %>');"></div>
-        <div class="heading"><%= member.name %></div>
+        <h3 style="margin:0;"><%= member.name %></h3>
         <div><%= member.labPosition %></div>
         <div class="font-mono"><%= member.researchInFiveWords %></div>
         <ul class="social-links">

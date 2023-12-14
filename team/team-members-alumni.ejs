@@ -2,8 +2,8 @@
   <% items.forEach(function(member) { %>
     <% if (member.isAlumni === true) { %>
       <li>
-        <div class="heading"><%= member.name %></div>
-        <div><%= member.labPosition %></div>
+        <div><%= member.name %></div>
+        <div style="font-size: 12px; font-weight: 700;"><%= member.labPosition %></div>
         <div class="font-mono"><%= member.researchInFiveWords %></div>
         <ul class="social-links">
           <% if (member.github) { %>
