@@ -2,7 +2,7 @@
 format:
   html:
     toc: false
-    page-layout: full
+    page-layout: custom
 listing:
   - id: blog-listings
     type: grid
@@ -14,12 +14,22 @@ listing:
     feed: false
     fields: [image, date, title, author, reading-time]
   - id: research-themes
-    contents: "research.yaml"
-    template: research.ejs
+    contents: research.yaml
+    template: "templates/research.ejs"
 ---
 
-![](images/60bacd78c96519c915e08181_hero-ba.jpg)
+::: {.grid .hero-container style="padding-top: 0;"}
 
+::: {.hero-text .g-start-6 .g-col-5}
+# Marine predator research that makes a difference.
+We study Southern Ocean and other marine predators to improve our understanding of the natural world and help inform conservation and management decision-making.
+:::
+
+
+:::
+
+::: g-col-12
+::: {.grid .page-columns}
 ## Our Research Themes
 
 ::: {#research-themes}
@@ -28,4 +38,7 @@ listing:
 ## Latest News
 
 ::: {#blog-listings}
+:::
+:::
+:::
 :::
