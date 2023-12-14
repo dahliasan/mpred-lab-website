@@ -3,6 +3,7 @@ format:
   html:
     toc: false
     page-layout: custom
+    css: "css/home.scss"
 listing:
   - id: blog-listings
     type: grid

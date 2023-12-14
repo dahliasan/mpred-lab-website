@@ -73,6 +73,22 @@ $input-btn-padding-x:         1rem !default;
 
 // Navbar
 
+.navbar {
+  font-weight: 400 !important;
+  font-size: var(--font-size-sm) !important;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+
+
+.nav-link.active,
+.nav-link:hover{
+  color: white!important;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
 // Pagination
 
 $pagination-hover-color:            $white !default;
@@ -95,8 +111,15 @@ $card-border-color: black;
     margin-bottom: 0;
     height: 100vh;
     color: white;
-    margin-top: -60px;
+    margin-top: -46px;
 }
+
+@media (min-width: 768px) {
+ .hero-container {
+   margin-top: -60px;
+ }
+}
+
 
 .hero-text {
   align-self: center;
@@ -109,3 +132,4 @@ $card-border-color: black;
 .hero-text p {
   font-size: var(--font-size-lg);
 }
+
