@@ -19,13 +19,14 @@ footer.footer .nav-footer, #quarto-header>nav {
 }
 
 /* Blocks */
-#listing-research-themes ul,
+
 .grid-block ul {
   list-style: none;
   padding-left: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
-  gap: 1em;
+  grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));
+  gap: 1.5rem;
+  row-gap: 1rem;
 }
   
 #listing-research-themes ul li h2 {

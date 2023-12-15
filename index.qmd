@@ -31,7 +31,7 @@ We study Southern Ocean and other marine predators to improve our understanding 
 ::: {.grid .page-columns}
 ## Our Research Themes
 
-::: {#research-themes}
+::: {#research-themes .grid-block}
 :::
 
 ## Latest News
