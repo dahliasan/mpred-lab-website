@@ -133,3 +133,31 @@ $card-border-color: black;
   font-size: var(--font-size-lg);
 }
 
+
+// Listings
+.listings-grid ul {
+  list-style: none;
+  padding-left: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr));
+  gap: 1.5rem;
+  row-gap: 1rem;
+}
+  
+.profile-image {
+  height: 100px;
+  aspect-ratio: 1;
+  border-radius: 9999px;
+  overflow: hidden;
+  background-size: cover;
+}
+
+
+ul.social-links {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+

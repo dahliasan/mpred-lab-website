@@ -29,15 +29,15 @@ We study Southern Ocean and other marine predators to improve our understanding 
 
 ::: g-col-12
 ::: {.grid .page-columns}
-## Our Research Themes
 
-::: {#research-themes .grid-block}
+## Our Research Themes
+::: {#research-themes .listings-grid}
 :::
 
 ## Latest News
-
 ::: {#blog-listings}
 :::
+
 :::
 :::
 
