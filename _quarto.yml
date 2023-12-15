@@ -13,6 +13,8 @@ website:
         text: Home
       - team.qmd
       - blog.qmd
+      - href: contact.qmd
+        text: Contact
     right: 
       - icon: twitter 
         href: https://twitter.com/mpred_lab
