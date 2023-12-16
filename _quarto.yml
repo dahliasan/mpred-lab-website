@@ -31,8 +31,8 @@ website:
 format:
   html:
     theme: 
-      light: [journal, "css/custom.scss"]
       dark: [journal, "css/theme-dark.scss", "css/custom.scss"]
+      light: [journal, "css/custom.scss"]
     css: "css/styles.css"
     toc: true
 
