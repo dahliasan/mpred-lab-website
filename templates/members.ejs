@@ -1,19 +1,19 @@
 <ul>
   <% items.forEach(function(member) { %>
-    <% if (member.isAlumni === false && 
-          (member.labPosition.toLowerCase().includes('phd') || 
+    <% if (member.isPastMember === false && 
+          (member.position.toLowerCase().includes('phd') || 
            (member.positionType && member.positionType.toLowerCase() === 'staff'))) { %>
       <li>
         <div class="profile-image mb-1" style="background-image:url('<%= member.photoUrl %>');"></div>
         <h3 class="fs-5" style="margin:0;"><%= member.name %></h3>
-        <div class="fw-bold" style="font-size: 12px;"><%= member.labPosition %></div>
-        <div class="font-monospace" style="font-size: 12px;"><%= member.researchInFiveWords %></div>
+        <div class="fw-bold" style="font-size: 12px;"><%= member.position %></div>
+        <div class="font-monospace" style="font-size: 12px;"><%= member.researchProjectIn5Words %></div>
         <ul class="social-links">
-          <% if (member.github) { %>
-            <li><a href="<%= member.github %>">GitHub</a></li>
+          <% if (member.githubUrl) { %>
+            <li><a href="<%= member.githubUrl %>">GitHub</a></li>
           <% } %>
-          <% if (member.twitter) { %>
-            <li><a href="<%= member.twitter %>">Twitter</a></li>
+          <% if (member.xUrl) { %>
+            <li><a href="<%= member.xUrl %>">X</a></li>
           <% } %>
           <!-- Repeat for other social media links as needed -->
         </ul>

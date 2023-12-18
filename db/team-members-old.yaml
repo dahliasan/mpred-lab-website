@@ -15,8 +15,8 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: ''
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: '<p id="">Reef and coastal fisheries
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    '<p id="">Reef and coastal fisheries
     possess an extraordinary amount of living things (like fish, crabs, corals and
     algae) condensed into a small space, with its nearest rivals only being rainforests
     and agriculture. </p><p id="">Despite being such a small part of the global surface
@@ -36,7 +36,8 @@
     target="_blank" id="">Now you see me: first records of the greater amberjack Seriola
     dumerili at Rapa Nui (Easter Island), the result of range extension or increased
     scientific effort? </a></p>'
-  whatDoesYourProjectInvolve?: I have spent many hours in the field collecting fish
+  whatDoesYourProjectInvolve?:
+    I have spent many hours in the field collecting fish
     from Tasmania to an island off Cape York. Whilst being in the field is challenging
     and thrilling, back in the lab I get down to the dirty work - sorting through
     fish gut contents and dealing with hundreds of fish tissue biopsies. This side
@@ -44,24 +45,12 @@
     smalls, a lot of staring down microscropes, and eventually hours on computer programs,
     writing code, performing complex statistics, and summarising my work into a written
     synthesis to share with the world.
-  whatAreYouBroaderResearchInterests?: 'I''ve studied and worked in institutions from
+  whatAreYouBroaderResearchInterests?:
+    "I've studied and worked in institutions from
     Western Australia, New Zealand, Canada, the Galapagos and now based in Tasmania,
     with my research spanning many topics in biology. At present I am interested in:
     stable isotope ecology, size based theory of ecology, metabolic theory of ecology,
-    biogeography and species redistributions, and trophodynamics (predator-prey relationships).'
-  researchProjectInAHaiku: <p id="">No guts no glory<br>Come hell or high water<br>I'll
-    seek their story</p>
-  triviaFactAboutYourResearch: ''
-  what'sYourBackground?: On the weekends I hike the rogue trails (often Type II fun),
-    try to surf with my cooler friends (usually in the whitewash), climb (with frequent
-    intermissions involving naps under trees), party, and occasionally attempt to
-    be artistic.
-  anEmojiToDescribeYourself: "\U0001F421"
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: I completed my PADI Divemaster
-    in the treatcherous waters of the Komodo, Indonesia; worked as a snorkel tour
-    guide on the tame Great Barrier Reef; and frozen my brain as a SCUBA Instructor
-    in Canada. But all along I have worked with or participated in research.
-  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: ''
+    biogeography and species redistributions, and trophodynamics (predator-prey relationships)."
   favouriteRFunction/shortCut/resource: ''
 - name: Angus Henderson
   slug: angus-henderson
@@ -80,27 +69,20 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Whale Obs from Tourist Vessels
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">I am looking into the drivers
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">I am looking into the drivers
     of whale abundance and distribution, and the spatio-temporal overlap between krill
     fishing and predator foraging behaviour, in the West Antarctic Peninsula.</p>
-  whatDoesYourProjectInvolve?: Deploying qualified marine mammal observers on tourist
+  whatDoesYourProjectInvolve?:
+    Deploying qualified marine mammal observers on tourist
     vessels that visit Antarctica from Argentina and Chile each year. The advantage
     of this method is that we are able to for the first time gain within and between
     foraging season understanding of whale presence; something the current science
     efforts are not financially or logistically able to achieve.
-  whatAreYouBroaderResearchInterests?: I enjoy understanding the processes that drive
+  whatAreYouBroaderResearchInterests?:
+    I enjoy understanding the processes that drive
     the research findings, discussing what how they fit into the broader context of
     knowledge.
-  researchProjectInAHaiku: <p id="">got to go to sea <br>count whales and a cup of
-    tea <br>that is all for me</p>
-  triviaFactAboutYourResearch: "Whales fertilise the water column with iron which\
-    \ stimulates more plants and more krill to eat, and when they die they sink to\
-    \ the bottom of the ocean, taking their carbon with them \u2013 climate heroes!"
-  what'sYourBackground?: ''
-  anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: ''
-  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: ''
   favouriteRFunction/shortCut/resource: Command + shift + M = pipe (%>%)
 - name: Ashleigh Fay
   slug: ashleigh-fay
@@ -119,24 +101,29 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Australian fur seal behaviour and foraging ecology
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">I'll be looking at Australian
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">I'll be looking at Australian
     fur seal interactions around oil and gas infrastructure in the Gippsland Basin,
     eastern Bass Strait. </p>
-  whatDoesYourProjectInvolve?: Analyzing underwater ROV footage of seals foraging
+  whatDoesYourProjectInvolve?:
+    Analyzing underwater ROV footage of seals foraging
     and playing around subsea pipelines, as well as imagery of them having a snooze
     on the oil and gas platforms!
-  whatAreYouBroaderResearchInterests?: Pinniped behaviour, Pinniped physiology, thermal
+  whatAreYouBroaderResearchInterests?:
+    Pinniped behaviour, Pinniped physiology, thermal
     physiology, climate impacts
   researchProjectInAHaiku: ''
-  triviaFactAboutYourResearch: oil and gas structures act as artificial reefs to support
+  triviaFactAboutYourResearch:
+    oil and gas structures act as artificial reefs to support
     an abundance of marine life
-  what'sYourBackground?: I'm from New Jersey in the US and grew up around quite flat,
+  what'sYourBackground?:
+    I'm from New Jersey in the US and grew up around quite flat,
     sandy shorelines. We got an occasional seal sighting, but my time vacationing
     in Alaska growing up really peaked my interest into marine predators and how they
     could be impacted by the changing climate.
   anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: 'I worked in wildlife response
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    'I worked in wildlife response
     at the Alaska SeaLife Center taking care of harbor seal pups and sea otter pups!
     As well as a whale watching naturalist around New York Harbour! Completely separate
     from marine predators, I did my undergraduate thesis in New Zealand on the skeletal
@@ -160,29 +147,33 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: marine science outreach and education
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">My background is in animal
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">My background is in animal
     movement ecology. While my current work focusses on marine science outreach and
     education across Australia.</p>
   whatDoesYourProjectInvolve?: ''
-  whatAreYouBroaderResearchInterests?: My primary research interests lie in understanding
+  whatAreYouBroaderResearchInterests?:
+    My primary research interests lie in understanding
     the way in which the environment affects the distribution and behaviour of marine
     species. Of particular interest is the way in which animals interact with their
     environment at different spatial and temporal scales and the implications of this
     for management and conservation.
   researchProjectInAHaiku: ''
   triviaFactAboutYourResearch: ''
-  what'sYourBackground?: "A born and bred Hobartian I started working with MPred 15\
+  what'sYourBackground?:
+    "A born and bred Hobartian I started working with MPred 15\
     \ years ago for my Honours degree. I actually studied shorebirds but got swept\
     \ up inall of the Southern Ocean work that was going on around me and decided\
     \ to follow suit and head south. I\u2019m not very good at sitting around inside\
     \ so I try to spend as much time as possible outdoors; either bushwalking, fly\
     \ fishing, gardening or having fun at our family shack."
   anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: "Selling newspapers and lotto\
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    "Selling newspapers and lotto\
     \ tickets at News agencies! I\u2019ve also had numerous research assistant, field\
     \ biologist and science outreach roles across the University and Government sectors."
-  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: <p id="">Chair of the Tasmanian
+  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?:
+    <p id="">Chair of the Tasmanian
     National Science Week Committee, Australian Antarctic Festival Steering Committee</p>
   favouriteRFunction/shortCut/resource: ''
 - name: Benjamin Viola
@@ -202,21 +193,26 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: future (sub)Antarctic seabird habitat use
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">I am looking at Antarctic
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">I am looking at Antarctic
     and sub-Antarctic seabird assemblages to determine how they use their habitat,
     and how projected changes in our climate will affect them.</p>
-  whatDoesYourProjectInvolve?: My project will include the modelling of habitat suitability
+  whatDoesYourProjectInvolve?:
+    My project will include the modelling of habitat suitability
     for a suite of free-flying seabirds. This will be in the context of historical,
     contemporary, and forthcoming systems. Shipboard seabird surveys, and remotely
     sensed (satellite) data will contribute to the analysis.
-  whatAreYouBroaderResearchInterests?: I am interested in vertebrate ecology and oceanographic
+  whatAreYouBroaderResearchInterests?:
+    I am interested in vertebrate ecology and oceanographic
     processes.
-  researchProjectInAHaiku: <p id="">Antarctic seabirds<br>Gliding around feeding grounds<br>Then
+  researchProjectInAHaiku:
+    <p id="">Antarctic seabirds<br>Gliding around feeding grounds<br>Then
     disappearing</p>
-  triviaFactAboutYourResearch: Snow Petrels (Pagodroma nivea) are kind of like skunks.
+  triviaFactAboutYourResearch:
+    Snow Petrels (Pagodroma nivea) are kind of like skunks.
     They produce an oil in their stomachs which they defensively spray at would-be-predators.
-  what'sYourBackground?: In my spare time, I enjoy snow sports, hiking, rock climbing,
+  what'sYourBackground?:
+    In my spare time, I enjoy snow sports, hiking, rock climbing,
     reading and birdwatching.
   anEmojiToDescribeYourself: ''
   whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: ''
@@ -239,8 +235,8 @@
   utasProfile: ''
   personalWebsite: https://loop.frontiersin.org/people/1343934/bio
   researchInFiveWords: deep ocean squid and fish
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: '<p id="">The deep ocean is the largest
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    '<p id="">The deep ocean is the largest
     habitat on earth and despite harsh environmental conditions, is full of life.
     I study the organisms that live in this challenging environment, specifically
     lanternfish and pelagic squids. In the Southern Ocean, lanternfish and squid are
@@ -249,26 +245,32 @@
     fit into the broader Southern Ocean food web. </p><p id="">Featured article: <a
     href="https://aappartnership.org.au/transporting-carbon-why-micronekton-are-important/"
     target="_blank" id="">Transporting carbon: Why micronekton are important.</a></p>'
-  whatDoesYourProjectInvolve?: "My project involved many many hours in the lab with\
+  whatDoesYourProjectInvolve?:
+    "My project involved many many hours in the lab with\
     \ fish \u2013including identifying them by their otolith morphology and dissecting\
     \ out tissue for stable isotopes. I\u2019ve also spent many hours in front of\
     \ my computer with my two best friends, R and Overleaf. Luckily, I\u2019ve also\
     \ had the opportunity to spend time in the field with seabirds and on a research\
     \ voyage into the Southern Ocean."
-  whatAreYouBroaderResearchInterests?: Stable isotopes, spatial distribution modeling,
+  whatAreYouBroaderResearchInterests?:
+    Stable isotopes, spatial distribution modeling,
     predator-prey relationships, whole ecosystem perspectives. I am passionate about
     research that informs the conservation and management of ecosystems. I believe
     in the power of collaboration among marine ecologists and across other disciplines
     to achieve our conservation goals.
-  researchProjectInAHaiku: <p id="">The Southern Ocean,<br>Darkness holds tasty delights,<br>Fish
+  researchProjectInAHaiku:
+    <p id="">The Southern Ocean,<br>Darkness holds tasty delights,<br>Fish
     hide in the depths.</p>
   triviaFactAboutYourResearch: ''
-  what'sYourBackground?: In my free time you will usually find me outdoors, hiking
+  what'sYourBackground?:
+    In my free time you will usually find me outdoors, hiking
     in the Tasmanian wilderness or climbing.
   anEmojiToDescribeYourself: "\U0001F483"
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: I got confused about my career
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    I got confused about my career
     choices along the way and studied/worked in cell biology and then became an audiologist.
-  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: <p id="">SCAR Expert Group on
+  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?:
+    <p id="">SCAR Expert Group on
     Antarctic Biodiversity Informatics(EG-ABI)</p>
   favouriteRFunction/shortCut/resource: ''
 - name: Dr Claire Mason
@@ -288,20 +290,24 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Climate impacts on shy albatross.
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">My PhD project explores the
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">My PhD project explores the
     impacts of climate on shy albatross to help design climate adaptation strategies
     for their conservation.</p>
   whatDoesYourProjectInvolve?: ''
-  whatAreYouBroaderResearchInterests?: "\u200DI am interested in conservation decision\
+  whatAreYouBroaderResearchInterests?:
+    "\u200DI am interested in conservation decision\
     \ science and climate adaptation research. I want my research to support robust\
     \ and pragmatic management and planning to conserve Australia\u2019s biodiversity."
-  researchProjectInAHaiku: "<p id=\"\">Climate change is tough<br>Tasmanian albatross<br>Let\u2019\
+  researchProjectInAHaiku:
+    "<p id=\"\">Climate change is tough<br>Tasmanian albatross<br>Let\u2019\
     s think and plan now</p>"
-  triviaFactAboutYourResearch: "Three rocky outcrops off the coast of Tasmania are\
+  triviaFactAboutYourResearch:
+    "Three rocky outcrops off the coast of Tasmania are\
     \ the only places in the world where shy albatross come to land, they are Tassie\u2019\
     s very own species of albatross!"
-  what'sYourBackground?: "\u200DI grew up in rural Queensland and then moved to Brisbane\
+  what'sYourBackground?:
+    "\u200DI grew up in rural Queensland and then moved to Brisbane\
     \ to study environmental science. My honours research project, at the ARC Centre\
     \ of Excellence for Environmental Decisions at the University of Queensland, integrated\
     \ over two decades of tracking data for shy albatross to increase return-on-investment\
@@ -327,8 +333,8 @@
   utasProfile: https://www.utas.edu.au/profiles/staff/imas/clive-mcmahon
   personalWebsite: ''
   researchInFiveWords: IMOS Antarctic seal tracking program
-  doYouPreferToFreestyleYourBio?: true
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">My primary affiliation is
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">My primary affiliation is
     with the Integrated Marine Observing System (IMOS), Sydney Institute of Marine
     Science (SIMS). </p><p id="">My primary responsibilities are running the IMOS
     Antarctic seal tracking program. Briefly, the Antarctic and the surrounding Southern
@@ -366,38 +372,43 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Adelie penguins ecophysiology and behaviour
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: "<p id=\"\">My project is about Ad\xE9\
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    "<p id=\"\">My project is about Ad\xE9\
     lie penguins ecophysiology and behaviour. The ultimate aim is to identify relevant\
     \ tools of population status to set/propose efficient conservation measures but\
     \ at a shorter term, it will allow to gain understanding on penguins physiology\
     \ and behaviour in relation to their performances (reproduction, foraging) and\
     \ environment (physical but also human disturbance).</p>"
   whatDoesYourProjectInvolve?: ''
-  whatAreYouBroaderResearchInterests?: "I am particularly attracted by birds but I\
+  whatAreYouBroaderResearchInterests?:
+    "I am particularly attracted by birds but I\
     \ didn\u2019t always work on birds and I would be happy to work on different models.\
     \ I am interested in ecology in general (for example I worked during previous\
     \ internships on matrix population models and niche modelling) but I generally\
     \ like to focus on physiological questions."
   researchProjectInAHaiku: ''
-  triviaFactAboutYourResearch: "Ad\xE9lie penguins are very funny guys to look at.\
+  triviaFactAboutYourResearch:
+    "Ad\xE9lie penguins are very funny guys to look at.\
     \ I can remember some days when suddenly, one penguin target you from 10 meters\
     \ and decide he is gonna put you down until he arrives just 1 meter from you and\
     \ realise you are 3 times taller than him and attacking you was maybe not the\
     \ best idea of the day."
-  what'sYourBackground?: "I am from France and I worked a lot with the CEBC team (Centre\
+  what'sYourBackground?:
+    "I am from France and I worked a lot with the CEBC team (Centre\
     \ d\u2019Etudes Biologiques de Chiz\xE9) where I did my first research internship\
     \ on birds and thanks to who I went in Antarctica. Never add me on whatsapp, I\
     \ love gifs way too much xD."
   anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: "Firstly during my master\
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    "Firstly during my master\
     \ and then for contracts, I worked for the Norwegian Polar Institute on birds\
     \ (Auks) in Svalbard (Longyearbyan).After my master I overwintered in the french\
     \ station Dumont D\u2019Urville inAntarctica (as ornithologist) and went back\
     \ there during the two following summers to work on a program focusing on penguins.\
     \ Finally I worked 6 month with a Finnish research grant on the physiology of\
     \ a passerine."
-  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: <p id="">I am board member of
+  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?:
+    <p id="">I am board member of
     APECS France  (Association for Polar Early CareerScientists) and CNFRA (French
     national committee for Arctic and Antarctic research).</p>
   favouriteRFunction/shortCut/resource: "\u201C#\u201D so I can write to myself =)"
@@ -418,26 +429,30 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: foraging ecology of southern elephant seals
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">Comparative assessment on
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">Comparative assessment on
     the foraging success of Southern elephant seals in variable environments off Kerguelen
     Island and the plateau. </p>
-  whatDoesYourProjectInvolve?: 'Using tracking data of Southern elephant seals tagged
+  whatDoesYourProjectInvolve?:
+    'Using tracking data of Southern elephant seals tagged
     on Kerguelen Island from 2004-2022, I will be comparing and contrasting the relationship
     between the foraging ecology (dive metrics) and foraging success (drift dive metrics)
     of elephant seals foraging in two different oceanographic regions (dynamic east
     environment vs. zonal west environment). The study will improve knowledge on the
     relationship between environment and performance and will help understand the
     persistence of the population. '
-  whatAreYouBroaderResearchInterests?: 'Marine ecology, marine mammals, Antarctic
+  whatAreYouBroaderResearchInterests?:
+    'Marine ecology, marine mammals, Antarctic
     studies '
   researchProjectInAHaiku: ''
   triviaFactAboutYourResearch: ''
-  what'sYourBackground?: I grew up in a small coastal town in the south-west of Western
+  what'sYourBackground?:
+    I grew up in a small coastal town in the south-west of Western
     Australia. I completed my Bachelor of Science in Coastal and Marine Science at
     Curtin University in Perth.
   anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: 'I spent a season in 2022
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    'I spent a season in 2022
     on the Nullarbor at the Head of Bight collecting observational data and photo
     identification of Southern right whales. Across 2022 and 2023 I also spent time
     collecting observational data on killer whales at the Bremer Bay hotspot. '
@@ -460,8 +475,8 @@
   utasProfile: ''
   personalWebsite: http://dahliafoo.xyz
   researchInFiveWords: bad weather sucks for pups
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: "<p id=\"\">I'm working on 2 research\
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    "<p id=\"\">I'm working on 2 research\
     \ papers at the moment: </p><h6 id=\"\">1. The effect of extreme weather events\
     \ on early New Zealand sea lion pup mortality </h6><p id=\"\">I've found that\
     \ cold and wet weather is linked to more pups dying at a young age ie. yes the\
@@ -477,17 +492,20 @@
     \ go on their first foraging trip? Do they innately know where to forage? And\
     \ based on where they went, did they survive?<br></p>"
   whatDoesYourProjectInvolve?: ''
-  whatAreYouBroaderResearchInterests?: applied conservation, scicomm, blockchain and
+  whatAreYouBroaderResearchInterests?:
+    applied conservation, scicomm, blockchain and
     web3
   researchProjectInAHaiku: ''
   triviaFactAboutYourResearch: ''
-  what'sYourBackground?: I'm from Singapore and moved to tassie many years ago to
+  what'sYourBackground?:
+    I'm from Singapore and moved to tassie many years ago to
     study science in UTas. Outside of science, you'll find me training Brazilian Jiu
     Jitsu and learning to code for front-end development.
   anEmojiToDescribeYourself: "\U0001F636\u200D\U0001F32B\uFE0F"
   whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: ''
   whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: ''
-  favouriteRFunction/shortCut/resource: "purrr::map() %>% reduce() \u2013 tidy split,\
+  favouriteRFunction/shortCut/resource:
+    "purrr::map() %>% reduce() \u2013 tidy split,\
     \ apply, combine technique"
 - name: Dr David Green
   slug: david-green
@@ -506,22 +524,25 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Prey models and marine predators
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">My project fits in the interface
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">My project fits in the interface
     between Southern Ocean predators and their prey. I work with models that simulate
     the distribution and dynamics of mid-trophic organisms, show how these can be
     linked with predator variables such as distribution, behaviour as well as demographic
     parameters. At the same time, I am also involved in adapting prey models to represent
     specific species (such as Antarctic krill); to give us more power in investigating
     potential effects of fisheries on dependent predator populations.</p>
-  whatDoesYourProjectInvolve?: Honestly, it really involves a lot of time in front
+  whatDoesYourProjectInvolve?:
+    Honestly, it really involves a lot of time in front
     of a computer screen! But I do get the occasional foray into the field to help
     others out with data collection.
-  whatAreYouBroaderResearchInterests?: "I have a general interest in marine predator\
+  whatAreYouBroaderResearchInterests?:
+    "I have a general interest in marine predator\
     \ foraging behaviour, but I\u2019m finding myself increasingly interested in whole-of-ecosystem\
     \ research, and the mind-blowing ways that different scientists approach problems\
     \ of complexity and scale."
-  researchProjectInAHaiku: "<p id=\"\">Model builder, I<br>Simulate predators\u2019\
+  researchProjectInAHaiku:
+    "<p id=\"\">Model builder, I<br>Simulate predators\u2019\
     \ prey<br>PhD me, please</p>"
   triviaFactAboutYourResearch: ''
   what'sYourBackground?: ''
@@ -546,11 +567,12 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: new vs old seal colonies
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">My project is looking at
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">My project is looking at
     breeding phenology of Australian fur seals, and at body condition indices of pups
     at two breeding colonies in Tasmania.</p>
-  whatDoesYourProjectInvolve?: Australian fur seals breed annually from late October
+  whatDoesYourProjectInvolve?:
+    Australian fur seals breed annually from late October
     to late December. Typically, they have bred in the Bass Strait, however, recently
     a breeding colony has established in Southwest Tasmania at the southern edge of
     their range.Following this, pup numbers have increased rapidly. Concurrently,
@@ -559,16 +581,19 @@
     breeding phenology and pup body condition at these two colonies. I am also investigating
     pup body condition and breeding phenology in relation toenvironmental variables.
   whatAreYouBroaderResearchInterests?: ''
-  researchProjectInAHaiku: <p id="">Super cute seal pups<br>On awesome offshore islands<br>How
+  researchProjectInAHaiku:
+    <p id="">Super cute seal pups<br>On awesome offshore islands<br>How
     are they going?</p>
   triviaFactAboutYourResearch: ''
-  what'sYourBackground?: "I\u2019m from Fremantle, in WA, and moved to Hobart for\
+  what'sYourBackground?:
+    "I\u2019m from Fremantle, in WA, and moved to Hobart for\
     \ my undergrad in Marine and Antarctic science at UTAS, which I finished last\
     \ year. Personal interests are slalom paddling, snorkelling, bushwalking (pretty\
     \ much anything outdoorsy...), and trying to crochet things without following\
     \ instructions."
   anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: In my last year of undergrad
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    In my last year of undergrad
     I did a super cool research project on the winter distribution of Shy Albatross
     from Mewstone (their largest breeding colony), using unearthed data from 2006  that
     had been sitting collecting metaphorical dust in computer land.
@@ -591,8 +616,8 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: marine predators, disease, climate change
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: "<p id=\"\">The common theme throughout\
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    "<p id=\"\">The common theme throughout\
     \ my career has been understanding how environmental change effects biodiversity,\
     \ by connecting environmental with population-level processes and large-scale\
     \ patterns of diversification.</p><p id=\"\">My current focus in the MPred Lab\
@@ -607,7 +632,8 @@
   triviaFactAboutYourResearch: ''
   what'sYourBackground?: ''
   anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: "Prior to joining the MPred\
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    "Prior to joining the MPred\
     \ Lab in 2022, I was a Group Leader in the Milner Centre for Evolution at the\
     \ University of Bath (UK). My team focused on understanding the impacts of climate\
     \ change on seabirds, through an evolutionary lens. I have also held a Fellowship\
@@ -636,8 +662,8 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: DNA metabarcoding, poo, food webs
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">Understanding the diet of
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">Understanding the diet of
     top order consumers is fundamental for assessing ecosystem dynamics, structure,
     and stability. Typically, there is a lag between the effects of environmental
     variation on lower trophic levels, and the ultimate effects on marine predators.
@@ -648,15 +674,19 @@
     be developing a comprehensive framework for incorporating DNA dietary data into
     food web networks and models, with the aim of producing a marine ecosystem monitoring
     tool for sub-Antarctic Macquarie Island.</p>
-  whatDoesYourProjectInvolve?: 'My project involves extracting DNA from marine predator
+  whatDoesYourProjectInvolve?:
+    'My project involves extracting DNA from marine predator
     poo to work out what they are eating and then integrating that data into food
     web networks. '
-  whatAreYouBroaderResearchInterests?: 'My key research interests involve marine predators,
+  whatAreYouBroaderResearchInterests?:
+    'My key research interests involve marine predators,
     ecology, genetics and modelling. '
-  researchProjectInAHaiku: <p>Seabirds and mammals</p><p>I look at their poo I do</p><p>Oh
+  researchProjectInAHaiku:
+    <p>Seabirds and mammals</p><p>I look at their poo I do</p><p>Oh
     food webs from poo</p>
   triviaFactAboutYourResearch: ''
-  what'sYourBackground?: 'I did my undergraduate degree at the University of Queensland,
+  what'sYourBackground?:
+    'I did my undergraduate degree at the University of Queensland,
     studying Wildlife Science. After graduating I moved to Tasmania where I completed
     my masters in marine and Antarctic science, looking at the determinants of prey
     choice in the shy albatross. '
@@ -681,24 +711,27 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Adelie penguins as ecosystem indicators
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: "<p id=\"\">Ad\xE9lie penguins as\
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    "<p id=\"\">Ad\xE9lie penguins as\
     \ ecosystem indicators: foraging behaviour and habitat. Through this research\
     \ project, we expect to further understand the movement behaviour and foraging\
     \ strategies of Ad\xE9lie penguins, and their relationship with oceanographic\
     \ parameters and the regional prey-field. This is critical knowledge in order\
     \ to highlight regional forage areas and predict likely impacts and responses\
     \ under future krill harvesting and climate scenarios.</p>"
-  whatDoesYourProjectInvolve?: "My PhD project involves analysing long-term satellite\
+  whatDoesYourProjectInvolve?:
+    "My PhD project involves analysing long-term satellite\
     \ telemetry and dive data from B\xE9chervaise Island in East Antarctica (anAustralian\
     \ Antarctic Territory CEMP site monitored since 1990) to focus on thespecific\
     \ interactions between Ad\xE9lie penguin foraging movements and their marine and\
     \ sea-ice environment."
-  whatAreYouBroaderResearchInterests?: Broadly speaking, I am passionate about pursuing
+  whatAreYouBroaderResearchInterests?:
+    Broadly speaking, I am passionate about pursuing
     research which furthers our understanding of Southern Ocean predator-prey relationships,
     and how these trophic interactions shape the structure and function of Southern
     Ocean ecosystems.
-  researchProjectInAHaiku: <p id="">Adelie penguins<br>Diving and foraging<br>Among
+  researchProjectInAHaiku:
+    <p id="">Adelie penguins<br>Diving and foraging<br>Among
     the sea ice</p>
   triviaFactAboutYourResearch: ''
   what'sYourBackground?: ''
@@ -723,23 +756,16 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Black-browed albatross parasites
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">Looking at parasite variation
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">Looking at parasite variation
     from gastrointestinal samples in Black-browed and Campbell albatross across the
     sub-Antarctic region. </p>
-  whatDoesYourProjectInvolve?: Idetifying gastrointestinal parasites found in black-browed
+  whatDoesYourProjectInvolve?:
+    Idetifying gastrointestinal parasites found in black-browed
     albatross using 18S sequencing.
-  whatAreYouBroaderResearchInterests?: My main interests are genetics, birds (especially
+  whatAreYouBroaderResearchInterests?:
+    My main interests are genetics, birds (especially
     seabirds), phylogenetics, and ecology (particularly in tropical-temperate waters).
-  researchProjectInAHaiku: ''
-  triviaFactAboutYourResearch: ''
-  what'sYourBackground?: I come from a touristy beach town up North in NSW called
-    Port Stephens and moved down to Tassie for study. My hobbies include snorkeling,
-    bushwalking, and rock climbing.
-  anEmojiToDescribeYourself: "\U0001F40A"
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: Natural Environment and Wilderness
-    studies, involving a lot of field work.
-  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: ''
   favouriteRFunction/shortCut/resource: ''
 - name: Dr Julie McInnes
   slug: julie-mcinnes
@@ -758,8 +784,8 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Stool tool for any fool
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">A key component of ecosystem
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">A key component of ecosystem
     monitoring programs that aim to support the maintenance of biodiversity and ecosystem
     function is sound knowledge of species composition and food web linkages. This
     information provides a foundation for assessing ecosystem changes and can allow
@@ -772,7 +798,8 @@
     a non-invasive tool which allows the diet of a range of predator species to be
     investigated simultaneously, increasing our understanding of ecosystem connectivity
     and food web structure.</p>
-  whatDoesYourProjectInvolve?: During this fellowship I will work with a team to develop
+  whatDoesYourProjectInvolve?:
+    During this fellowship I will work with a team to develop
     a marine ecosystem monitoring framework using top predator scat DNA to assess
     species biodiversity in the Subantarctic. By simultaneously studying the diet
     of a range of predators, we will resolve food web linkages and investigate the
@@ -780,26 +807,10 @@
     of existing dietary data and new robust dietary information, we will provide a
     sound foundation for future monitoring programs to assess changes in species diversity
     and identify species that may be at risk from fishery engagement.
-  whatAreYouBroaderResearchInterests?: I have a particular love of the Subantarctic,
+  whatAreYouBroaderResearchInterests?:
+    I have a particular love of the Subantarctic,
     with a focus on applied research leading to conservation and management outcomes
     for seabirds and marine mammals.
-  researchProjectInAHaiku: ''
-  triviaFactAboutYourResearch: ''
-  what'sYourBackground?: "I love to be outdoors and go bushwalking whenever possible.\
-    \ Otherwise on weekends you\u2019ll find my socialising with friends or pottering\
-    \ in the garden talking to the chickens like a crazy chicken lady."
-  anEmojiToDescribeYourself: "\U0001F600"
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: I have worked for both State
-    and Federal Government developing and implementing wildlife research and monitoring
-    programs, and have spent extended periods working in small field teams around
-    Tas, Vic, NZ and in the Antarctic and Subantarctic to carry out population censuses,
-    deployment of tracking devices on animals and long-term mark-recapture studies.
-    My research in recent years has used molecular methodologies to implement multiple
-    extensive DNA dietary studies on marine predators to investigate interactions
-    with commercial fisheries across broad spatial and temporal scales, including
-    working closely with key stakeholders to integrate the results into conservation
-    planning.
-  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: ''
   favouriteRFunction/shortCut/resource: ''
 - name: Dr Lauren Roman
   slug: lauren-roman
@@ -818,8 +829,8 @@
   utasProfile: https://rmdb.research.utas.edu.au/public/rmdb/q/indiv_detail_warp_trans/40837
   personalWebsite: ''
   researchInFiveWords: marine debris impact on wildlife
-  doYouPreferToFreestyleYourBio?: true
-  giveAnOutlineOfYourProjectAndCurrentResearch: "<p id=\"\">I'm an associate researcher\
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    "<p id=\"\">I'm an associate researcher\
     \ at IMAS-UTas and a postdoctoral researcher at CSIRO\u2019s Oceans and Atmosphere.\
     \ My research focuses on marine debris (plastics and other litter in the ocean)\
     \ and the impact it has on wildlife.My research combines laboratory analysis and\
@@ -837,13 +848,6 @@
     \ dynamics are poorly understood.</p>"
   whatDoesYourProjectInvolve?: ''
   whatAreYouBroaderResearchInterests?: ''
-  researchProjectInAHaiku: ''
-  triviaFactAboutYourResearch: "The Southern Australasia / New Zealand is the world\u2019\
-    s most biodiverse seabird hotspot"
-  what'sYourBackground?: ''
-  anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: ''
-  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: ''
   favouriteRFunction/shortCut/resource: ''
 - name: Dr Madeleine Brasier
   slug: madeleine-brasier
@@ -862,12 +866,13 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: identifying humpback whales in Tasmania
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: "<p id=\"\">I am currently leading\
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    "<p id=\"\">I am currently leading\
     \ a project called the \u2018Tasmanian Fluke Project\u2019 which is all about\
     \ identifying the humpback whales that pass through Tasmanian waters whilst they\
     \ migrate between their Antarctic feeding grounds and subtropical breeding grounds.</p>"
-  whatDoesYourProjectInvolve?: "My project involves getting out on the water and collecting\
+  whatDoesYourProjectInvolve?:
+    "My project involves getting out on the water and collecting\
     \ images of the underside of humpback whale tails \u2013 their flukes. The tailing\
     \ edge, markings and colouration of each fluke is unique. I then fluke match these\
     \ images to the Happy whale database to identify each individual whale. If we\
@@ -875,27 +880,10 @@
     \ been throughout its distributional range or if it is \u2018hanging around\u2019\
     \ in Tasmanian waters for prolonged periods of time. If it is a \u2018new\u2019\
     \ whale we add it to our database with a new identification number."
-  whatAreYouBroaderResearchInterests?: Whilst my research interests are incredibly
+  whatAreYouBroaderResearchInterests?:
+    Whilst my research interests are incredibly
     broad, it is important to me that the outcome of my research can inform ocean
     conservation and marine management to help protect our oceans.
-  researchProjectInAHaiku: ''
-  triviaFactAboutYourResearch: The peduncle muscle (i.e. the tail muscle within whales)
-    is the strongest muscle in the entire animal kingdom.
-  what'sYourBackground?: When not at work or out on the boat collecting images of
-    humpback whale flukes I like running, swimming, snorkelling, knitting beanies
-    and looking for shells on the beach.
-  anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: "I actually have a background\
-    \ in Antarctic benthic (seafloor) ecology, I spent years studying marine worms\
-    \ that live on the Southern Ocean seafloor during my PhD at the University of\
-    \ Liverpool UK. When I moved to Tasmania and started working at IMAS I worked\
-    \ on the Marine Ecosystem Assessment of the Southern Ocean (MEASO) project. From\
-    \ there I ended up on several Antarctic krill and whale voyages lead by the Australian\
-    \ Antarctic Division and began to enter the world of marine predators. Through\
-    \ research discussions and collaborative opportunities, I\u2019ve ended up identifying\
-    \ and observing humpback whales in Tasmanian waters on the side of my current\
-    \ role within the Environmental Interactions team at IMAS."
-  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: ''
   favouriteRFunction/shortCut/resource: ''
 - name: Prof Mark Hindell
   slug: mark-hindell
@@ -914,8 +902,8 @@
   utasProfile: https://www.utas.edu.au/profiles/staff/imas-qms-utas/mark-hindell
   personalWebsite: ''
   researchInFiveWords: antarctic southern ocean marine predators
-  doYouPreferToFreestyleYourBio?: true
-  giveAnOutlineOfYourProjectAndCurrentResearch: "<p id=\"\">Professor Mark Hindell\u2019\
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    "<p id=\"\">Professor Mark Hindell\u2019\
     s leadership in professional and academic circles and considerable involvement\
     \ in scientific organisational roles has enabled him to establish a global network\
     \ of marine animal tracking scientists.Being able to unobtrusively track these\
@@ -947,12 +935,6 @@
     \ knowledge regarding specific species and the ecosystems the sustain.</p>"
   whatDoesYourProjectInvolve?: ''
   whatAreYouBroaderResearchInterests?: ''
-  researchProjectInAHaiku: ''
-  triviaFactAboutYourResearch: ''
-  what'sYourBackground?: ''
-  anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: ''
-  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: ''
   favouriteRFunction/shortCut/resource: ''
 - name: Prof Mary-Anne Lea
   slug: mary-anne-lea
@@ -971,8 +953,8 @@
   utasProfile: https://www.utas.edu.au/profiles/staff/imas/mary-anne-lea
   personalWebsite: ''
   researchInFiveWords: marine predator ecology and behaviour
-  doYouPreferToFreestyleYourBio?: true
-  giveAnOutlineOfYourProjectAndCurrentResearch: "<p id=\"\">Dr Mary-Anne Lea is a\
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    "<p id=\"\">Dr Mary-Anne Lea is a\
     \ Professor at the Ecology and Biodiversity Centre at the Institute for Marine\
     \ &amp; Antarctic Studies at the University of Tasmania. </p><p id=\"\">She is\
     \ interested in the way in which the environment and climate change affect the\
@@ -1005,12 +987,6 @@
     \ of Marine Science (2013, MASTS Fellowship).</p>"
   whatDoesYourProjectInvolve?: ''
   whatAreYouBroaderResearchInterests?: ''
-  researchProjectInAHaiku: ''
-  triviaFactAboutYourResearch: ''
-  what'sYourBackground?: ''
-  anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: ''
-  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: ''
   favouriteRFunction/shortCut/resource: ''
 - name: Melanie Wells
   slug: melanie-wells
@@ -1029,8 +1005,8 @@
   utasProfile: https://www.utas.edu.au/profiles/staff/biological-sciences/melanie,-wells
   personalWebsite: ''
   researchInFiveWords: Factors that influence seabird parasitism
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: "<p id=\"\">Owing to their plasticity,\
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    "<p id=\"\">Owing to their plasticity,\
     \ little penguins are one of very few species of seabird that exploit urbanised\
     \ environments and thrive. They are generalist inshore foragers and occupy a diverse\
     \ array of breeding sites.Tasmania is thought to be home to over 60% of Australia\u2019\
@@ -1043,30 +1019,15 @@
     \ several proxies of health, such as parasite infestation, toxicology, breeding\
     \ success and body condition this project seeks to identify key factors likely\
     \ to threaten little penguin health.</p>"
-  whatDoesYourProjectInvolve?: "Picking ticks off penguins\u2019 faces\u2026 what\
+  whatDoesYourProjectInvolve?:
+    "Picking ticks off penguins\u2019 faces\u2026 what\
     \ a dream come true!"
-  whatAreYouBroaderResearchInterests?: Ecology inspires me as there is no certainty
+  whatAreYouBroaderResearchInterests?:
+    Ecology inspires me as there is no certainty
     in our natural world. All of life is constantly in flux, responding and adapting
     to a living world in perpetual motion. I could be so lucky to ponder the dynamics
     of some of these relationships. I also really love seabirds because of their amazing
     exploitation of my favourite forces, the sea & wind (penguins excluded).
-  researchProjectInAHaiku: <p id="">Ticks may spread disease<br>Warm wet climates
-    make good homes<br>Should we remove them?</p>
-  triviaFactAboutYourResearch: "The scientific name for little penguin, Eudyptula\
-    \ minor means \u2018good little diver\u2019"
-  what'sYourBackground?: I enjoy a lifestyle of frugal hedonism, being a marriage
-    celebrant and revelling in the embrace of wilderness whenever possible!
-  anEmojiToDescribeYourself: "\U0001F627"
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: I have spent the last 10
-    years in various seabird field assistant, bird banding or research assistant related
-    roles. This has allowed me the opportunity to work in some incredible places from
-    the Bahamas to SouthAfrica, to spending 22 months on a subantarctic island working
-    on a wildlife monitoring program. Previously I have coordinated a project training
-    guardian dogs to protect little penguins from fox predation. I have dabbled in
-    consulting and guiding on and off and am a registered civil celebrant. This PhD
-    venture is certainly the most challenging!
-  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: "<p id=\"\">\u200DUniversity\
-    \ of Tasmania Post-graduate Society of Biological Sciences - treasurer</p>"
   favouriteRFunction/shortCut/resource: General avoidance
 - name: Milan Sojitra
   slug: milan-sojitra
@@ -1085,27 +1046,32 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Seabirds, marine mammals, climate change
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">The waters around southeast
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">The waters around southeast
     Australia and warming faster than global average and the Sothern Ocean and Antarctica
     are changing rapidly. Marine predators are indicator species, and they respond
     to these changes in their habitat. Our research will identify their response to
     climate change and predict changes in their demography in future. This knowledge
     is critical for species conservation and management.</p>
-  whatDoesYourProjectInvolve?: My PhD project involves quantifying and predicting
+  whatDoesYourProjectInvolve?:
+    My PhD project involves quantifying and predicting
     effects of extreme weather events on seabirds and marine mammals using long-term
     demographic data. This will help identify vulnerable populations to climate change
     and aid to their conservation and management strategies.
-  whatAreYouBroaderResearchInterests?: I am interested in studying marine predators
+  whatAreYouBroaderResearchInterests?:
+    I am interested in studying marine predators
     and their response to climate change. I want my research to aid to conserve and
     manage biodiversity.
   researchProjectInAHaiku: ''
-  triviaFactAboutYourResearch: Southern Giant-Petrel were also known as stinker or
+  triviaFactAboutYourResearch:
+    Southern Giant-Petrel were also known as stinker or
     stinkpot by old sealers.
-  what'sYourBackground?: I grew up in rural Gujarat (India) and moved to Baroda to
+  what'sYourBackground?:
+    I grew up in rural Gujarat (India) and moved to Baroda to
     study BSc in Zoology and then moved to Port Blair to study MSc in Marine Biology.
   anEmojiToDescribeYourself: "\U0001F989"
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: "As my dissertation project,\
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    "As my dissertation project,\
     \ I worked on whales and dugong sightings and strandings in the Andaman Sea, off\
     \ Andaman and Nicobar Islands. While studying in India, I volunteered to many\
     \ surveys working on butterflies, reptiles, birds, and mammals in various parts\
@@ -1131,23 +1097,26 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: southern ocean, seal, whiskers, isotopes, trace metal
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">My current project focuses
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">My current project focuses
     on the trophic and foraging ecology of the Antarctic fur seals, using stable isotopes
     and trace metals.</p>
-  whatDoesYourProjectInvolve?: 10 years of data!!! The sampling collection of the
+  whatDoesYourProjectInvolve?:
+    10 years of data!!! The sampling collection of the
     whiskers took place on Marion Island in sub-Antarctic Indian ocean from 2008 to
     2019. Asan archival tissue, the whiskers will help me to encode records of biochemical
     features (isotopes and trace metals) to infer temporal changes in foraging plasticity
     and physiological status during the period of tissue growth (several months to
     years).
-  whatAreYouBroaderResearchInterests?: I am very interested in polar science in general
+  whatAreYouBroaderResearchInterests?:
+    I am very interested in polar science in general
     and science vulgarization.
   researchProjectInAHaiku: ''
   triviaFactAboutYourResearch: ''
   what'sYourBackground?: I am from France
   anEmojiToDescribeYourself: "\U0001F956"
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: "I did a master in oceanography\
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    "I did a master in oceanography\
     \ in Canada, in the Institute for marine science at Rimouski (part of the University\
     \ of Qu\xE9bec at Rimouski).I studied the benthic food-web structure and resilience\
     \ across the CanadianArctic and the Chukchi sea, using stable isotopes and ice-algae\
@@ -1172,25 +1141,31 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Seabirds feeding in Storm Bay
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: "<p id=\"\">I\u2019ll be looking into\
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    "<p id=\"\">I\u2019ll be looking into\
     \ the foraging behaviour of little penguins and short-tailed shearwaters (with\
     \ a guest appearance from fur seals)within the Storm Bay region here in south-east\
     \ Tasmania, in order to investigate the possible effects of anthropogenic factors\
     \ on their lifestyles.</p>"
-  whatDoesYourProjectInvolve?: "Living on Wedge Island for up to five weeks at a time,\
+  whatDoesYourProjectInvolve?:
+    "Living on Wedge Island for up to five weeks at a time,\
     \ which is fantastic so long as you don\u2019t mind a lack of showers and an abundance\
     \ of fleas."
-  whatAreYouBroaderResearchInterests?: Marine ecology for the broader and tricky taxonomic
+  whatAreYouBroaderResearchInterests?:
+    Marine ecology for the broader and tricky taxonomic
     decisions for the personal.
-  researchProjectInAHaiku: <p id="">Little penguins and<br>short-tailed shearwaters
+  researchProjectInAHaiku:
+    <p id="">Little penguins and<br>short-tailed shearwaters
     are<br>my favourite duo.</p>
-  triviaFactAboutYourResearch: Little penguins are the smallest, bluest, and (I would
+  triviaFactAboutYourResearch:
+    Little penguins are the smallest, bluest, and (I would
     argue) the cutest of the penguins.
-  what'sYourBackground?: "I\u2019m from the U.K. and worked at the Royal Society for\
+  what'sYourBackground?:
+    "I\u2019m from the U.K. and worked at the Royal Society for\
     \ the Protection of Birds before joining MPred."
   anEmojiToDescribeYourself: "\U0001F481\U0001F3FD"
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: "I went to Madagascar to\
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    "I went to Madagascar to\
     \ study parental care in plovers aspart of my Master\u2019s degree, which was\
     \ the deciding factor in wanting to pursue a scientific career."
   whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: ''
@@ -1212,24 +1187,30 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Crested penguins during winter migrations
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">Looking at resource partitioning
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">Looking at resource partitioning
     between Eudyptes spp. (crested penguins) during their winter at-sea distributions.</p>
-  whatDoesYourProjectInvolve?: Processing lots of geolocation tracks, collaborating
+  whatDoesYourProjectInvolve?:
+    Processing lots of geolocation tracks, collaborating
     with amazing researchers from around the world, learning on a steep curve, having
     fun using different analyses to tell a story.
-  whatAreYouBroaderResearchInterests?: Niche partitioning, foraging ecology, marine
+  whatAreYouBroaderResearchInterests?:
+    Niche partitioning, foraging ecology, marine
     top predators
-  researchProjectInAHaiku: <p id="">Winter is coming<br>Where do crested penguins
+  researchProjectInAHaiku:
+    <p id="">Winter is coming<br>Where do crested penguins
     go?<br>Many tracks to process</p>
-  triviaFactAboutYourResearch: Eudyptes penguins are the most diverse and wide spread
+  triviaFactAboutYourResearch:
+    Eudyptes penguins are the most diverse and wide spread
     of the penguin groups making them highly successful evolutionary adaptors.
   what'sYourBackground?: I'm from South Africa
   anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: MSc on African penguins and
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    MSc on African penguins and
     Cape gannets, avifaunal husbandry,  environmental consulting, field biologist,
     raptor monitoring for wind farms, seabird biologist on Marion Island for 13 months.
-  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: <p id="">BOTES (Bottom of the
+  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?:
+    <p id="">BOTES (Bottom of the
     Earth Society)</p>
   favouriteRFunction/shortCut/resource: David Green
 - name: Penny Beaver
@@ -1249,23 +1230,26 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Habitat selection, niche space
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">I am currently investigating
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">I am currently investigating
     the links between habitat use and diet variations through the use of light geolocators,
     direct diet samples and stable isotope analysis of a small procellariiform, the
     wedge-tailed shearwater (Ardenna pacifica) in south-eastern Australia.</p>
-  whatDoesYourProjectInvolve?: I have been working with spatial data (light geolocators)
+  whatDoesYourProjectInvolve?:
+    I have been working with spatial data (light geolocators)
     to determine the habitat selection during the breeding and non-breeding periods
     to identify if individuals from a temperate colony is utilising different areas
     compared to the sub-tropical colony. I have obtained direct prey samples and feathers
     between 2016 and 2018 which have been analysed for two types of isotopes (carbon
     and nitrogen), which are an indicator of the type of diet they are consuming and
     whether diet varied between the two colonies and years.
-  whatAreYouBroaderResearchInterests?: I have a research interest in the conservation
+  whatAreYouBroaderResearchInterests?:
+    I have a research interest in the conservation
     and challenges in managing marine resources with a specialisation in the biology
     and conservation of seabirds and small-scale fisheries.
   researchProjectInAHaiku: ''
-  triviaFactAboutYourResearch: Wedge-tailed shearwaters migrate to the Philippines
+  triviaFactAboutYourResearch:
+    Wedge-tailed shearwaters migrate to the Philippines
     Sea,Taiwan and south of Japan during the Australian winter.
   what'sYourBackground?: ''
   anEmojiToDescribeYourself: ''
@@ -1289,27 +1273,32 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Islands, guano, isotopes, recovery, time
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">My PhD research is investigating
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">My PhD research is investigating
     the use of stable isotope analysis for quantifying the progression of island ecosystem
     recovery following invasive mammal eradications.</p>
-  whatDoesYourProjectInvolve?: I am undertaking a large-scale natural experiment on
+  whatDoesYourProjectInvolve?:
+    I am undertaking a large-scale natural experiment on
     islands from around New Zealand, Australia and the sub-Antarctic, comparing food
     webs and isotopic enrichment on islands at different stages post eradication to
     still invaded and never invaded islands. I am investigating the potential of this
     technique as a cost- and time-efficient ecosystem assessment tool, allowing post-eradication
     monitoring to occur on island where limited resources prevent extensive population
     level monitoring.
-  whatAreYouBroaderResearchInterests?: Conservation, remote ecosystems, seabirds,
+  whatAreYouBroaderResearchInterests?:
+    Conservation, remote ecosystems, seabirds,
     hiking, skiing, running.
-  researchProjectInAHaiku: "<p id=\"\">Oceanic foragers breeding on islands<br>Seabirds\
+  researchProjectInAHaiku:
+    "<p id=\"\">Oceanic foragers breeding on islands<br>Seabirds\
     \ and predators don\u2019t live together well<br>Eradications lead to more guano</p>"
   triviaFactAboutYourResearch: ''
-  what'sYourBackground?: I also did my honours with MPred in 2014, but in the intervening
+  what'sYourBackground?:
+    I also did my honours with MPred in 2014, but in the intervening
     years I spent time travelling and working on several different research and conservation
     projects.
   anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: "At the end of 2014 I worked\
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    "At the end of 2014 I worked\
     \ as a research scientist with the Australian Antarctic Division looking at the\
     \ effects of ocean acidification on marine microbial communities at Davis Station.\
     \ I then spent a year travelling around South America and volunteered as a research\
@@ -1340,37 +1329,45 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Impacts of plastics on seabirds
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">I am very fortunate to be
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">I am very fortunate to be
     able to work on the remote sub-tropical, Lord Howe Island. My fieldwork is emotionally
     challenging, as I extract plastic from Flesh-footed Shearwater chicks. My lab
     work consists of molecular and histopathology analysis of shearwaters and their
     stomachs to determine if plastics have caused any detectable harm.</p>
-  whatDoesYourProjectInvolve?: I use a variety of lab techniques to understand what
+  whatDoesYourProjectInvolve?:
+    I use a variety of lab techniques to understand what
     plastics and their associated chemicals do to the physiology and health of seabirds.
-  whatAreYouBroaderResearchInterests?: "With a background in archaeology, I am interested\
+  whatAreYouBroaderResearchInterests?:
+    "With a background in archaeology, I am interested\
     \ in the things people leave behind, our past and future fossils. My research\
     \ interests explores these \u2018fossils\u2019 such as plastics. I ground my research\
     \ in conservation physiology, understanding how an animal\u2019s body functions\
     \ to better understand these anthropogenic impacts."
-  researchProjectInAHaiku: <p id="">pen lid, bottle cap<br>within shearwaters they
+  researchProjectInAHaiku:
+    <p id="">pen lid, bottle cap<br>within shearwaters they
     fly<br>wings on toxic tides</p>
-  triviaFactAboutYourResearch: Over 8 million tonnes of plastic enters the ocean every
+  triviaFactAboutYourResearch:
+    Over 8 million tonnes of plastic enters the ocean every
     year
-  what'sYourBackground?: I grew up on the West coast of Australia before moving to
+  what'sYourBackground?:
+    I grew up on the West coast of Australia before moving to
     Melbourne to study my undergraduate in Zoology and Archaeology at La Trobe University.
     I took a 3rd year research project looking at parasites in LittlePenguins and
     have been working with marine animals ever since.
   anEmojiToDescribeYourself: "\U0001F33B"
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: My first job was as a projectionist
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    My first job was as a projectionist
     at my local cinema. When I left my hometown, I worked at the University Wildlife
     Sanctuary as tour guide. I think this combination of jobs is why I love science
     communication and outreach so much!
-  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?: <p id="">I sit on the IMAS Inclusion
+  whatOtherCommitteesOrAdvisoryGroupsAreYouAPartOf?:
+    <p id="">I sit on the IMAS Inclusion
     diversity equity and access (IDEA) committee and am committed to highlighting
     the voices of less represented groups in STEM such as the LGBTQIA+ community.
     I am also thecurrent IMAS Ecology and Biodiversity student rep.</p>
-  favouriteRFunction/shortCut/resource: "beepr package\u2013 makes SuperMario noises\
+  favouriteRFunction/shortCut/resource:
+    "beepr package\u2013 makes SuperMario noises\
     \ when your script runs successfully."
 - name: Sophia Volzke
   slug: sophia-volzke
@@ -1389,10 +1386,11 @@
   utasProfile: https://rmdb.research.utas.edu.au/public/rmdb/q/indiv_detail_warp_trans/57848
   personalWebsite: https://sophia-volzke.myportfolio.com/
   researchInFiveWords: Modelling Southern Elephant Seal Demography
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: <p id="">Modelling climate influences
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    <p id="">Modelling climate influences
     on Southern Elephant Seal Demography </p>
-  whatDoesYourProjectInvolve?: With capture histories dating back to the 1960s, Macquarie
+  whatDoesYourProjectInvolve?:
+    With capture histories dating back to the 1960s, Macquarie
     Island holds one of the most continuously studied elephant seal populations. I
     will be developing demographic models to analyse the survival of southern elephant
     seals (Mirounga leonina). The Macquarie Island population has been shown to be
@@ -1400,18 +1398,21 @@
     to explain some of this decline by incorporating environmental variables (eg Southern
     Annular Mode; sea-ice extent, etc.) into our models to see if changes in ecosystem
     structure may be influencing demographic parameters.
-  whatAreYouBroaderResearchInterests?: Marine ecology, modelling, biostatistics, wildlife
+  whatAreYouBroaderResearchInterests?:
+    Marine ecology, modelling, biostatistics, wildlife
     photography
   researchProjectInAHaiku: ''
   triviaFactAboutYourResearch: ''
-  what'sYourBackground?: I grew up in Berlin, Germany, moved to Brisbane in 2010 and
+  what'sYourBackground?:
+    I grew up in Berlin, Germany, moved to Brisbane in 2010 and
     commenced a Bachelor of Science (Tropical Marine Biology) at UQ in 2015. In 2018,
     I decided to transfer to UTAS to complete the Bachelor of Marine and Antarctic
     Science. My honours research on female southern elephant seals gained the highest
     achievement award of the 2020 IMAS Honours program and has since been extended
     into a 3-4 year PhD scholarship.
   anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: Previous research includes
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    Previous research includes
     developing Hidden Markov Models to analyse long-time series mark-recapture data
     of Short-tailed Shearwaters. In 2021, I published my first scientific paper titled
     'Climate influences on female survival in a declining population of southern elephant
@@ -1436,8 +1437,8 @@
   utasProfile: https://www.utas.edu.au/profiles/staff/imas/sophie-bestley
   personalWebsite: ''
   researchInFiveWords: Integrated Southern Ocean ecology
-  doYouPreferToFreestyleYourBio?: true
-  giveAnOutlineOfYourProjectAndCurrentResearch: "<p id=\"\">I\u2019m a Senior Lecturer\
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    "<p id=\"\">I\u2019m a Senior Lecturer\
     \ in Quantitative Southern Ocean Ecology within the Ecology &amp; Biodiversity\
     \ Centre at IMAS-UTAS. I have a passion for integrative Antarctic and Southern\
     \ Ocean research focused on the ecology of highly mobile marine predators and\
@@ -1483,11 +1484,13 @@
   whatDoesYourProjectInvolve?: ''
   whatAreYouBroaderResearchInterests?: ''
   researchProjectInAHaiku: ''
-  triviaFactAboutYourResearch: I was at Mawson station in East Antarctica during the
+  triviaFactAboutYourResearch:
+    I was at Mawson station in East Antarctica during the
     blizzard when the Aurora Australis broke her mooring and grounded.
   what'sYourBackground?: ''
   anEmojiToDescribeYourself: "\U0001F9D0"
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: I did my own undergraduate
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    I did my own undergraduate
     study at University of New South Wales and my PhD as part of the CSIRO-UTAS joint
     program in Quantitative Marine Science (QMS). I have a long background in hospitality
     before marine research, which helps with talking with folks from all walks of
@@ -1511,30 +1514,36 @@
   utasProfile: https://rmdb.research.utas.edu.au/public/rmdb/q/indiv_detail_warp_trans/41431
   personalWebsite: ''
   researchInFiveWords: Eradicate rabbits, some skuas die
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: "<p id=\"\">I\u2019m studying how\
+  giveAnOutlineOfYourProjectAndCurrentResearch:
+    "<p id=\"\">I\u2019m studying how\
     \ the eradication of invasive rabbits from subantarctic Macquarie Island affected\
     \ the diet and breeding of a native predator, the Brown Skua.</p>"
-  whatDoesYourProjectInvolve?: My work includes nest monitoring, GPS tracking, stable
+  whatDoesYourProjectInvolve?:
+    My work includes nest monitoring, GPS tracking, stable
     isotope analysis (including compound-specific stable isotope analysis), and the
     use of a diverse suite of modelling techniques to investigate longitudinal datasets
     and the bottom-up effects of eradication.
-  whatAreYouBroaderResearchInterests?: "My primary research interest is applied ecology\
+  whatAreYouBroaderResearchInterests?:
+    "My primary research interest is applied ecology\
     \ for conservation management, with a focus on top-order predators and their prey.Although,\
     \ I\u2019m also interested in many aspects of ecology and natural history including:\
     \ behavioural ecology, geology, desert ecology, megafauna extinction, marsupial\
     \ ecology, birds of tropical south-east Asia and scientific illustration."
-  researchProjectInAHaiku: <p id="">Rabbits caused harm<br>Now removed, the island
+  researchProjectInAHaiku:
+    <p id="">Rabbits caused harm<br>Now removed, the island
     returns<br>Skuas are hungry</p>
-  triviaFactAboutYourResearch: "The word \u2018skua\u2019 comes from the Faroese name\
+  triviaFactAboutYourResearch:
+    "The word \u2018skua\u2019 comes from the Faroese name\
     \ for Great Skua, sk\xFAgvur, and my mother-in-law happens to be from the Faroe\
     \ Islands."
-  what'sYourBackground?: "I\u2019m from Fremantle, Western Australia and moved to\
+  what'sYourBackground?:
+    "I\u2019m from Fremantle, Western Australia and moved to\
     \ Tasmania to study with the M-Pred Lab. Outside of work, I have a passion for\
     \ the deserts and coastlines of Western Australia where I\u2019ve spent plenty\
     \ of time whittling down my list of favourite surfing, sailing and camping spots."
   anEmojiToDescribeYourself: ''
-  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?: Prior to my current research,
+  whatHaveYouDoneInYourCareerBeforeYourCurrentResearch?:
+    Prior to my current research,
     I completed an Honours degree at the University of Tasmania studying the predator-awareness
     of long-nosed potoroos on Maria Island following the introduction of a novel predator,
     Tasmanian Devils. I have also worked as a geologist, and with the Tasmanian State
@@ -1559,19 +1568,10 @@
   utasProfile: ''
   personalWebsite: ''
   researchInFiveWords: Killer whales are costly competitors
-  doYouPreferToFreestyleYourBio?: false
-  giveAnOutlineOfYourProjectAndCurrentResearch: "<p id=\"\">My current research is\
-    \ on killer whale depredation in the blue-eye trevalla commercial longline fisheries\
-    \ of south-east Australia. In simple terms, depredation can be defined as the\
-    \ complete or partial removal of caught fish from fishing gears by marine predators.\
-    \ During my master\u2019s thesis, I had estimated the amount of blue-eye trevalla\
-    \ taken by killer whales in the same fisheries.</p>"
-  whatDoesYourProjectInvolve?: 'My current work involves the use of DSLR cameras to
-    collect pictures of depredating killer whales for future photo identification
-    studies, deploying underwater acoustic hydrophones to collect their vocalisations
-    and to collect fishing data from a commercial fishing vessel (Fishing Vessel:
-    Diana, Mures Fishing, Hobart).'
-  whatAreYouBroaderResearchInterests?: My research interests include studying the
+  giveAnOutlineOfYourProjectAndCurrentResearch: "My current research is on killer whale depredation in the blue-eye trevalla commercial longline fisheries of south-east Australia. In simple terms, depredation can be defined as the complete or partial removal of caught fish from fishing gears by marine predators. During my master's thesis, I had estimated the amount of blue-eye trevalla taken by killer whales in the same fisheries. My current work involves the use of DSLR cameras to collect pictures of depredating killer whales for future photo identification studies, deploying underwater acoustic hydrophones to collect their vocalisations and to collect fishing data from a commercial fishing vessel (Fishing Vessel: Diana, Mures Fishing, Hobart)."
+  whatDoesYourProjectInvolve?: ''
+  whatAreYouBroaderResearchInterests?:
+    My research interests include studying the
     behavioural ecology of higher-order and apex predators from the Southern Ocean.
     Since most of the sub-Antarctic and Antarctic islands are in remote locations,
     the mysteries surrounding the foraging strategies, spatial behaviour and phenology

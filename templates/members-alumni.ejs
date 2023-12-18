@@ -1,0 +1,20 @@
+<ul>
+  <% items.forEach(function(member) { %>
+    <% if (member.isPastMember === true) { %>
+      <li>
+        <div><%= member.name %></div>
+        <div style="font-size: 12px; font-weight: 700;"><%= member.position %></div>
+        <div class="font-monospace" style="font-size: 12px;"><%= member.researchProjectIn5Words %></div>
+        <ul class="social-links">
+          <% if (member.githubUrl) { %>
+            <li><a href="<%= member.githubUrl %>">GitHub</a></li>
+          <% } %>
+          <% if (member.xUrl) { %>
+            <li><a href="<%= member.xUrl %>">X</a></li>
+          <% } %>
+          <!-- Repeat for other social media links as needed -->
+        </ul>
+      </li>
+    <% } %>
+  <% }); %>
+</ul>
