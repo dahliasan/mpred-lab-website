@@ -12,10 +12,10 @@ listing:
 
 ## Current Members
 
-::: {#team-members-active .listings-grid}
+::: {#team-members-active .listings-grid style="--column-width: 200px;"}
 :::
 
 ## Alumni Members
 
-::: {#team-members-alumni .listings-grid}
+::: {#team-members-alumni .listings-grid style="--column-width: 200px;"}
 :::
