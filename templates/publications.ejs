@@ -1,20 +1,23 @@
+<% function toTitleCase(str) { return str.toLowerCase().split(' ').map(word =>
+word.charAt(0).toUpperCase() + word.slice(1)).join(' '); } %>
 
-<%
-function toTitleCase(str) {
-    return str.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
-  }
-%>
+<ul class="list">
+  <% items.forEach(function(item) { %>
+  <li <%="metadataAttrs(item)" %>
+    style="flex-grow: 1; flex-basis: 30ch;" >
+    <a class="listing-title" target="_blank" href="<%= item.path %>"
+      ><strong><%= toTitleCase(item.title) %></strong></a
+    >
 
-<ul style="list-style: none; padding: 0; columns: 30ch; gap: 2.5em;" >
-    <% items.forEach(function(item) { %>
-      <li class="py-3" style="border-bottom: 1px solid var(--bs-gray-700);">
-        <a target="_blank" href="<%= item.url %>"><strong><%= toTitleCase(item.title) %></strong></a>
-        
-        <div style="font-size: 12px;" class="fw-light"><%= item.author %></div>
-        <div style="font-size: 12px;" class="fw-light"><%= item.journal %></div>
-        
- 
-        
-      </li>
-    <% }) %>
-  </ul>
+    <div style="font-size: 12px" class="fw-light listing-author">
+      <%= item.author %>
+    </div>
+    <div style="font-size: 12px" class="fw-light listing-journal">
+      <%= item.journal %>
+    </div>
+    <div style="font-size: 12px" class="fw-light listing-year">
+      <%= item.year %>
+    </div>
+  </li>
+  <% }) %>
+</ul>

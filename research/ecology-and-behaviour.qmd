@@ -1,19 +1,28 @@
 ---
 title: "Ecology & Behaviour"
+search: true
 format:
   html:
     toc: false
     page-layout: full
 listing:
   id: publications
+  filter-ui: true
+  max-items: 50
+  sort: "year desc"
   contents: "../db/publications.yaml"
-  template: "../templates/publications.ejs"
+  # type: table
+  fields: [title, author, journal, year]
   include:
-    title: "*penguin*"
+    author: "*Lea*"
+  field-display-names:
+    journal: "Journal"
+    year: "Year"
+  template: "../templates/publications.ejs"
 ---
 
-
 ## Publications
-::: #publications
+::: {#publications .listings-grid}
+
 
 :::
