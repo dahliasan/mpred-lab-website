@@ -1,0 +1,19 @@
+---
+title: "Ecology & Behaviour"
+format:
+  html:
+    toc: false
+    page-layout: full
+listing:
+  id: publications
+  contents: "../db/publications.yaml"
+  template: "../templates/publications.ejs"
+  include:
+    title: "*penguin*"
+---
+
+
+## Publications
+::: #publications
+
+:::
