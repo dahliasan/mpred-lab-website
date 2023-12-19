@@ -1,0 +1,20 @@
+
+<%
+function toTitleCase(str) {
+    return str.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join(' ');
+  }
+%>
+
+<ul style="list-style: none; padding: 0; columns: 30ch; gap: 2.5em;" >
+    <% items.forEach(function(item) { %>
+      <li class="py-3" style="border-bottom: 1px solid var(--bs-gray-700);">
+        <a target="_blank" href="<%= item.url %>"><strong><%= toTitleCase(item.title) %></strong></a>
+        
+        <div style="font-size: 12px;" class="fw-light"><%= item.author %></div>
+        <div style="font-size: 12px;" class="fw-light"><%= item.journal %></div>
+        
+ 
+        
+      </li>
+    <% }) %>
+  </ul>
