@@ -8,6 +8,6 @@ listing:
   filter-ui: true
   categories: true
   feed: false
-  fields: [image, date, title, author, reading-time]
+  fields: [image, date, title, author, reading-time, categories]
 page-layout: full
 ---
