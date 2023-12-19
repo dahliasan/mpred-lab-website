@@ -159,7 +159,7 @@ $card-border-color: black;
   list-style: none;
   padding-left: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(min(var(--column-width, 30ch), 100%), 1fr));
   gap: 1.5rem;
   row-gap: 1rem;
 }
