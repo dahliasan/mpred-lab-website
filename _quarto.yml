@@ -16,6 +16,8 @@ website:
       - blog.qmd
       - href: contact.qmd
         text: Contact
+      - href: /#our-research-themes
+        text: Research
     right: 
       - icon: twitter
         href: https://twitter.com/mpred_lab
