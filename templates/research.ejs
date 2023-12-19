@@ -3,7 +3,8 @@
   <ul>
     <% items.forEach(function(item) { %>
       <li>
-        <h3 class='fs-4'><%= item.name %></h3>
+        <%= item.icon %>
+        <h3 class='fs-4 mt-3'><%= item.name %></h3>
         <p><%= item.description %></p>
       </li>
     <% }) %>
