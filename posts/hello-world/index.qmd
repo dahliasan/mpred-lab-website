@@ -12,3 +12,7 @@ categories:
 HELLO HELLO
 
 ![](images/thumbnail.png)
+
+# new heading
+
+test test
