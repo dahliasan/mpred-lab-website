@@ -1,6 +1,7 @@
 
 library(httr)
 library(xml2)
+library(dplyr)
 
 orcid_id <- "0000-0002-7823-7185" # Replace with the author's ORCID ID
 api_url <- paste0("https://pub.orcid.org/v3.0/", orcid_id, "/works")
@@ -30,15 +31,28 @@ response <- GET(api_url)
 content <- content(response, "text", encoding = "UTF-8")
 json_data <- fromJSON(content)
 
-items <- json_data$`message`$items %>%  tibble()
-items$title
+items <- json_data$message$items %>% tibble()
+items
 
-titles_text <- sapply(items, function(x) x$title[[1]])
-years_text <- sapply(items, function(x) x$`published-print`$`date-parts`[[1]][1])
-authors_text <- sapply(items, function(x) paste(sapply(x$author, function(y) paste(y$given, y$family)), collapse = ", "))
-journals_text <- sapply(items, function(x) x$`container-title`[[1]])
-doi_urls_text <- sapply(items, function(x) paste0("https://doi.org/", x$DOI))
+handleAuthors <- function(x) {
+  paste(paste(x$given, x$family, sep = " "), collapse = ", ")
+}
 
-publications <- data.frame(Title = titles_text, Year = years_text, Authors = authors_text, Journal = journals_text, DOI_URL = doi_urls_text)
+
+titles_text <- sapply(items$title, function(x) x[[1]])
+years_text <- sapply(items$`published-print`$`date-parts`, function(x) x[[1]]) %>% 
+  sapply(function(x) ifelse(is.null(x), NA, x))
+
+authors_text <- sapply(items$author, function(x) handleAuthors(x))
+journals_text <- sapply(items$`container-title`, function(x) x[[1]]) %>% 
+  sapply(function(x) ifelse(is.null(x), NA, x))
+doi_urls_text <- items$DOI
+
+publications <- tibble(title = titles_text, year = years_text, authors = authors_text, journal = journals_text, doi = doi_urls_text)
+
+
+
+
+
 
 
