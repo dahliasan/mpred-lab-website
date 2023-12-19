@@ -1,11 +1,15 @@
-
-  
-  <ul>
+<ul>
     <% items.forEach(function(item) { %>
       <li>
-        <%= item.icon %>
-        <h3 class='fs-4 mt-3'><%= item.name %></h3>
-        <p><%= item.description %></p>
+        <a class="text-white" style="text-decoration: none;" href="<%= item.url %>">
+          <%= item.icon %>
+          <h3 class='fs-4 mt-3'><%= item.name %></h3>
+          <p><%= item.description %></p>
+        </a>
       </li>
     <% }) %>
   </ul>
+
+  
+  
+  
