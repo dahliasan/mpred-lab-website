@@ -1,4 +1,4 @@
-- name: Amy Coghlan
+- name: Dr Amy Coghlan
   slug: amy-coghlan
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06eb115e06f098de928_622061ebb19093d6e7feb88a_amy_coghlan.png
   position: PhD Candidate
@@ -78,7 +78,7 @@
   position: Masters Student
   positionType: Student
   isPastMember: true
-  yearCompleted: 2022.0
+  yearCompleted: 2022
   xUrl: http://twitter.com/ashleighhfay
   instagramUrl: .nan
   githubUrl: .nan
@@ -99,7 +99,7 @@
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06e622dd0be6076e5d3_60bad055cd17fffca87ec52e_barthur.jpeg
   position: Adjunct Researcher
   positionType: Staff
-  isPastMember: false
+  isPastMember: true
   yearCompleted: 2016.0
   xUrl: http://twitter.com/bluewaterben
   instagramUrl: .nan
@@ -176,12 +176,12 @@
     \ that informs the conservation and management of ecosystems. I believe in the\
     \ power of collaboration among marine ecologists and across other disciplines\
     \ to achieve our conservation goals.</p>"
-- name: Claire Mason
+- name: Dr Claire Mason
   slug: claire-mason
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f926d585bf8f4b307_60baf866eafd7e4e27361c18_cmason.jpeg
   position: PhD Candidate
   positionType: Student
-  isPastMember: false
+  isPastMember: true
   yearCompleted: .nan
   xUrl: http://twitter.com/clairejmason
   instagramUrl: .nan
@@ -258,8 +258,8 @@
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/64599ebebc919a01d1297b6b_IMG_0943%20-%20Copy.JPG
   position: Honours Student
   positionType: Student
-  isPastMember: false
-  yearCompleted: .nan
+  isPastMember: true
+  yearCompleted: 2023
   xUrl: http://twitter.com/ConnorMcGarry04
   instagramUrl: .nan
   githubUrl: .nan
@@ -344,9 +344,9 @@
 - name: Demelza Wall
   slug: demelza-wall
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd07050406e75f3557f0f_60bad020c2e03c5d16ef9224_dwall.jpeg
-  position: Honours Student
+  position: PhD Candidate
   positionType: Student
-  isPastMember: true
+  isPastMember: false
   yearCompleted: .nan
   xUrl: http://twitter.com/demelzawall
   instagramUrl: http://instagram.com/demelzawall
@@ -423,13 +423,13 @@
     involves extracting DNA from marine predator poo to work out what they are eating
     and then integrating that data into food web networks. </p> <p>My key research
     interests involve marine predators, ecology, genetics and modelling. </p>
-- name: Javed Riaz
+- name: Dr Javed Riaz
   slug: javed-riaz
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd0705ea0ee1ea7b5f312_60bad154e8d8f054fc049a92_jriaz.jpeg
   position: PhD Candidate
   positionType: Student
-  isPastMember: false
-  yearCompleted: .nan
+  isPastMember: true
+  yearCompleted: 2022
   xUrl: .nan
   instagramUrl: .nan
   githubUrl: .nan
@@ -516,7 +516,7 @@
 - name: Dr Lauren Roman
   slug: lauren-roman
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070079cd35658326de7_60bad130320690eb03c2f935_lroman.jpeg
-  position: Adjunct Researcher
+  position: DECRA Fellow Researcher
   positionType: Staff
   isPastMember: false
   yearCompleted: .nan
@@ -529,7 +529,7 @@
   researchgateUrl: https://www.researchgate.net/profile/Lauren_Roman
   utasProfileUrl: https://rmdb.research.utas.edu.au/public/rmdb/q/indiv_detail_warp_trans/40837
   peronsalUrl: .nan
-  researchProjectIn5Words: marine debris impact on wildlife
+  researchProjectIn5Words: threatened australian seabird conservation
   bio: "<p id=\"\">I'm an associate researcher at IMAS-UTas and a postdoctoral researcher\
     \ at CSIRO\u2019s Oceans and Atmosphere. My research focuses on marine debris\
     \ (plastics and other litter in the ocean) and the impact it has on wildlife.My\
@@ -750,7 +750,7 @@
   researchgateUrl: https://www.researchgate.net/profile/Noemie_Friscourt
   utasProfileUrl: .nan
   peronsalUrl: .nan
-  researchProjectIn5Words: southern ocean, seal, whiskers, isotopes, trace metal
+  researchProjectIn5Words: southern ocean, seal, whiskers, isotopes, trace metals
   bio: <p id="">My current project focuses on the trophic and foraging ecology of
     the Antarctic fur seals, using stable isotopes and trace metals.</p> <p>10 years
     of data!!! The sampling collection of the whiskers took place on Marion Island
@@ -783,12 +783,12 @@
     \ on Wedge Island for up to five weeks at a time, which is fantastic so long as\
     \ you don\u2019t mind a lack of showers and an abundance of fleas.</p> <p>Marine\
     \ ecology for the broader and tricky taxonomic decisions for the personal.</p>"
-- name: Paige Green
+- name: Dr Paige Green
   slug: paige-green
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071acd22a1eea3dd04c_60bad0dd2551d76655865b50_pgreen.jpeg
   position: PhD Candidate
   positionType: Student
-  isPastMember: false
+  isPastMember: true
   yearCompleted: .nan
   xUrl: http://twitter.com/seagreenpaige
   instagramUrl: .nan
@@ -835,11 +835,11 @@
     and years.</p> <p>I have a research interest in the conservation and challenges
     in managing marine resources with a specialisation in the biology and conservation
     of seabirds and small-scale fisheries.</p>
-- name: Penny Pascoe
+- name: Dr Penny Pascoe
   slug: penny-pascoe
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd072db3214e82d736da9_60bad2427a233c3af0e69407_ppascoe.jpeg
-  position: PhD Candidate
-  positionType: Student
+  position: Macquarie Island Project Researcher
+  positionType: Staff
   isPastMember: false
   yearCompleted: .nan
   xUrl: https://twitter.com/pppascoe
@@ -862,13 +862,13 @@
     post-eradication monitoring to occur on island where limited resources prevent
     extensive population level monitoring.</p> <p>Conservation, remote ecosystems,
     seabirds, hiking, skiing, running.</p>
-- name: Peter Puskic
+- name: Dr Peter Puskic
   slug: peter-puskic
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd0727f5d65746527797a_60bad0ca09160a6462b0d57f_ppuskic.jpeg
   position: PhD Candidate
   positionType: Student
-  isPastMember: false
-  yearCompleted: .nan
+  isPastMember: true
+  yearCompleted: 2023
   xUrl: http://twitter.com/peterpuskic
   instagramUrl: http://instagram.com/peterpuskic
   githubUrl: .nan
