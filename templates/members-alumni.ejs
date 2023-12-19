@@ -7,12 +7,21 @@
         <div class="font-monospace" style="font-size: 12px;"><%= member.researchProjectIn5Words %></div>
         <ul class="social-links">
           <% if (member.githubUrl) { %>
-            <li><a href="<%= member.githubUrl %>">GitHub</a></li>
+            <li><a target="_blank" href="<%= member.githubUrl %>">{{< iconify bi github >}}</a></li>
           <% } %>
           <% if (member.xUrl) { %>
-            <li><a href="<%= member.xUrl %>">X</a></li>
+            <li><a target="_blank" href="<%= member.xUrl %>">{{< iconify bi twitter-x >}}</a></li>
           <% } %>
           <!-- Repeat for other social media links as needed -->
+          <% if (member.gscholarUrl) { %>
+            <li><a target="_blank" href="<%= member.gscholarUrl %>">{{< ai google-scholar size=lg >}}</a></li>
+          <% } %>
+          <% if (member.researchgateUrl) { %>
+            <li><a target="_blank" href="<%= member.researchgateUrl %>">{{< ai researchgate size=lg >}}</a></li>
+          <% } %>
+          <% if (member.orcidUrl) { %>
+            <li><a target="_blank" href="<%= member.orcidUrl %>">{{< ai orcid >}}</a></li>
+          <% } %>
         </ul>
       </li>
     <% } %>
