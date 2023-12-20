@@ -11,26 +11,25 @@
 }
 
 :root {
---font-size-sm: clamp(0.7rem, 0.09vw + 0.68rem, 0.75rem);
---font-size-base: clamp(0.88rem, 0.23vw + 0.82rem, 1rem);
---font-size-md: clamp(1.09rem, 0.43vw + 0.98rem, 1.33rem);
---font-size-lg: clamp(1.37rem, 0.74vw + 1.18rem, 1.78rem);
---font-size-xl: clamp(1.71rem, 1.2vw + 1.41rem, 2.37rem);
---font-size-xxl: clamp(2.14rem, 1.86vw + 1.67rem, 3.16rem);
---font-size-xxxl: clamp(2.67rem, 2.8vw + 1.97rem, 4.21rem);
---bs-body-line-height: 1.4;
+  --font-size-sm: clamp(0.7rem, 0.09vw + 0.68rem, 0.75rem);
+  --font-size-base: clamp(0.88rem, 0.23vw + 0.82rem, 1rem);
+  --font-size-md: clamp(1.09rem, 0.43vw + 0.98rem, 1.33rem);
+  --font-size-lg: clamp(1.37rem, 0.74vw + 1.18rem, 1.78rem);
+  --font-size-xl: clamp(1.71rem, 1.2vw + 1.41rem, 2.37rem);
+  --font-size-xxl: clamp(2.14rem, 1.86vw + 1.67rem, 3.16rem);
+  --font-size-xxxl: clamp(2.67rem, 2.8vw + 1.97rem, 4.21rem);
+  --bs-body-line-height: 1.4;
 }
-
 
 // Journal 5.3.2
 // Bootswatch
-$theme: "journal" !default;
+$theme: 'journal' !default;
 
 //
 // Color system
 //
 
-$white:    #fff !default;
+$white: #fff !default;
 $gray-100: #f8f9fa !default;
 $gray-200: #eee !default;
 $gray-300: #dee2e6 !default;
@@ -40,31 +39,30 @@ $gray-600: #777 !default;
 $gray-700: #495057 !default;
 $gray-800: #333 !default;
 $gray-900: #222 !default;
-$black:    #000 !default;
+$black: #000 !default;
 
-$blue:    #eb6864 !default;
-$indigo:  #6610f2 !default;
-$purple:  #6f42c1 !default;
-$pink:    #e83e8c !default;
-$red:     #f57a00 !default;
-$orange:  #fd7e14 !default;
-$yellow:  #f5e625 !default;
-$green:   #22b24c !default;
-$teal:    #20c997 !default;
-$cyan:    #369 !default;
+$blue: #eb6864 !default;
+$indigo: #6610f2 !default;
+$purple: #6f42c1 !default;
+$pink: #e83e8c !default;
+$red: #f57a00 !default;
+$orange: #fd7e14 !default;
+$yellow: #f5e625 !default;
+$green: #22b24c !default;
+$teal: #20c997 !default;
+$cyan: #369 !default;
 
-$primary:       #01110a !default;
-$secondary:     $gray-500 !default;
-$success:       $green !default;
-$info:          $cyan !default;
-$warning:       $yellow !default;
-$danger:        $red !default;
-$light:         $gray-100 !default;
-$dark:          $gray-900 !default;
-$link-color: #5895B0 !default;
+$primary: #01110a !default;
+$secondary: $gray-500 !default;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;
+$link-color: #5895b0 !default;
 
-
-$min-contrast-ratio:   1.28 !default;
+$min-contrast-ratio: 1.28 !default;
 
 // Fonts
 $headings-font-family: var(--bs-font-sans-serif) !default;
@@ -77,9 +75,8 @@ $h5-font-size: var(--font-size-md) !default;
 
 $headings-line-height: 1 !default;
 
-
 // Buttons
-$input-btn-padding-x:         1rem !default;
+$input-btn-padding-x: 1rem !default;
 
 // Navbar
 .navbar {
@@ -99,21 +96,20 @@ $input-btn-padding-x:         1rem !default;
 
 footer.footer .nav-footer,
 #quarto-header > nav {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
-
 .nav-link.active,
-.nav-link:hover{
-  color: white!important;
+.nav-link:hover {
+  color: white !important;
   text-decoration: underline;
   text-underline-offset: 3px;
 }
 
 // Pagination
-$pagination-hover-color:            $white !default;
-$pagination-hover-bg:               $primary !default;
-$pagination-hover-border-color:     $primary !default;
+$pagination-hover-color: $white !default;
+$pagination-hover-bg: $primary !default;
+$pagination-hover-border-color: $primary !default;
 
 // Cards
 $card-border-color: black;
@@ -123,23 +119,23 @@ $card-border-color: black;
 
 // Hero
 .hero-container {
-    max-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .2)), url("https://uploads-ssl.webflow.com/5fd1a0c670b4e04386b63c5c/60bacd78c96519c915e08181_hero-ba.jpg");
-    background-position: 0 0, 0%;
-    background-size: auto, auto;
-    background-attachment: scroll, fixed;
-    margin-bottom: 0;
-    height: 100vh;
-    color: white;
-    margin-top: -46px;
+  max-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
+    url('https://uploads-ssl.webflow.com/5fd1a0c670b4e04386b63c5c/60bacd78c96519c915e08181_hero-ba.jpg');
+  background-position: 0 0, 0%;
+  background-size: auto, auto;
+  background-attachment: scroll, fixed;
+  margin-bottom: 0;
+  height: 100vh;
+  color: white;
+  margin-top: -46px;
 }
 
 @media (min-width: 768px) {
- .hero-container {
-   margin-top: -60px;
- }
+  .hero-container {
+    margin-top: -60px;
+  }
 }
-
 
 .hero-text {
   align-self: center;
@@ -153,17 +149,22 @@ $card-border-color: black;
   font-size: var(--font-size-lg);
 }
 
-
 // Listings
-.listings-grid ul {
-  list-style: none;
-  padding-left: 0;
+.listing-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(min(var(--column-width, 30ch), 100%), 1fr));
+  grid-template-columns: repeat(
+    auto-fit,
+    minmax(min(var(--column-width, 30ch), 100%), 1fr)
+  );
   gap: 1.5rem;
   row-gap: 1rem;
 }
-  
+
+[class*='listing'] ul {
+  list-style: none;
+  padding: 0;
+}
+
 .profile-image {
   height: 100px;
   aspect-ratio: 1;
@@ -171,7 +172,6 @@ $card-border-color: black;
   overflow: hidden;
   background-size: cover;
 }
-
 
 ul.social-links {
   display: flex;
@@ -182,13 +182,14 @@ ul.social-links {
 
 // Search
 .aa-DetachedOverlay.aa-DetachedOverlay {
-  background-color: rgba(0, 0, 0, .9);
+  background-color: rgba(0, 0, 0, 0.9);
 }
 
 .aa-DetachedFormContainer.aa-DetachedFormContainer {
   border: 0;
 }
 
-.aa-Autocomplete .aa-Form .aa-InputWrapper .aa-Input, .aa-DetachedFormContainer .aa-Form .aa-InputWrapper .aa-Input {
-  padding: .5rem !important;
+.aa-Autocomplete .aa-Form .aa-InputWrapper .aa-Input,
+.aa-DetachedFormContainer .aa-Form .aa-InputWrapper .aa-Input {
+  padding: 0.5rem !important;
 }
