@@ -18,26 +18,24 @@ website:
         text: Contact
       - href: /#our-research-themes
         text: Research
-    right: 
+    right:
       - icon: twitter
         href: https://twitter.com/mpred_lab
   back-to-top-navigation: true
   twitter-card:
-    creator: "@dahliasan"
-    site: "@mpredlab"
-  page-footer: 
-    left: "built and designed by <a href='https://read.cv/dahliafoo'>dahlia foo</a>" 
-    right: 
-      - icon: twitter 
-        href: https://twitter.com/mpred_lab 
+    creator: '@dahliasan'
+    site: '@mpredlab'
+  page-footer:
+    left: "built and designed by <a href='https://read.cv/dahliafoo'>dahlia foo</a>"
+    right:
+      - icon: twitter
+        href: https://twitter.com/mpred_lab
 
 format:
   html:
-    theme: 
-      dark: [journal, "css/theme-dark.scss", "css/custom.scss"]
-      light: [journal, "css/custom.scss"]
-    css: "css/styles.css"
+    theme:
+      dark: [journal, 'css/theme-dark.scss', 'css/custom.scss']
+      light: [journal, 'css/custom.scss']
     toc: true
 
 editor: visual
-
