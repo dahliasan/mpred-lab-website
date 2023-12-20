@@ -1,7 +1,7 @@
-<ul>
+<ul class="listing-grid" style="--column-width: 200px;">
   <% items.forEach(function(member) { %>
-    <% if (member.isPastMember === false && 
-          (member.position.toLowerCase().includes('phd') || 
+    <% if (member.isPastMember === false &&
+          (member.position.toLowerCase().includes('phd') ||
            (member.positionType && member.positionType.toLowerCase() === 'staff'))) { %>
       <li>
         <div class="profile-image mb-1" style="background-image:url('<%= member.photoUrl %>');"></div>

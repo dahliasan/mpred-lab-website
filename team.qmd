@@ -1,21 +1,23 @@
 ---
 title: "About Us"
-
+format:
+  html:
+    page-layout: full
 listing:
-  - id: team-members-active
+  - id: members-active
     contents: "members.yaml"
-    template: "templates/members.ejs" 
-  - id: team-members-alumni
+    template: "templates/members.ejs"
+  - id: members-alumni
     contents: "members.yaml"
     template: "templates/members-alumni.ejs"
 ---
 
 ## Current Members
 
-::: {#team-members-active .listings-grid style="--column-width: 200px;"}
+::: {#members-active}
 :::
 
 ## Alumni Members
 
-::: {#team-members-alumni .listings-grid style="--column-width: 200px;"}
+::: {#members-alumni}
 :::
