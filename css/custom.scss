@@ -122,8 +122,8 @@ $card-border-color: black;
   max-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
     url('https://uploads-ssl.webflow.com/5fd1a0c670b4e04386b63c5c/60bacd78c96519c915e08181_hero-ba.jpg');
-  background-position: 0 0, 0%;
-  background-size: auto, auto;
+  background-size: cover;
+  background-position: center 40%;
   background-attachment: scroll, fixed;
   margin-bottom: 0;
   height: 100vh;
