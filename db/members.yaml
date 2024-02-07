@@ -5,17 +5,18 @@
   positionType: Student
   isPastMember: true
   yearCompleted: 2022.0
-  xUrl: .nan
-  instagramUrl: .nan
+  xUrl: ~
+  instagramUrl: ~
   githubUrl: https://github.com/amroco
-  linkedinUrl: .nan
-  orcidUrl: .nan
+  linkedinUrl: ~
+  orcidUrl: ~
   gscholarUrl: https://scholar.google.fr/citations?user=Y_1F4-UAAAAJ&hl=en&oi=ao
   researchgateUrl: https://www.researchgate.net/profile/Amy-Coghlan
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
-  researchProjectIn5Words: .nan
-  bio: '<p id="">Reef and coastal fisheries possess an extraordinary amount of living
+  utasProfileUrl: ~
+  peronsalUrl: ~
+  researchProjectIn5Words: ~
+  bio:
+    '<p id="">Reef and coastal fisheries possess an extraordinary amount of living
     things (like fish, crabs, corals and algae) condensed into a small space, with
     its nearest rivals only being rainforests and agriculture. </p><p id="">Despite
     being such a small part of the global surface (~6 %) these living resources provide
@@ -52,18 +53,19 @@
   position: PhD Candidate
   positionType: Student
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: http://twitter.com/afhender
-  instagramUrl: .nan
-  githubUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
   linkedinUrl: https://www.linkedin.com/in/angus-henderson-2a0435a2/
   orcidUrl: https://orcid.org/0000-0002-0112-3913
   gscholarUrl: https://scholar.google.com/citations?user=KWKcZT8AAAAJ&hl=en&oi=sra
-  researchgateUrl: .nan
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  researchgateUrl: ~
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Whale Obs from Tourist Vessels
-  bio: <p id="">I am looking into the drivers of whale abundance and distribution,
+  bio:
+    <p id="">I am looking into the drivers of whale abundance and distribution,
     and the spatio-temporal overlap between krill fishing and predator foraging behaviour,
     in the West Antarctic Peninsula.</p> <p>Deploying qualified marine mammal observers
     on tourist vessels that visit Antarctica from Argentina and Chile each year. The
@@ -80,16 +82,17 @@
   isPastMember: true
   yearCompleted: 2022
   xUrl: http://twitter.com/ashleighhfay
-  instagramUrl: .nan
-  githubUrl: .nan
-  linkedinUrl: .nan
-  orcidUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
+  orcidUrl: ~
   gscholarUrl: https://scholar.google.com/citations?hl=en&user=qzRQGbMAAAAJ&view_op=list_works&gmla=AJsN-F4nhssB-uXponKO5jflu0zdtWtCcRZ65rIZ03-kqel3bPMSILX4-psF6RucgoVQ4QA-zTlT1OOnol7TJG3k75fQdlxhqmITSVSkNAIS8KpQSIIu0iU
-  researchgateUrl: .nan
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  researchgateUrl: ~
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Australian fur seal behaviour and foraging ecology
-  bio: <p id="">I'll be looking at Australian fur seal interactions around oil and
+  bio:
+    <p id="">I'll be looking at Australian fur seal interactions around oil and
     gas infrastructure in the Gippsland Basin, eastern Bass Strait. </p> <p>Analyzing
     underwater ROV footage of seals foraging and playing around subsea pipelines,
     as well as imagery of them having a snooze on the oil and gas platforms!</p> <p>Pinniped
@@ -102,16 +105,17 @@
   isPastMember: true
   yearCompleted: 2016.0
   xUrl: http://twitter.com/bluewaterben
-  instagramUrl: .nan
-  githubUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
   linkedinUrl: https://www.linkedin.com/in/benjamin-arthur-450a5649/
-  orcidUrl: .nan
+  orcidUrl: ~
   gscholarUrl: https://scholar.google.com.au/citations?user=QS_-u7MAAAAJ&hl=en
-  researchgateUrl: .nan
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  researchgateUrl: ~
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: marine science outreach and education
-  bio: <p id="">My background is in animal movement ecology. While my current work
+  bio:
+    <p id="">My background is in animal movement ecology. While my current work
     focusses on marine science outreach and education across Australia.</p> nan <p>My
     primary research interests lie in understanding the way in which the environment
     affects the distribution and behaviour of marine species. Of particular interest
@@ -123,18 +127,19 @@
   position: PhD Candidate
   positionType: Student
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: https://twitter.com/bm_viola
   instagramUrl: https://www.instagram.com/vsnaturephotography/
-  githubUrl: .nan
+  githubUrl: ~
   linkedinUrl: https://www.linkedin.com/in/benjamin-viola/
-  orcidUrl: .nan
-  gscholarUrl: .nan
-  researchgateUrl: .nan
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  orcidUrl: ~
+  gscholarUrl: ~
+  researchgateUrl: ~
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: future (sub)Antarctic seabird habitat use
-  bio: <p id="">I am looking at Antarctic and sub-Antarctic seabird assemblages to
+  bio:
+    <p id="">I am looking at Antarctic and sub-Antarctic seabird assemblages to
     determine how they use their habitat, and how projected changes in our climate
     will affect them.</p> <p>My project will include the modelling of habitat suitability
     for a suite of free-flying seabirds. This will be in the context of historical,
@@ -149,16 +154,17 @@
   isPastMember: true
   yearCompleted: 2022.0
   xUrl: http://twitter.com/breelwoods/
-  instagramUrl: .nan
-  githubUrl: .nan
-  linkedinUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
   orcidUrl: https://orcid.org/0000-0001-6735-3626
-  gscholarUrl: .nan
+  gscholarUrl: ~
   researchgateUrl: https://www.researchgate.net/profile/Briannyn-Woods
-  utasProfileUrl: .nan
+  utasProfileUrl: ~
   peronsalUrl: https://loop.frontiersin.org/people/1343934/bio
   researchProjectIn5Words: deep ocean squid and fish
-  bio: "<p id=\"\">The deep ocean is the largest habitat on earth and despite harsh\
+  bio:
+    "<p id=\"\">The deep ocean is the largest habitat on earth and despite harsh\
     \ environmental conditions, is full of life. I study the organisms that live in\
     \ this challenging environment, specifically lanternfish and pelagic squids. In\
     \ the Southern Ocean, lanternfish and squid are a key energy pathway to higher-order\
@@ -182,18 +188,19 @@
   position: PhD Candidate
   positionType: Student
   isPastMember: true
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: http://twitter.com/clairejmason
-  instagramUrl: .nan
-  githubUrl: .nan
-  linkedinUrl: .nan
-  orcidUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
+  orcidUrl: ~
   gscholarUrl: https://scholar.google.com/citations?user=slRb2BQAAAAJ&hl=en
   researchgateUrl: https://www.researchgate.net/profile/Claire_Mason5
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Climate impacts on shy albatross.
-  bio: "<p id=\"\">My PhD project explores the impacts of climate on shy albatross\
+  bio:
+    "<p id=\"\">My PhD project explores the impacts of climate on shy albatross\
     \ to help design climate adaptation strategies for their conservation.</p> nan\
     \ <p>\u200DI am interested in conservation decision science and climate adaptation\
     \ research. I want my research to support robust and pragmatic management and\
@@ -204,18 +211,19 @@
   position: Adjunct Researcher
   positionType: Staff
   isPastMember: false
-  yearCompleted: .nan
-  xUrl: .nan
-  instagramUrl: .nan
-  githubUrl: .nan
-  linkedinUrl: .nan
+  yearCompleted: ~
+  xUrl: ~
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
   orcidUrl: https://orcid.org/0000-0001-5241-8917
   gscholarUrl: https://scholar.google.com/citations?user=s8Fg-CcAAAAJ&hl=en
   researchgateUrl: https://www.researchgate.net/profile/Clive-Mcmahon
   utasProfileUrl: https://www.utas.edu.au/profiles/staff/imas/clive-mcmahon
-  peronsalUrl: .nan
+  peronsalUrl: ~
   researchProjectIn5Words: IMOS Antarctic seal tracking program
-  bio: <p id="">My primary affiliation is with the Integrated Marine Observing System
+  bio:
+    <p id="">My primary affiliation is with the Integrated Marine Observing System
     (IMOS), Sydney Institute of Marine Science (SIMS). </p><p id="">My primary responsibilities
     are running the IMOS Antarctic seal tracking program. Briefly, the Antarctic and
     the surrounding Southern Ocean are one of the most important, yet least observed
@@ -233,18 +241,19 @@
   position: PhD Candidate
   positionType: Student
   isPastMember: false
-  yearCompleted: .nan
-  xUrl: .nan
-  instagramUrl: .nan
-  githubUrl: .nan
-  linkedinUrl: .nan
-  orcidUrl: .nan
-  gscholarUrl: .nan
+  yearCompleted: ~
+  xUrl: ~
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
+  orcidUrl: ~
+  gscholarUrl: ~
   researchgateUrl: https://www.researchgate.net/profile/Coline-Marciau
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Adelie penguins ecophysiology and behaviour
-  bio: "<p id=\"\">My project is about Ad\xE9lie penguins ecophysiology and behaviour.\
+  bio:
+    "<p id=\"\">My project is about Ad\xE9lie penguins ecophysiology and behaviour.\
     \ The ultimate aim is to identify relevant tools of population status to set/propose\
     \ efficient conservation measures but at a shorter term, it will allow to gain\
     \ understanding on penguins physiology and behaviour in relation to their performances\
@@ -261,16 +270,17 @@
   isPastMember: true
   yearCompleted: 2023
   xUrl: http://twitter.com/ConnorMcGarry04
-  instagramUrl: .nan
-  githubUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
   linkedinUrl: https://www.linkedin.com/in/connor-mcgarry-a8806821b/
-  orcidUrl: .nan
-  gscholarUrl: .nan
-  researchgateUrl: .nan
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  orcidUrl: ~
+  gscholarUrl: ~
+  researchgateUrl: ~
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: foraging ecology of southern elephant seals
-  bio: <p id="">Comparative assessment on the foraging success of Southern elephant
+  bio:
+    <p id="">Comparative assessment on the foraging success of Southern elephant
     seals in variable environments off Kerguelen Island and the plateau. </p> <p>Using
     tracking data of Southern elephant seals tagged on Kerguelen Island from 2004-2022,
     I will be comparing and contrasting the relationship between the foraging ecology
@@ -293,10 +303,11 @@
   orcidUrl: https://orcid.org/0000-0002-4983-9208
   gscholarUrl: https://scholar.google.com/citations?user=XhccAjAAAAAJ&hl=en
   researchgateUrl: https://www.researchgate.net/profile/Dahlia-Foo
-  utasProfileUrl: .nan
+  utasProfileUrl: ~
   peronsalUrl: http://dahliafoo.xyz
   researchProjectIn5Words: bad weather sucks for pups
-  bio: "<p id=\"\">I'm working on 2 research papers at the moment: </p><h6 id=\"\"\
+  bio:
+    "<p id=\"\">I'm working on 2 research papers at the moment: </p><h6 id=\"\"\
     >1. The effect of extreme weather events on early New Zealand sea lion pup mortality\
     \ </h6><p id=\"\">I've found that cold and wet weather is linked to more pups\
     \ dying at a young age ie. yes the weather can be too cold for them, especially\
@@ -317,18 +328,19 @@
   position: Postdoc
   positionType: Staff
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: http://twitter.com/davo.b.green
   instagramUrl: http://instagram.com/davo.b.green
-  githubUrl: .nan
-  linkedinUrl: .nan
+  githubUrl: ~
+  linkedinUrl: ~
   orcidUrl: https://orcid.org/0000-0002-0346-3129
-  gscholarUrl: .nan
-  researchgateUrl: .nan
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  gscholarUrl: ~
+  researchgateUrl: ~
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Prey models and marine predators
-  bio: "<p id=\"\">My project fits in the interface between Southern Ocean predators\
+  bio:
+    "<p id=\"\">My project fits in the interface between Southern Ocean predators\
     \ and their prey. I work with models that simulate the distribution and dynamics\
     \ of mid-trophic organisms, show how these can be linked with predator variables\
     \ such as distribution, behaviour as well as demographic parameters. At the same\
@@ -347,18 +359,19 @@
   position: PhD Candidate
   positionType: Student
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: http://twitter.com/demelzawall
   instagramUrl: http://instagram.com/demelzawall
-  githubUrl: .nan
-  linkedinUrl: .nan
-  orcidUrl: .nan
-  gscholarUrl: .nan
-  researchgateUrl: .nan
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  githubUrl: ~
+  linkedinUrl: ~
+  orcidUrl: ~
+  gscholarUrl: ~
+  researchgateUrl: ~
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: new vs old seal colonies
-  bio: <p id="">My project is looking at breeding phenology of Australian fur seals,
+  bio:
+    <p id="">My project is looking at breeding phenology of Australian fur seals,
     and at body condition indices of pups at two breeding colonies in Tasmania.</p>
     <p>Australian fur seals breed annually from late October to late December. Typically,
     they have bred in the Bass Strait, however, recently a breeding colony has established
@@ -374,18 +387,19 @@
   position: Lecturer
   positionType: Staff
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: http://@jane_younger
-  instagramUrl: .nan
-  githubUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
   linkedinUrl: https://www.linkedin.com/in/janeyounger/
-  orcidUrl: .nan
+  orcidUrl: ~
   gscholarUrl: https://scholar.google.com/citations?user=CEBV6KoAAAAJ&hl=en
   researchgateUrl: https://www.researchgate.net/profile/Jane-Younger-2
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: marine predators, disease, climate change
-  bio: "<p id=\"\">The common theme throughout my career has been understanding how\
+  bio:
+    "<p id=\"\">The common theme throughout my career has been understanding how\
     \ environmental change effects biodiversity, by connecting environmental with\
     \ population-level processes and large-scale patterns of diversification.</p><p\
     \ id=\"\">My current focus in the MPred Lab is on understanding the changing prevalence\
@@ -399,18 +413,19 @@
   position: PhD Candidate
   positionType: Student
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: http://twitter.com/georgiamergard
-  instagramUrl: .nan
-  githubUrl: .nan
-  linkedinUrl: .nan
-  orcidUrl: .nan
-  gscholarUrl: .nan
-  researchgateUrl: .nan
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
+  orcidUrl: ~
+  gscholarUrl: ~
+  researchgateUrl: ~
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: DNA metabarcoding, poo, food webs
-  bio: <p id="">Understanding the diet of top order consumers is fundamental for assessing
+  bio:
+    <p id="">Understanding the diet of top order consumers is fundamental for assessing
     ecosystem dynamics, structure, and stability. Typically, there is a lag between
     the effects of environmental variation on lower trophic levels, and the ultimate
     effects on marine predators. Due to this, studying marine mammal and seabird diets
@@ -430,17 +445,18 @@
   positionType: Student
   isPastMember: true
   yearCompleted: 2022
-  xUrl: .nan
-  instagramUrl: .nan
-  githubUrl: .nan
-  linkedinUrl: .nan
-  orcidUrl: .nan
-  gscholarUrl: .nan
+  xUrl: ~
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
+  orcidUrl: ~
+  gscholarUrl: ~
   researchgateUrl: https://www.researchgate.net/profile/Javed_Riaz
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Adelie penguins as ecosystem indicators
-  bio: "<p id=\"\">Ad\xE9lie penguins as ecosystem indicators: foraging behaviour\
+  bio:
+    "<p id=\"\">Ad\xE9lie penguins as ecosystem indicators: foraging behaviour\
     \ and habitat. Through this research project, we expect to further understand\
     \ the movement behaviour and foraging strategies of Ad\xE9lie penguins, and their\
     \ relationship with oceanographic parameters and the regional prey-field. This\
@@ -459,18 +475,19 @@
   position: Honours Student
   positionType: Student
   isPastMember: false
-  yearCompleted: .nan
-  xUrl: .nan
-  instagramUrl: .nan
-  githubUrl: .nan
-  linkedinUrl: .nan
-  orcidUrl: .nan
-  gscholarUrl: .nan
-  researchgateUrl: .nan
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  yearCompleted: ~
+  xUrl: ~
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
+  orcidUrl: ~
+  gscholarUrl: ~
+  researchgateUrl: ~
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Black-browed albatross parasites
-  bio: <p id="">Looking at parasite variation from gastrointestinal samples in Black-browed
+  bio:
+    <p id="">Looking at parasite variation from gastrointestinal samples in Black-browed
     and Campbell albatross across the sub-Antarctic region. </p> <p>Idetifying gastrointestinal
     parasites found in black-browed albatross using 18S sequencing.</p> <p>My main
     interests are genetics, birds (especially seabirds), phylogenetics, and ecology
@@ -481,18 +498,19 @@
   position: Postdoc
   positionType: Staff
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: http://twitter.com/pengatross
-  instagramUrl: .nan
-  githubUrl: .nan
-  linkedinUrl: .nan
-  orcidUrl: .nan
-  gscholarUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
+  orcidUrl: ~
+  gscholarUrl: ~
   researchgateUrl: https://www.researchgate.net/profile/Julie_McInnes
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Stool tool for any fool
-  bio: <p id="">A key component of ecosystem monitoring programs that aim to support
+  bio:
+    <p id="">A key component of ecosystem monitoring programs that aim to support
     the maintenance of biodiversity and ecosystem function is sound knowledge of species
     composition and food web linkages. This information provides a foundation for
     assessing ecosystem changes and can allow causal links to be clarified (e.g. interactions
@@ -519,18 +537,19 @@
   position: DECRA Fellow Researcher
   positionType: Staff
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: https://twitter.com/DrLaurenRoman
-  instagramUrl: .nan
-  githubUrl: .nan
-  linkedinUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
   orcidUrl: https://orcid.org/0000-0003-3591-4905
-  gscholarUrl: .nan
+  gscholarUrl: ~
   researchgateUrl: https://www.researchgate.net/profile/Lauren_Roman
   utasProfileUrl: https://rmdb.research.utas.edu.au/public/rmdb/q/indiv_detail_warp_trans/40837
-  peronsalUrl: .nan
+  peronsalUrl: ~
   researchProjectIn5Words: threatened australian seabird conservation
-  bio: "<p id=\"\">I'm an associate researcher at IMAS-UTas and a postdoctoral researcher\
+  bio:
+    "<p id=\"\">I'm an associate researcher at IMAS-UTas and a postdoctoral researcher\
     \ at CSIRO\u2019s Oceans and Atmosphere. My research focuses on marine debris\
     \ (plastics and other litter in the ocean) and the impact it has on wildlife.My\
     \ research combines laboratory analysis and statistical modelling to quantify\
@@ -552,18 +571,19 @@
   position: Adjunct Researcher
   positionType: Staff
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: http://twitter.com/madsbrasier
   instagramUrl: http://instagram.com/madsbrasier
-  githubUrl: .nan
+  githubUrl: ~
   linkedinUrl: https://www.researchgate.net/profile/Madeleine-Brasier
-  orcidUrl: .nan
+  orcidUrl: ~
   gscholarUrl: https://scholar.google.com/citations?user=x0c84wMAAAAJ&hl=en
-  researchgateUrl: .nan
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  researchgateUrl: ~
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: identifying humpback whales in Tasmania
-  bio: "<p id=\"\">I am currently leading a project called the \u2018Tasmanian Fluke\
+  bio:
+    "<p id=\"\">I am currently leading a project called the \u2018Tasmanian Fluke\
     \ Project\u2019 which is all about identifying the humpback whales that pass through\
     \ Tasmanian waters whilst they migrate between their Antarctic feeding grounds\
     \ and subtropical breeding grounds.</p> <p>My project involves getting out on\
@@ -583,18 +603,19 @@
   position: Emeritus Professor
   positionType: Staff
   isPastMember: false
-  yearCompleted: .nan
-  xUrl: .nan
-  instagramUrl: .nan
-  githubUrl: .nan
-  linkedinUrl: .nan
+  yearCompleted: ~
+  xUrl: ~
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
   orcidUrl: https://orcid.org/0000-0002-7823-7185
   gscholarUrl: https://scholar.google.com.au/citations?user=8J8xm0kAAAAJ&hl=en
   researchgateUrl: https://www.researchgate.net/profile/Mark-Hindell
   utasProfileUrl: https://www.utas.edu.au/profiles/staff/imas-qms-utas/mark-hindell
-  peronsalUrl: .nan
+  peronsalUrl: ~
   researchProjectIn5Words: antarctic southern ocean marine predators
-  bio: "<p id=\"\">Professor Mark Hindell\u2019s leadership in professional and academic\
+  bio:
+    "<p id=\"\">Professor Mark Hindell\u2019s leadership in professional and academic\
     \ circles and considerable involvement in scientific organisational roles has\
     \ enabled him to establish a global network of marine animal tracking scientists.Being\
     \ able to unobtrusively track these marine species around the world has been one\
@@ -630,18 +651,19 @@
   position: Lab Leader
   positionType: Staff
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: http://twitter.com/icetempete
   instagramUrl: http://@mpred_lab
-  githubUrl: .nan
-  linkedinUrl: .nan
+  githubUrl: ~
+  linkedinUrl: ~
   orcidUrl: https://orcid.org/0000-0001-8318-9299
   gscholarUrl: https://scholar.google.com.au/citations?user=U7aQd08AAAAJ&hl=en
   researchgateUrl: https://www.researchgate.net/profile/Mary-Anne-Lea
   utasProfileUrl: https://www.utas.edu.au/profiles/staff/imas/mary-anne-lea
-  peronsalUrl: .nan
+  peronsalUrl: ~
   researchProjectIn5Words: marine predator ecology and behaviour
-  bio: "<p id=\"\">Dr Mary-Anne Lea is a Professor at the Ecology and Biodiversity\
+  bio:
+    "<p id=\"\">Dr Mary-Anne Lea is a Professor at the Ecology and Biodiversity\
     \ Centre at the Institute for Marine &amp; Antarctic Studies at the University\
     \ of Tasmania. </p><p id=\"\">She is interested in the way in which the environment\
     \ and climate change affect the behaviour, distribution and life history of marine\
@@ -677,18 +699,19 @@
   position: PhD Candidate
   positionType: Student
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: https://twitter.com/MelRoseWells
-  instagramUrl: .nan
-  githubUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
   linkedinUrl: https://www.linkedin.com/in/melanie-wells-002b58186/
-  orcidUrl: .nan
+  orcidUrl: ~
   gscholarUrl: https://scholar.google.com/citations?user=sQScD0AAAAAJ&hl=en&oi=ao
   researchgateUrl: https://www.researchgate.net/profile/Melanie-Wells-4
   utasProfileUrl: https://www.utas.edu.au/profiles/staff/biological-sciences/melanie,-wells
-  peronsalUrl: .nan
+  peronsalUrl: ~
   researchProjectIn5Words: Factors that influence seabird parasitism
-  bio: "<p id=\"\">Owing to their plasticity, little penguins are one of very few\
+  bio:
+    "<p id=\"\">Owing to their plasticity, little penguins are one of very few\
     \ species of seabird that exploit urbanised environments and thrive. They are\
     \ generalist inshore foragers and occupy a diverse array of breeding sites.Tasmania\
     \ is thought to be home to over 60% of Australia\u2019s little penguin population,\
@@ -712,18 +735,19 @@
   position: PhD Candidate
   positionType: Student
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: https://twitter.com/MilanS0jitra
   instagramUrl: https://www.instagram.com/bluewingedowl/
-  githubUrl: .nan
+  githubUrl: ~
   linkedinUrl: https://www.linkedin.com/in/milans0jitra/
   orcidUrl: https://orcid.org/0000-0001-5545-2440
-  gscholarUrl: .nan
+  gscholarUrl: ~
   researchgateUrl: https://www.researchgate.net/profile/Milan-Sojitra
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Seabirds, marine mammals, climate change
-  bio: <p id="">The waters around southeast Australia and warming faster than global
+  bio:
+    <p id="">The waters around southeast Australia and warming faster than global
     average and the Sothern Ocean and Antarctica are changing rapidly. Marine predators
     are indicator species, and they respond to these changes in their habitat. Our
     research will identify their response to climate change and predict changes in
@@ -740,18 +764,19 @@
   position: PhD Candidate
   positionType: Student
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: http://twitter.com/noemie_roronoa
   instagramUrl: http://instagram.com/noemie_roronoa
-  githubUrl: .nan
+  githubUrl: ~
   linkedinUrl: https://www.linkedin.com/in/no%C3%A9mie-friscourt-841088136/
   orcidUrl: https://orcid.org/0000-0001-8470-2795
-  gscholarUrl: .nan
+  gscholarUrl: ~
   researchgateUrl: https://www.researchgate.net/profile/Noemie_Friscourt
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: southern ocean, seal, whiskers, isotopes, trace metals
-  bio: <p id="">My current project focuses on the trophic and foraging ecology of
+  bio:
+    <p id="">My current project focuses on the trophic and foraging ecology of
     the Antarctic fur seals, using stable isotopes and trace metals.</p> <p>10 years
     of data!!! The sampling collection of the whiskers took place on Marion Island
     in sub-Antarctic Indian ocean from 2008 to 2019. Asan archival tissue, the whiskers
@@ -765,18 +790,19 @@
   position: PhD Candidate
   positionType: Student
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: https://twitter.com/littledove440
   instagramUrl: https://www.instagram.com/ols_dove/
-  githubUrl: .nan
+  githubUrl: ~
   linkedinUrl: https://www.linkedin.com/in/ollydove
   orcidUrl: https://orcid.org/0000-0002-4469-3596
-  gscholarUrl: .nan
-  researchgateUrl: .nan
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  gscholarUrl: ~
+  researchgateUrl: ~
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Seabirds feeding in Storm Bay
-  bio: "<p id=\"\">I\u2019ll be looking into the foraging behaviour of little penguins\
+  bio:
+    "<p id=\"\">I\u2019ll be looking into the foraging behaviour of little penguins\
     \ and short-tailed shearwaters (with a guest appearance from fur seals)within\
     \ the Storm Bay region here in south-east Tasmania, in order to investigate the\
     \ possible effects of anthropogenic factors on their lifestyles.</p> <p>Living\
@@ -789,18 +815,19 @@
   position: PhD Candidate
   positionType: Student
   isPastMember: true
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: http://twitter.com/seagreenpaige
-  instagramUrl: .nan
-  githubUrl: .nan
-  linkedinUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
   orcidUrl: https://orcid.org/0000-0002-3582-8321
-  gscholarUrl: .nan
-  researchgateUrl: .nan
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  gscholarUrl: ~
+  researchgateUrl: ~
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Crested penguins during winter migrations
-  bio: <p id="">Looking at resource partitioning between Eudyptes spp. (crested penguins)
+  bio:
+    <p id="">Looking at resource partitioning between Eudyptes spp. (crested penguins)
     during their winter at-sea distributions.</p> <p>Processing lots of geolocation
     tracks, collaborating with amazing researchers from around the world, learning
     on a steep curve, having fun using different analyses to tell a story.</p> <p>Niche
@@ -813,16 +840,17 @@
   isPastMember: true
   yearCompleted: 2021.0
   xUrl: https://twitter.com/pennybeaver
-  instagramUrl: .nan
-  githubUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
   linkedinUrl: https://www.linkedin.com/in/penny-beaver-6733b41ba/
   orcidUrl: https://orcid.org/0000-0002-2038-4369
-  gscholarUrl: .nan
+  gscholarUrl: ~
   researchgateUrl: https://www.researchgate.net/profile/Penny_Beaver2
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Habitat selection, niche space
-  bio: <p id="">I am currently investigating the links between habitat use and diet
+  bio:
+    <p id="">I am currently investigating the links between habitat use and diet
     variations through the use of light geolocators, direct diet samples and stable
     isotope analysis of a small procellariiform, the wedge-tailed shearwater (Ardenna
     pacifica) in south-eastern Australia.</p> <p>I have been working with spatial
@@ -841,18 +869,19 @@
   position: Macquarie Island Project Researcher
   positionType: Staff
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: https://twitter.com/pppascoe
-  instagramUrl: .nan
-  githubUrl: .nan
-  linkedinUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
   orcidUrl: https://orcid.org/0000-0001-9586-1046
-  gscholarUrl: .nan
+  gscholarUrl: ~
   researchgateUrl: https://www.researchgate.net/profile/Penelope-Pascoe
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Islands, guano, isotopes, recovery, time
-  bio: <p id="">My PhD research is investigating the use of stable isotope analysis
+  bio:
+    <p id="">My PhD research is investigating the use of stable isotope analysis
     for quantifying the progression of island ecosystem recovery following invasive
     mammal eradications.</p> <p>I am undertaking a large-scale natural experiment
     on islands from around New Zealand, Australia and the sub-Antarctic, comparing
@@ -871,15 +900,16 @@
   yearCompleted: 2023
   xUrl: http://twitter.com/peterpuskic
   instagramUrl: http://instagram.com/peterpuskic
-  githubUrl: .nan
+  githubUrl: ~
   linkedinUrl: http://linkedin.com/in/peterpuskic
   orcidUrl: https://orcid.org/0000-0003-1352-8843
-  gscholarUrl: .nan
-  researchgateUrl: .nan
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  gscholarUrl: ~
+  researchgateUrl: ~
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Impacts of plastics on seabirds
-  bio: "<p id=\"\">I am very fortunate to be able to work on the remote sub-tropical,\
+  bio:
+    "<p id=\"\">I am very fortunate to be able to work on the remote sub-tropical,\
     \ Lord Howe Island. My fieldwork is emotionally challenging, as I extract plastic\
     \ from Flesh-footed Shearwater chicks. My lab work consists of molecular and histopathology\
     \ analysis of shearwaters and their stomachs to determine if plastics have caused\
@@ -896,18 +926,19 @@
   position: PhD Candidate
   positionType: Student
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: http://twitter.com/SophiaVolzke
   instagramUrl: http://instagram.com/sophtopus
-  githubUrl: .nan
+  githubUrl: ~
   linkedinUrl: https://www.linkedin.com/in/sophia-volzke-a06b0368/
-  orcidUrl: https://www.researchgate.net/profile/Sophia_Volzke2
+  orcidUrl: ~
   gscholarUrl: https://scholar.google.com.au/citations?hl=en&user=2GqSFtUAAAAJ
   researchgateUrl: https://www.researchgate.net/profile/Sophia-Volzke
   utasProfileUrl: https://rmdb.research.utas.edu.au/public/rmdb/q/indiv_detail_warp_trans/57848
   peronsalUrl: https://sophia-volzke.myportfolio.com/
   researchProjectIn5Words: Modelling Southern Elephant Seal Demography
-  bio: <p id="">Modelling climate influences on Southern Elephant Seal Demography
+  bio:
+    <p id="">Modelling climate influences on Southern Elephant Seal Demography
     </p> <p>With capture histories dating back to the 1960s, Macquarie Island holds
     one of the most continuously studied elephant seal populations. I will be developing
     demographic models to analyse the survival of southern elephant seals (Mirounga
@@ -923,18 +954,19 @@
   position: Senior Lecturer
   positionType: Staff
   isPastMember: false
-  yearCompleted: .nan
+  yearCompleted: ~
   xUrl: twitter.com/BestleySophie
-  instagramUrl: .nan
-  githubUrl: .nan
-  linkedinUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
   orcidUrl: https://orcid.org/0000-0001-9342-669X
   gscholarUrl: https://scholar.google.com/citations?user=9Nl9LvkAAAAJ&hl=en
   researchgateUrl: https://www.researchgate.net/profile/Sophie-Bestley
   utasProfileUrl: https://www.utas.edu.au/profiles/staff/imas/sophie-bestley
-  peronsalUrl: .nan
+  peronsalUrl: ~
   researchProjectIn5Words: Integrated Southern Ocean ecology
-  bio: "<p id=\"\">I\u2019m a Senior Lecturer in Quantitative Southern Ocean Ecology\
+  bio:
+    "<p id=\"\">I\u2019m a Senior Lecturer in Quantitative Southern Ocean Ecology\
     \ within the Ecology &amp; Biodiversity Centre at IMAS-UTAS. I have a passion\
     \ for integrative Antarctic and Southern Ocean research focused on the ecology\
     \ of highly mobile marine predators and the ecosystems upon which they depend.\
@@ -985,16 +1017,17 @@
   isPastMember: true
   yearCompleted: 2021.0
   xUrl: https://twitter.com/TobyTravers_
-  instagramUrl: .nan
-  githubUrl: .nan
+  instagramUrl: ~
+  githubUrl: ~
   linkedinUrl: https://www.linkedin.com/in/td-travers
-  orcidUrl: .nan
-  gscholarUrl: .nan
-  researchgateUrl: .nan
+  orcidUrl: ~
+  gscholarUrl: ~
+  researchgateUrl: ~
   utasProfileUrl: https://rmdb.research.utas.edu.au/public/rmdb/q/indiv_detail_warp_trans/41431
-  peronsalUrl: .nan
+  peronsalUrl: ~
   researchProjectIn5Words: Eradicate rabbits, some skuas die
-  bio: "<p id=\"\">I\u2019m studying how the eradication of invasive rabbits from\
+  bio:
+    "<p id=\"\">I\u2019m studying how the eradication of invasive rabbits from\
     \ subantarctic Macquarie Island affected the diet and breeding of a native predator,\
     \ the Brown Skua.</p> <p>My work includes nest monitoring, GPS tracking, stable\
     \ isotope analysis (including compound-specific stable isotope analysis), and\
@@ -1012,17 +1045,18 @@
   positionType: Student
   isPastMember: true
   yearCompleted: 2020.0
-  xUrl: .nan
-  instagramUrl: .nan
-  githubUrl: .nan
+  xUrl: ~
+  instagramUrl: ~
+  githubUrl: ~
   linkedinUrl: https://www.linkedin.com/in/yash-gimonkar/
-  orcidUrl: .nan
-  gscholarUrl: .nan
+  orcidUrl: ~
+  gscholarUrl: ~
   researchgateUrl: https://www.researchgate.net/profile/Yash-Gimonkar
-  utasProfileUrl: .nan
-  peronsalUrl: .nan
+  utasProfileUrl: ~
+  peronsalUrl: ~
   researchProjectIn5Words: Killer whales are costly competitors
-  bio: "<p id=\"\">My current research is on killer whale depredation in the blue-eye\
+  bio:
+    "<p id=\"\">My current research is on killer whale depredation in the blue-eye\
     \ trevalla commercial longline fisheries of south-east Australia. In simple terms,\
     \ depredation can be defined as the complete or partial removal of caught fish\
     \ from fishing gears by marine predators. During my master\u2019s thesis, I had\
