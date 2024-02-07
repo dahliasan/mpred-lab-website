@@ -33,9 +33,7 @@ website:
 
 format:
   html:
-    theme:
-      dark: [journal, 'css/theme-dark.scss', 'css/custom.scss']
-      light: [journal, 'css/custom.scss']
+    theme: [journal, 'css/theme-dark.scss', 'css/custom.scss']
     toc: true
 
 editor: visual
