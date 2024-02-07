@@ -30,10 +30,11 @@ website:
     right:
       - icon: twitter
         href: https://twitter.com/mpred_lab
-
 format:
   html:
     theme: [journal, 'css/theme-dark.scss', 'css/custom.scss']
     toc: true
-
 editor: visual
+execute:
+  freeze: auto
+
