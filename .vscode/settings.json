@@ -8,5 +8,7 @@
   },
   "[html]": {
     "editor.defaultFormatter": "j69.ejs-beautify"
-  }
+  },
+  "python.analysis.typeCheckingMode": "off",
+  "python.analysis.autoImportCompletions": true
 }
