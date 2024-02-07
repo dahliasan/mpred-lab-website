@@ -75,7 +75,11 @@ people_final <- people_final |>
    mutate(authors = purrr::map(author, ~paste0(.x$given, " ", .x$family, collapse = ", "))) |> 
    unnest(authors) 
 
-# convert JAT xml to html
+# Save as JSON
+jsonlite::write_json(people_final, "db/publications.json", pretty = TRUE)
+
+# Save as YAML
+
 
 
 # create embeddings for abstract and research themes.
