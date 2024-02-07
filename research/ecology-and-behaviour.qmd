@@ -11,18 +11,18 @@ listing:
   max-items: 50
   sort: "year desc"
   contents: "../db/publications.yaml"
-  # type: table
+  type: table
   fields: [title, author, journal, year]
   include:
     author: "*Lea*"
   field-display-names:
     journal: "Journal"
     year: "Year"
-  template: "../templates/publications.ejs"
+  # template: "../templates/publications.ejs"
 ---
 
 ## Publications
-::: {#publications .listings-grid}
+::: {#publications}
 
 
 :::
