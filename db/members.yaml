@@ -3,23 +3,6 @@
 # Appears on the website in the same order listed here.
 
 # Staff
-- name: Prof Mark Hindell
-  slug: mark-hindell
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070768f4420a04aa8f4_60bacff1c2e03c5617ef9189_mh.jpeg
-  position: Emeritus Professor
-  positionType: Staff
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: ~
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
-  orcidUrl: https://orcid.org/0000-0002-7823-7185
-  gscholarUrl: https://scholar.google.com.au/citations?user=8J8xm0kAAAAJ&hl=en
-  researchgateUrl: https://www.researchgate.net/profile/Mark-Hindell
-  utasProfileUrl: https://www.utas.edu.au/profiles/staff/imas-qms-utas/mark-hindell
-  peronsalUrl: ~
-  researchProjectIn5Words: antarctic southern ocean marine predators
 - name: Prof Mary-Anne Lea
   slug: mary-anne-lea
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071a056a230789909dd_60bad0084214cae8271ec17a_malea.jpeg
@@ -139,6 +122,23 @@
   utasProfileUrl: https://www.utas.edu.au/profiles/staff/imas/clive-mcmahon
   peronsalUrl: ~
   researchProjectIn5Words: IMOS Antarctic seal tracking program
+- name: Prof Mark Hindell
+  slug: mark-hindell
+  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070768f4420a04aa8f4_60bacff1c2e03c5617ef9189_mh.jpeg
+  position: Emeritus Professor
+  positionType: Staff
+  isPastMember: false
+  yearCompleted: ~
+  xUrl: ~
+  instagramUrl: ~
+  githubUrl: ~
+  linkedinUrl: ~
+  orcidUrl: https://orcid.org/0000-0002-7823-7185
+  gscholarUrl: https://scholar.google.com.au/citations?user=8J8xm0kAAAAJ&hl=en
+  researchgateUrl: https://www.researchgate.net/profile/Mark-Hindell
+  utasProfileUrl: https://www.utas.edu.au/profiles/staff/imas-qms-utas/mark-hindell
+  peronsalUrl: ~
+  researchProjectIn5Words: antarctic southern ocean marine predators
 - name: Dr Penny Pascoe
   slug: penny-pascoe
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd072db3214e82d736da9_60bad2427a233c3af0e69407_ppascoe.jpeg
