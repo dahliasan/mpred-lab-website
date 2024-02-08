@@ -35,6 +35,4 @@ format:
     theme: [journal, 'css/theme-dark.scss', 'css/custom.scss']
     toc: true
 editor: visual
-execute:
-  freeze: auto
 
