@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.549">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -50,13 +50,7 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
+  "limit": 20,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -65,7 +59,6 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -134,35 +127,8 @@ ul.task-list li input[type="checkbox"] {
   <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
 <meta property="og:title" content="IMAS Marine Predator Lab | Marine Mammal and Seabird Research - About Us">
-<meta property="og:site_name" content="IMAS Marine Predator Lab | Marine Mammal and Seabird Research">
+<meta property="og:site-name" content="IMAS Marine Predator Lab | Marine Mammal and Seabird Research">
 <meta name="twitter:title" content="IMAS Marine Predator Lab | Marine Mammal and Seabird Research - About Us">
 <meta name="twitter:creator" content="@dahliasan">
 <meta name="twitter:site" content="@mpredlab">
@@ -173,9 +139,9 @@ window.Quarto = {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
+      <div class="navbar-brand-container">
     <a href="./index.html" class="navbar-brand navbar-brand-logo">
     <img src="./mpredlab-logo-white.svg" alt="IMAS MPred Lab (Marine Predator Lab)" class="navbar-logo">
     </a>
@@ -187,36 +153,36 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./index.html" rel="" target="">
+ <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./team.html" aria-current="page"> 
-<span class="menu-text">About Us</span></a>
+    <a class="nav-link active" href="./team.html" rel="" target="" aria-current="page">
+ <span class="menu-text">About Us</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
-<span class="menu-text">Blog</span></a>
+    <a class="nav-link" href="./blog.html" rel="" target="">
+ <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./contact.html"> 
-<span class="menu-text">Contact</span></a>
+    <a class="nav-link" href="./contact.html" rel="" target="">
+ <span class="menu-text">Contact</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./#our-research-themes"> 
-<span class="menu-text">Research</span></a>
+    <a class="nav-link" href="./#our-research-themes" rel="" target="">
+ <span class="menu-text">Research</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com/mpred_lab"> <i class="bi bi-twitter" role="img">
+    <a class="nav-link" href="https://twitter.com/mpred_lab" rel="" target=""><i class="bi bi-twitter" role="img">
 </i> 
-<span class="menu-text"></span></a>
+ <span class="menu-text"></span></a>
   </li>  
 </ul>
-          </div> <!-- /navcollapse -->
-          <div class="quarto-navbar-tools">
+            <div class="quarto-navbar-tools">
 </div>
+          </div> <!-- /navcollapse -->
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -244,7 +210,7 @@ window.Quarto = {
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
   
@@ -252,484 +218,534 @@ window.Quarto = {
   </div>
   
 
-
 </header>
-
 
 <section id="current-members" class="level2">
 <h2 class="anchored" data-anchor-id="current-members">Current Members</h2>
 <div id="listing-members-active" class="quarto-listing quarto-listing-container-custom">
 <ul class="listing-grid" style="--column-width: 200px;">
-<pre><code>&lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070768f4420a04aa8f4_60bacff1c2e03c5617ef9189_mh.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Prof Mark Hindell&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;Emeritus Professor&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;antarctic southern ocean marine predators&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://scholar.google.com.au/citations?user=8J8xm0kAAAAJ&amp;hl=en"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Mark-Hindell"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0002-7823-7185"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071a056a230789909dd_60bad0084214cae8271ec17a_malea.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Prof Mary-Anne Lea&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;Lab Leader&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;marine predator ecology and behaviour&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/icetempete"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://scholar.google.com.au/citations?user=U7aQd08AAAAJ&amp;hl=en"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Mary-Anne-Lea"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0001-8318-9299"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/6358f56f83fb345c9551044d_IMG_8187.jpg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Dr Jane Younger&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;Lecturer&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;marine predators, disease, climate change&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://@jane_younger"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://scholar.google.com/citations?user=CEBV6KoAAAAJ&amp;hl=en"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Jane-Younger-2"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c01c22ad9536f913d99059_62bfeaf248259b13dd6a772b_sophie-bestley_cropped.png');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Dr Sophie Bestley&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;Senior Lecturer&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Integrated Southern Ocean ecology&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="twitter.com/BestleySophie"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://scholar.google.com/citations?user=9Nl9LvkAAAAJ&amp;hl=en"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Sophie-Bestley"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0001-9342-669X"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070079cd35658326de7_60bad130320690eb03c2f935_lroman.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Dr Lauren Roman&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;DECRA Fellow Researcher&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;threatened australian seabird conservation&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://twitter.com/DrLaurenRoman"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Lauren_Roman"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0003-3591-4905"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070024df8465e2bdb9e_60bad1409d47da2d53a95b99_jmcinnes.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Dr Julie McInnes&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;Postdoc&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Stool tool for any fool&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/pengatross"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Julie_McInnes"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f7f5d65d63c27796c_60bacfbf3cf7fc2fd1959e70_dgreen.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Dr David Green&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;Postdoc&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Prey models and marine predators&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/davo.b.green"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0002-0346-3129"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f56ff43844999b5d4_60bacfa52551d71bc5865740_cm.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Dr Clive McMahon&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;Adjunct Researcher&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;IMOS Antarctic seal tracking program&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://scholar.google.com/citations?user=s8Fg-CcAAAAJ&amp;hl=en"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Clive-Mcmahon"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0001-5241-8917"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd072db3214e82d736da9_60bad2427a233c3af0e69407_ppascoe.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Dr Penny Pascoe&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;Macquarie Island Project Researcher&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Islands, guano, isotopes, recovery, time&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://twitter.com/pppascoe"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Penelope-Pascoe"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0001-9586-1046"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c01c2040626f7449cc844b_60bad1aa9d72e099e633bcfb_dfoo.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Dr Dahlia Foo&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;Adjunct Researcher&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;bad weather sucks for pups&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://github.com/dahliasan"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://twitter.com/dahliafoo"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://scholar.google.com/citations?user=XhccAjAAAAAJ&amp;hl=en"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Dahlia-Foo"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0002-4983-9208"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070e78b6d224da21fd9_60baf4c8c880e7722324091e_mbrasier.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Dr Madeleine Brasier&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;Adjunct Researcher&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;identifying humpback whales in Tasmania&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/madsbrasier"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://scholar.google.com/citations?user=x0c84wMAAAAJ&amp;hl=en"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06e789023ae1819aeab_60bad06a7d16f450b4256cc6_ahenderson.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Angus Henderson&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Whale Obs from Tourist Vessels&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/afhender"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://scholar.google.com/citations?user=KWKcZT8AAAAJ&amp;hl=en&amp;oi=sra"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0002-0112-3913"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06e6d5c5045b4c0b683_60bad58183017e7256048f9c_bviola.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Benjamin Viola&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;future (sub)Antarctic seabird habitat use&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://twitter.com/bm_viola"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd07050406e75f3557f0f_60bad020c2e03c5d16ef9224_dwall.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Demelza Wall&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;new vs old seal colonies&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/demelzawall"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06facd22a7ccf3dd049_60bad6bc83017e5abb049263_cmarciau.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Coline Marciau&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Adelie penguins ecophysiology and behaviour&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Coline-Marciau"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/63ed9d3e730cbae357268e7a_326708672_2188228714694298_8758376112241024385_n.jpg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Georgia Mergard&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;DNA metabarcoding, poo, food webs&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/georgiamergard"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071ba41c87ef5ff2365_60bad0382070983422e254ca_mwells.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Melanie Wells&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Factors that influence seabird parasitism&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://twitter.com/MelRoseWells"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://scholar.google.com/citations?user=sQScD0AAAAAJ&amp;hl=en&amp;oi=ao"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Melanie-Wells-4"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c626d05f3702cbfd3df91e_milan-soljitra.jpg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Milan Sojitra&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Seabirds, marine mammals, climate change&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://twitter.com/MilanS0jitra"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Milan-Sojitra"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0001-5545-2440"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd07108f411259f6fd444_60936a9a8088e2604d26953e_IMG_2085.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Noémie Friscourt&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;southern ocean, seal, whiskers, isotopes, trace metals&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/noemie_roronoa"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Noemie_Friscourt"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0001-8470-2795"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071e78b6d916da21fdd_60bad0eb37e076af08d3d52a_odove.jpeg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Olly Dove&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Seabirds feeding in Storm Bay&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://twitter.com/littledove440"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0002-4469-3596"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c7831da7f16b640d2a6c1f_Kunanji%20Photography%20LR.jpg');"&gt;&lt;/div&gt;
-    &lt;h3 class="fs-5" style="margin:0;"&gt;Sophia Volzke&lt;/h3&gt;
-    &lt;div class="fw-bold" style="font-size: 12px;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Modelling Southern Elephant Seal Demography&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/SophiaVolzke"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://scholar.google.com.au/citations?hl=en&amp;user=2GqSFtUAAAAJ"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Sophia-Volzke"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;</code></pre>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070768f4420a04aa8f4_60bacff1c2e03c5617ef9189_mh.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Prof Mark Hindell
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+Emeritus Professor
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+antarctic southern ocean marine predators
+</div>
+<ul class="social-links">
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://scholar.google.com.au/citations?user=8J8xm0kAAAAJ&amp;hl=en"><i class="ai  ai-google-scholar ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Mark-Hindell"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://orcid.org/0000-0002-7823-7185"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071a056a230789909dd_60bad0084214cae8271ec17a_malea.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Prof Mary-Anne Lea
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+Lab Leader
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+marine predator ecology and behaviour
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/icetempete"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://scholar.google.com.au/citations?user=U7aQd08AAAAJ&amp;hl=en"><i class="ai  ai-google-scholar ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Mary-Anne-Lea"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://orcid.org/0000-0001-8318-9299"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/6358f56f83fb345c9551044d_IMG_8187.jpg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Dr Jane Younger
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+Lecturer
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+marine predators, disease, climate change
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://@jane_younger"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://scholar.google.com/citations?user=CEBV6KoAAAAJ&amp;hl=en"><i class="ai  ai-google-scholar ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Jane-Younger-2"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c01c22ad9536f913d99059_62bfeaf248259b13dd6a772b_sophie-bestley_cropped.png');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Dr Sophie Bestley
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+Senior Lecturer
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Integrated Southern Ocean ecology
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="twitter.com/BestleySophie"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://scholar.google.com/citations?user=9Nl9LvkAAAAJ&amp;hl=en"><i class="ai  ai-google-scholar ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Sophie-Bestley"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://orcid.org/0000-0001-9342-669X"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070079cd35658326de7_60bad130320690eb03c2f935_lroman.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Dr Lauren Roman
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+DECRA Fellow Researcher
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+threatened australian seabird conservation
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="https://twitter.com/DrLaurenRoman"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Lauren_Roman"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://orcid.org/0000-0003-3591-4905"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070024df8465e2bdb9e_60bad1409d47da2d53a95b99_jmcinnes.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Dr Julie McInnes
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+Postdoc
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Stool tool for any fool
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/pengatross"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Julie_McInnes"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f7f5d65d63c27796c_60bacfbf3cf7fc2fd1959e70_dgreen.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Dr David Green
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+Postdoc
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Prey models and marine predators
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/davo.b.green"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://orcid.org/0000-0002-0346-3129"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f56ff43844999b5d4_60bacfa52551d71bc5865740_cm.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Dr Clive McMahon
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+Adjunct Researcher
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+IMOS Antarctic seal tracking program
+</div>
+<ul class="social-links">
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://scholar.google.com/citations?user=s8Fg-CcAAAAJ&amp;hl=en"><i class="ai  ai-google-scholar ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Clive-Mcmahon"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://orcid.org/0000-0001-5241-8917"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd072db3214e82d736da9_60bad2427a233c3af0e69407_ppascoe.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Dr Penny Pascoe
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+Macquarie Island Project Researcher
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Islands, guano, isotopes, recovery, time
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="https://twitter.com/pppascoe"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Penelope-Pascoe"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://orcid.org/0000-0001-9586-1046"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c01c2040626f7449cc844b_60bad1aa9d72e099e633bcfb_dfoo.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Dr Dahlia Foo
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+Adjunct Researcher
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+bad weather sucks for pups
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="https://github.com/dahliasan"><iconify-icon inline="" icon="bi:github"></iconify-icon></a>
+</li>
+<li>
+<a target="_blank" href="https://twitter.com/dahliafoo"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://scholar.google.com/citations?user=XhccAjAAAAAJ&amp;hl=en"><i class="ai  ai-google-scholar ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Dahlia-Foo"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://orcid.org/0000-0002-4983-9208"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070e78b6d224da21fd9_60baf4c8c880e7722324091e_mbrasier.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Dr Madeleine Brasier
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+Adjunct Researcher
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+identifying humpback whales in Tasmania
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/madsbrasier"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://scholar.google.com/citations?user=x0c84wMAAAAJ&amp;hl=en"><i class="ai  ai-google-scholar ai-lg"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06e789023ae1819aeab_60bad06a7d16f450b4256cc6_ahenderson.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Angus Henderson
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Whale Obs from Tourist Vessels
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/afhender"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://scholar.google.com/citations?user=KWKcZT8AAAAJ&amp;hl=en&amp;oi=sra"><i class="ai  ai-google-scholar ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://orcid.org/0000-0002-0112-3913"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06e6d5c5045b4c0b683_60bad58183017e7256048f9c_bviola.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Benjamin Viola
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+future (sub)Antarctic seabird habitat use
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="https://twitter.com/bm_viola"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd07050406e75f3557f0f_60bad020c2e03c5d16ef9224_dwall.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Demelza Wall
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+new vs old seal colonies
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/demelzawall"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06facd22a7ccf3dd049_60bad6bc83017e5abb049263_cmarciau.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Coline Marciau
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Adelie penguins ecophysiology and behaviour
+</div>
+<ul class="social-links">
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Coline-Marciau"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/63ed9d3e730cbae357268e7a_326708672_2188228714694298_8758376112241024385_n.jpg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Georgia Mergard
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+DNA metabarcoding, poo, food webs
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/georgiamergard"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071ba41c87ef5ff2365_60bad0382070983422e254ca_mwells.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Melanie Wells
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Factors that influence seabird parasitism
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="https://twitter.com/MelRoseWells"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://scholar.google.com/citations?user=sQScD0AAAAAJ&amp;hl=en&amp;oi=ao"><i class="ai  ai-google-scholar ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Melanie-Wells-4"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c626d05f3702cbfd3df91e_milan-soljitra.jpg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Milan Sojitra
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Seabirds, marine mammals, climate change
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="https://twitter.com/MilanS0jitra"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Milan-Sojitra"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://orcid.org/0000-0001-5545-2440"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd07108f411259f6fd444_60936a9a8088e2604d26953e_IMG_2085.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Noémie Friscourt
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+southern ocean, seal, whiskers, isotopes, trace metals
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/noemie_roronoa"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Noemie_Friscourt"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://orcid.org/0000-0001-8470-2795"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071e78b6d916da21fdd_60bad0eb37e076af08d3d52a_odove.jpeg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Olly Dove
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Seabirds feeding in Storm Bay
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="https://twitter.com/littledove440"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://orcid.org/0000-0002-4469-3596"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div class="profile-image mb-1" style="background-image:url('https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c7831da7f16b640d2a6c1f_Kunanji%20Photography%20LR.jpg');">
+
+</div>
+<h3 class="fs-5 anchored" style="margin:0;">
+Sophia Volzke
+</h3>
+<div class="fw-bold" style="font-size: 12px;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Modelling Southern Elephant Seal Demography
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/SophiaVolzke"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://scholar.google.com.au/citations?hl=en&amp;user=2GqSFtUAAAAJ"><i class="ai  ai-google-scholar ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Sophia-Volzke"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+</ul>
+</li>
 </ul>
 <div class="listing-no-matching d-none">
 No matching items
@@ -743,261 +759,246 @@ No matching items
 <h2 class="anchored" data-anchor-id="alumni-members">Alumni Members</h2>
 <div id="listing-members-alumni" class="quarto-listing quarto-listing-container-custom">
 <ul class="listing-grid" style="--column-width: 200px;">
-<pre><code>&lt;li&gt;
-    &lt;div&gt;Dr Bree Woods&lt;/div&gt;
-    &lt;div style="font-size: 12px; font-weight: 700;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;deep ocean squid and fish&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/breelwoods/"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Briannyn-Woods"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0001-6735-3626"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
+<li>
+<div>
+Dr Bree Woods
+</div>
+<div style="font-size: 12px; font-weight: 700;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+deep ocean squid and fish
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/breelwoods/"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Briannyn-Woods"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://orcid.org/0000-0001-6735-3626"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div>
+Dr Claire Mason
+</div>
+<div style="font-size: 12px; font-weight: 700;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Climate impacts on shy albatross.
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/clairejmason"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://scholar.google.com/citations?user=slRb2BQAAAAJ&amp;hl=en"><i class="ai  ai-google-scholar ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Claire_Mason5"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div>
+Connor McGarry
+</div>
+<div style="font-size: 12px; font-weight: 700;">
+Honours Student
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+foraging ecology of southern elephant seals
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/ConnorMcGarry04"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div>
+Dr Toby Travers
+</div>
+<div style="font-size: 12px; font-weight: 700;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Eradicate rabbits, some skuas die
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="https://twitter.com/TobyTravers_"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+</ul>
+</li>
+<li>
+<div>
+Yash Gimonkar
+</div>
+<div style="font-size: 12px; font-weight: 700;">
+Masters Student
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Killer whales are costly competitors
+</div>
+<ul class="social-links">
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Yash-Gimonkar"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div>
+Dr Ben Arthur
+</div>
+<div style="font-size: 12px; font-weight: 700;">
+Adjunct Researcher
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+marine science outreach and education
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/bluewaterben"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://scholar.google.com.au/citations?user=QS_-u7MAAAAJ&amp;hl=en"><i class="ai  ai-google-scholar ai-lg"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div>
+Dr Peter Puskic
+</div>
+<div style="font-size: 12px; font-weight: 700;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Impacts of plastics on seabirds
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/peterpuskic"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://orcid.org/0000-0003-1352-8843"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div>
+Dr Amy Coghlan
+</div>
+<div style="font-size: 12px; font-weight: 700;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
 
-
-
-  &lt;li&gt;
-    &lt;div&gt;Dr Claire Mason&lt;/div&gt;
-    &lt;div style="font-size: 12px; font-weight: 700;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Climate impacts on shy albatross.&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/clairejmason"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://scholar.google.com/citations?user=slRb2BQAAAAJ&amp;hl=en"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Claire_Mason5"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-
-
-
-
-  &lt;li&gt;
-    &lt;div&gt;Connor McGarry&lt;/div&gt;
-    &lt;div style="font-size: 12px; font-weight: 700;"&gt;Honours Student&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;foraging ecology of southern elephant seals&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/ConnorMcGarry04"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  &lt;li&gt;
-    &lt;div&gt;Dr Toby Travers&lt;/div&gt;
-    &lt;div style="font-size: 12px; font-weight: 700;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Eradicate rabbits, some skuas die&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://twitter.com/TobyTravers_"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div&gt;Yash Gimonkar&lt;/div&gt;
-    &lt;div style="font-size: 12px; font-weight: 700;"&gt;Masters Student&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Killer whales are costly competitors&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Yash-Gimonkar"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div&gt;Dr Ben Arthur&lt;/div&gt;
-    &lt;div style="font-size: 12px; font-weight: 700;"&gt;Adjunct Researcher&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;marine science outreach and education&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/bluewaterben"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://scholar.google.com.au/citations?user=QS_-u7MAAAAJ&amp;hl=en"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div&gt;Dr Peter Puskic&lt;/div&gt;
-    &lt;div style="font-size: 12px; font-weight: 700;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Impacts of plastics on seabirds&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/peterpuskic"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0003-1352-8843"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div&gt;Dr Amy Coghlan&lt;/div&gt;
-    &lt;div style="font-size: 12px; font-weight: 700;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://github.com/amroco"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://scholar.google.fr/citations?user=Y_1F4-UAAAAJ&amp;hl=en&amp;oi=ao"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Amy-Coghlan"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div&gt;Ashleigh Fay&lt;/div&gt;
-    &lt;div style="font-size: 12px; font-weight: 700;"&gt;Masters Student&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Australian fur seal behaviour and foraging ecology&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/ashleighhfay"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://scholar.google.com/citations?hl=en&amp;user=qzRQGbMAAAAJ&amp;view_op=list_works&amp;gmla=AJsN-F4nhssB-uXponKO5jflu0zdtWtCcRZ65rIZ03-kqel3bPMSILX4-psF6RucgoVQ4QA-zTlT1OOnol7TJG3k75fQdlxhqmITSVSkNAIS8KpQSIIu0iU"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div&gt;Dr Javed Riaz&lt;/div&gt;
-    &lt;div style="font-size: 12px; font-weight: 700;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Adelie penguins as ecosystem indicators&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Javed_Riaz"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-
-
-  &lt;li&gt;
-    &lt;div&gt;Dr Paige Green&lt;/div&gt;
-    &lt;div style="font-size: 12px; font-weight: 700;"&gt;PhD Candidate&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Crested penguins during winter migrations&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="http://twitter.com/seagreenpaige"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0002-3582-8321"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;
-
-
-
-  &lt;li&gt;
-    &lt;div&gt;Penny Beaver&lt;/div&gt;
-    &lt;div style="font-size: 12px; font-weight: 700;"&gt;Masters Student&lt;/div&gt;
-    &lt;div class="font-monospace" style="font-size: 12px;"&gt;Habitat selection, niche space&lt;/div&gt;
-    &lt;ul class="social-links"&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://twitter.com/pennybeaver"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      &lt;!-- Repeat for other social media links as needed --&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://www.researchgate.net/profile/Penny_Beaver2"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-      
-        &lt;li&gt;&lt;a target="_blank" href="https://orcid.org/0000-0002-2038-4369"&gt;&lt;/a&gt;&lt;/li&gt;
-      
-    &lt;/ul&gt;
-  &lt;/li&gt;</code></pre>
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="https://github.com/amroco"><iconify-icon inline="" icon="bi:github"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://scholar.google.fr/citations?user=Y_1F4-UAAAAJ&amp;hl=en&amp;oi=ao"><i class="ai  ai-google-scholar ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Amy-Coghlan"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div>
+Ashleigh Fay
+</div>
+<div style="font-size: 12px; font-weight: 700;">
+Masters Student
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Australian fur seal behaviour and foraging ecology
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/ashleighhfay"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://scholar.google.com/citations?hl=en&amp;user=qzRQGbMAAAAJ&amp;view_op=list_works&amp;gmla=AJsN-F4nhssB-uXponKO5jflu0zdtWtCcRZ65rIZ03-kqel3bPMSILX4-psF6RucgoVQ4QA-zTlT1OOnol7TJG3k75fQdlxhqmITSVSkNAIS8KpQSIIu0iU"><i class="ai  ai-google-scholar ai-lg"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div>
+Dr Javed Riaz
+</div>
+<div style="font-size: 12px; font-weight: 700;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Adelie penguins as ecosystem indicators
+</div>
+<ul class="social-links">
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Javed_Riaz"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div>
+Dr Paige Green
+</div>
+<div style="font-size: 12px; font-weight: 700;">
+PhD Candidate
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Crested penguins during winter migrations
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="http://twitter.com/seagreenpaige"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://orcid.org/0000-0002-3582-8321"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
+<li>
+<div>
+Penny Beaver
+</div>
+<div style="font-size: 12px; font-weight: 700;">
+Masters Student
+</div>
+<div class="font-monospace" style="font-size: 12px;">
+Habitat selection, niche space
+</div>
+<ul class="social-links">
+<li>
+<a target="_blank" href="https://twitter.com/pennybeaver"><iconify-icon inline="" icon="bi:twitter-x"></iconify-icon></a>
+</li>
+<!-- Repeat for other social media links as needed -->
+<li>
+<a target="_blank" href="https://www.researchgate.net/profile/Penny_Beaver2"><i class="ai  ai-researchgate ai-lg"></i></a>
+</li>
+<li>
+<a target="_blank" href="https://orcid.org/0000-0002-2038-4369"><i class="ai  ai-orcid"></i></a>
+</li>
+</ul>
+</li>
 </ul>
 <div class="listing-no-matching d-none">
 No matching items
@@ -1091,9 +1092,10 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
-  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+  function tippyHover(el, contentFn) {
     const config = {
       allowHTML: true,
+      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -1103,17 +1105,8 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start',
+      placement: 'bottom-start'
     };
-    if (contentFn) {
-      config.content = contentFn;
-    }
-    if (onTriggerFn) {
-      config.onTrigger = onTriggerFn;
-    }
-    if (onUntriggerFn) {
-      config.onUntrigger = onUntriggerFn;
-    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -1126,125 +1119,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
       return note.innerHTML;
-    });
-  }
-  const xrefs = window.document.querySelectorAll('a.quarto-xref');
-  const processXRef = (id, note) => {
-    // Strip column container classes
-    const stripColumnClz = (el) => {
-      el.classList.remove("page-full", "page-columns");
-      if (el.children) {
-        for (const child of el.children) {
-          stripColumnClz(child);
-        }
-      }
-    }
-    stripColumnClz(note)
-    if (id === null || id.startsWith('sec-')) {
-      // Special case sections, only their first couple elements
-      const container = document.createElement("div");
-      if (note.children && note.children.length > 2) {
-        container.appendChild(note.children[0].cloneNode(true));
-        for (let i = 1; i < note.children.length; i++) {
-          const child = note.children[i];
-          if (child.tagName === "P" && child.innerText === "") {
-            continue;
-          } else {
-            container.appendChild(child.cloneNode(true));
-            break;
-          }
-        }
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(container);
-        }
-        return container.innerHTML
-      } else {
-        if (window.Quarto?.typesetMath) {
-          window.Quarto.typesetMath(note);
-        }
-        return note.innerHTML;
-      }
-    } else {
-      // Remove any anchor links if they are present
-      const anchorLink = note.querySelector('a.anchorjs-link');
-      if (anchorLink) {
-        anchorLink.remove();
-      }
-      if (window.Quarto?.typesetMath) {
-        window.Quarto.typesetMath(note);
-      }
-      // TODO in 1.5, we should make sure this works without a callout special case
-      if (note.classList.contains("callout")) {
-        return note.outerHTML;
-      } else {
-        return note.innerHTML;
-      }
-    }
-  }
-  for (var i=0; i<xrefs.length; i++) {
-    const xref = xrefs[i];
-    tippyHover(xref, undefined, function(instance) {
-      instance.disable();
-      let url = xref.getAttribute('href');
-      let hash = undefined; 
-      if (url.startsWith('#')) {
-        hash = url;
-      } else {
-        try { hash = new URL(url).hash; } catch {}
-      }
-      if (hash) {
-        const id = hash.replace(/^#\/?/, "");
-        const note = window.document.getElementById(id);
-        if (note !== null) {
-          try {
-            const html = processXRef(id, note.cloneNode(true));
-            instance.setContent(html);
-          } finally {
-            instance.enable();
-            instance.show();
-          }
-        } else {
-          // See if we can fetch this
-          fetch(url.split('#')[0])
-          .then(res => res.text())
-          .then(html => {
-            const parser = new DOMParser();
-            const htmlDoc = parser.parseFromString(html, "text/html");
-            const note = htmlDoc.getElementById(id);
-            if (note !== null) {
-              const html = processXRef(id, note);
-              instance.setContent(html);
-            } 
-          }).finally(() => {
-            instance.enable();
-            instance.show();
-          });
-        }
-      } else {
-        // See if we can fetch a full url (with no hash to target)
-        // This is a special case and we should probably do some content thinning / targeting
-        fetch(url)
-        .then(res => res.text())
-        .then(html => {
-          const parser = new DOMParser();
-          const htmlDoc = parser.parseFromString(html, "text/html");
-          const note = htmlDoc.querySelector('main.content');
-          if (note !== null) {
-            // This should only happen for chapter cross references
-            // (since there is no id in the URL)
-            // remove the first header
-            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
-              note.children[0].remove();
-            }
-            const html = processXRef(null, note);
-            instance.setContent(html);
-          } 
-        }).finally(() => {
-          instance.enable();
-          instance.show();
-        });
-      }
-    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -1288,7 +1162,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
-            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -1314,32 +1187,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
-        // Handle positioning of the toggle
-    window.addEventListener(
-      "resize",
-      throttle(() => {
-        elRect = undefined;
-        if (selectedAnnoteEl) {
-          selectCodeLines(selectedAnnoteEl);
-        }
-      }, 10)
-    );
-    function throttle(fn, ms) {
-    let throttle = false;
-    let timer;
-      return (...args) => {
-        if(!throttle) { // first call gets through
-            fn.apply(this, args);
-            throttle = true;
-        } else { // all the others get throttled
-            if(timer) clearTimeout(timer); // cancel #2
-            timer = setTimeout(() => {
-              fn.apply(this, args);
-              timer = throttle = false;
-            }, ms);
-        }
-      };
-    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -1402,9 +1249,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div> <!-- /content -->
 <footer class="footer">
   <div class="nav-footer">
-    <div class="nav-footer-left">
-<p>built and designed by <a href="https://read.cv/dahliafoo">dahlia foo</a></p>
-</div>   
+    <div class="nav-footer-left">built and designed by <a href="https://read.cv/dahliafoo">dahlia foo</a></div>   
     <div class="nav-footer-center">
       &nbsp;
     </div>
@@ -1420,7 +1265,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     </div>
   </div>
 </footer>
-
 
 
 
