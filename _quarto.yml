@@ -25,6 +25,7 @@ website:
   twitter-card:
     creator: '@dahliasan'
     site: '@mpredlab'
+  google-analytics: "G-724XDL36LX"
   page-footer:
     left: "built and designed by <a href='https://read.cv/dahliafoo'>dahlia foo</a>"
     right:
