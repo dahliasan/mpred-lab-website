@@ -1,0 +1,23 @@
+
+---
+title: "Publications"
+search: true
+format:
+  html:
+    toc: false
+    page-layout: full
+listing:
+  id: publications
+  filter-ui: true
+  sort: "year desc"
+  contents: "../db/publications.yaml"
+  type: table
+  fields: [title, author, journal, year]
+  field-display-names:
+    journal: "Journal"
+    year: "Year"
+  # template: "../templates/publications.ejs"
+---
+
+::: {#publications}
+:::
