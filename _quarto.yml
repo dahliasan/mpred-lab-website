@@ -14,18 +14,21 @@ website:
         text: Home
       - team.qmd
       - blog.qmd
-      - href: contact.qmd
-        text: Contact
+      - publications.qmd
       - href: /#our-research-themes
         text: Research
+      - href: contact.qmd
+        text: Contact
     right:
       - icon: twitter
         href: https://twitter.com/mpred_lab
-  back-to-top-navigation: true
+  back-to-top-navigation: false
+  repo-url: https://github.com/imas-mpred-lab/mpred-lab-website
+  repo-actions: [edit, issue]
   twitter-card:
     creator: '@dahliasan'
     site: '@mpredlab'
-  google-analytics: "G-724XDL36LX"
+  google-analytics: 'G-724XDL36LX'
   page-footer:
     left: "built and designed by <a href='https://read.cv/dahliafoo'>dahlia foo</a>"
     right:
@@ -33,7 +36,8 @@ website:
         href: https://twitter.com/mpred_lab
 format:
   html:
-    theme: [journal, 'css/theme-dark.scss', 'css/custom.scss']
+    theme:
+      - cyborg
+      - 'css/custom.scss'
     toc: true
 editor: visual
-
