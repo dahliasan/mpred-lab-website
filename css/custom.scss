@@ -1,29 +1,10 @@
 /*-- scss:defaults --*/
-@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap');
+// Variables
 
-:focus {
-  box-shadow: none !important;
+$web-font-path: 'https://fonts.googleapis.com/css2?family=Inclusive+Sans:ital@0;1&display=swap' !default;
+@if $web-font-path {
+  @import url($web-font-path);
 }
-
-:focus-visible {
-  outline: none !important;
-  box-shadow: 0 0 0 0.1rem !important;
-}
-
-:root {
-  --font-size-sm: clamp(0.7rem, 0.09vw + 0.68rem, 0.75rem);
-  --font-size-base: clamp(0.88rem, 0.23vw + 0.82rem, 1rem);
-  --font-size-md: clamp(1.09rem, 0.43vw + 0.98rem, 1.33rem);
-  --font-size-lg: clamp(1.37rem, 0.74vw + 1.18rem, 1.78rem);
-  --font-size-xl: clamp(1.71rem, 1.2vw + 1.41rem, 2.37rem);
-  --font-size-xxl: clamp(2.14rem, 1.86vw + 1.67rem, 3.16rem);
-  --font-size-xxxl: clamp(2.67rem, 2.8vw + 1.97rem, 4.21rem);
-  --bs-body-line-height: 1.4;
-}
-
-// Journal 5.3.2
-// Bootswatch
-$theme: 'journal' !default;
 
 //
 // Color system
@@ -31,90 +12,93 @@ $theme: 'journal' !default;
 
 $white: #fff !default;
 $gray-100: #f8f9fa !default;
-$gray-200: #eee !default;
+$gray-200: #e9ecef !default;
 $gray-300: #dee2e6 !default;
-$gray-400: #ced4da !default;
-$gray-500: #aaa !default;
-$gray-600: #777 !default;
-$gray-700: #495057 !default;
-$gray-800: #333 !default;
-$gray-900: #222 !default;
+$gray-400: #adafae !default;
+$gray-500: #888 !default;
+$gray-600: #555 !default;
+$gray-700: #282828 !default;
+$gray-800: #222 !default;
+$gray-900: #212529 !default;
 $black: #000 !default;
 
-$blue: #eb6864 !default;
+$blue: #2a9fd6 !default;
 $indigo: #6610f2 !default;
 $purple: #6f42c1 !default;
 $pink: #e83e8c !default;
-$red: #f57a00 !default;
+$red: #c00 !default;
 $orange: #fd7e14 !default;
-$yellow: #f5e625 !default;
-$green: #22b24c !default;
+$yellow: #f80 !default;
+$green: #77b300 !default;
 $teal: #20c997 !default;
-$cyan: #369 !default;
+$cyan: #93c !default;
 
-$primary: #01110a !default;
-$secondary: $gray-500 !default;
+$accent: #eab308 !default;
+
+$primary: #060606 !default;
+$secondary: $gray-600 !default;
 $success: $green !default;
 $info: $cyan !default;
 $warning: $yellow !default;
 $danger: $red !default;
-$light: $gray-100 !default;
-$dark: $gray-900 !default;
-$link-color: #5895b0 !default;
+$light: $gray-800 !default;
+$dark: $gray-400 !default;
 
-$min-contrast-ratio: 1.28 !default;
+$min-contrast-ratio: 2.25 !default;
+
+// Links
+$link-color: $accent !default;
+
+// Body
+
+$body-bg: #060606 !default;
+$body-color: $white !default;
 
 // Fonts
-$headings-font-family: var(--bs-font-sans-serif) !default;
-$font-size-root: var(--font-size-base) !default;
-$h1-font-size: var(--font-size-xxxl) !default;
-$h2-font-size: var(--font-size-xxl) !default;
-$h3-font-size: var(--font-size-xl) !default;
-$h4-font-size: var(--font-size-lg) !default;
-$h5-font-size: var(--font-size-md) !default;
 
-$headings-line-height: 1 !default;
-
-// Buttons
-$input-btn-padding-x: 1rem !default;
-
-// Navbar
-.navbar {
-  font-weight: 400 !important;
-  font-size: var(--font-size-sm) !important;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-}
-
-.navbar.navbar {
-  transition: background-color 0.2s ease-in-out;
-}
-
-.navbar-logo {
-  max-width: 100px;
-}
-
-footer.footer .nav-footer,
-#quarto-header > nav {
-  padding: 0.5rem 1rem;
-}
-
-.nav-link.active,
-.nav-link:hover {
-  color: white !important;
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-// Pagination
-$pagination-hover-color: $white !default;
-$pagination-hover-bg: $primary !default;
-$pagination-hover-border-color: $primary !default;
+// stylelint-disable-next-line value-keyword-case
+$font-family-sans-serif: 'Inclusive Sans', -apple-system, BlinkMacSystemFont,
+  'Segoe UI', 'Helvetica Neue', Arial, sans-serif !default;
+$h1-font-size: 4rem !default;
+$h2-font-size: 3rem !default;
+$h3-font-size: 2.5rem !default;
+$h4-font-size: 2rem !default;
+$h5-font-size: 1.5rem !default;
+$headings-color: $white !default;
 
 // Cards
-$card-border-color: black;
-.card-img-top {
-  border-bottom: 1px solid $card-border-color;
+$card-bg: $white !default;
+$card-color: $black;
+.card-body h5 {
+  background-color: $card-bg;
+  color: $card-color !important;
+}
+
+/*-- scss:rules --*/
+
+// Navbar
+
+.navbar {
+  &.bg-primary {
+    border: 1px solid $gray-700;
+  }
+
+  &.bg-dark {
+    background-color: $black !important;
+    border: 1px solid $gray-700;
+  }
+
+  &.bg-light {
+    background-color: $gray-500 !important;
+  }
+
+  &.fixed-top {
+    border-width: 0 0 1px;
+  }
+
+  &.fixed-bottom {
+    border-width: 1px 0 0;
+  }
 }
 
 // Hero
@@ -178,18 +162,4 @@ ul.social-links {
   align-items: center;
   gap: 5px;
   flex-wrap: wrap;
-}
-
-// Search
-.aa-DetachedOverlay.aa-DetachedOverlay {
-  background-color: rgba(0, 0, 0, 0.9);
-}
-
-.aa-DetachedFormContainer.aa-DetachedFormContainer {
-  border: 0;
-}
-
-.aa-Autocomplete .aa-Form .aa-InputWrapper .aa-Input,
-.aa-DetachedFormContainer .aa-Form .aa-InputWrapper .aa-Input {
-  padding: 0.5rem !important;
 }
