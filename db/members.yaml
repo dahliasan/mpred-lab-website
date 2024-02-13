@@ -1,6 +1,5 @@
 - name: Prof Mary-Anne Lea
   slug: mary-anne-lea
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071a056a230789909dd_60bad0084214cae8271ec17a_malea.jpeg
   photoPath: malea.webp
   position: Lab Leader
   positionType: Staff
@@ -18,7 +17,6 @@
   researchProjectIn5Words: marine predator ecology and behaviour
 - name: Dr Jane Younger
   slug: dr-jane-younger
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/6358f56f83fb345c9551044d_IMG_8187.jpg
   photoPath: jyounger.webp
   position: Lecturer
   positionType: Staff
@@ -36,7 +34,6 @@
   researchProjectIn5Words: marine predators, disease, climate change
 - name: Dr Sophie Bestley
   slug: sophie-bestley
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c01c22ad9536f913d99059_62bfeaf248259b13dd6a772b_sophie-bestley_cropped.png
   photoPath: sbestley.webp
   position: Senior Lecturer
   positionType: Staff
@@ -54,7 +51,6 @@
   researchProjectIn5Words: Integrated Southern Ocean ecology
 - name: Dr Lauren Roman
   slug: lauren-roman
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070079cd35658326de7_60bad130320690eb03c2f935_lroman.jpeg
   photoPath: lroman.webp
   position: DECRA Fellow Researcher
   positionType: Staff
@@ -72,7 +68,6 @@
   researchProjectIn5Words: threatened australian seabird conservation
 - name: Dr Julie McInnes
   slug: julie-mcinnes
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070024df8465e2bdb9e_60bad1409d47da2d53a95b99_jmcinnes.jpeg
   photoPath: jmcinnes.webp
   position: Postdoc
   positionType: Staff
@@ -90,7 +85,6 @@
   researchProjectIn5Words: Stool tool for any fool
 - name: Dr David Green
   slug: david-green
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f7f5d65d63c27796c_60bacfbf3cf7fc2fd1959e70_dgreen.jpeg
   photoPath: dgreen.webp
   position: Postdoc
   positionType: Staff
@@ -108,7 +102,6 @@
   researchProjectIn5Words: Prey models and marine predators
 - name: Dr Clive McMahon
   slug: clive-mcmahon
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f56ff43844999b5d4_60bacfa52551d71bc5865740_cm.jpeg
   photoPath: cmcmahon.webp
   position: Adjunct Researcher
   positionType: Staff
@@ -126,7 +119,6 @@
   researchProjectIn5Words: IMOS Antarctic seal tracking program
 - name: Prof Mark Hindell
   slug: mark-hindell
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070768f4420a04aa8f4_60bacff1c2e03c5617ef9189_mh.jpeg
   photoPath: mhindell.webp
   position: Emeritus Professor
   positionType: Staff
@@ -144,7 +136,6 @@
   researchProjectIn5Words: antarctic southern ocean marine predators
 - name: Dr Penny Pascoe
   slug: penny-pascoe
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd072db3214e82d736da9_60bad2427a233c3af0e69407_ppascoe.jpeg
   photoPath: ppascoe.webp
   position: Macquarie Island Project Researcher
   positionType: Staff
@@ -162,7 +153,6 @@
   researchProjectIn5Words: Islands, guano, isotopes, recovery, time
 - name: Dr Dahlia Foo
   slug: dahlia-foo
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c01c2040626f7449cc844b_60bad1aa9d72e099e633bcfb_dfoo.jpeg
   photoPath: dfoo.webp
   position: Adjunct Researcher
   positionType: Staff
@@ -180,7 +170,6 @@
   researchProjectIn5Words: bad weather sucks for pups
 - name: Dr Madeleine Brasier
   slug: madeleine-brasier
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070e78b6d224da21fd9_60baf4c8c880e7722324091e_mbrasier.jpeg
   photoPath: mbrasier.webp
   position: Adjunct Researcher
   positionType: Staff
@@ -198,7 +187,6 @@
   researchProjectIn5Words: identifying humpback whales in Tasmania
 - name: Angus Henderson
   slug: angus-henderson
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06e789023ae1819aeab_60bad06a7d16f450b4256cc6_ahenderson.jpeg
   photoPath: ahenderson.webp
   position: PhD Candidate
   positionType: Student
@@ -216,7 +204,6 @@
   researchProjectIn5Words: Whale Obs from Tourist Vessels
 - name: Benjamin Viola
   slug: benjamin-viola
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06e6d5c5045b4c0b683_60bad58183017e7256048f9c_bviola.jpeg
   photoPath: bviola.webp
   position: PhD Candidate
   positionType: Student
@@ -234,7 +221,6 @@
   researchProjectIn5Words: future (sub)Antarctic seabird habitat use
 - name: Dr Bree Woods
   slug: bree-woods
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f44b606666d6b70c2_61986e8d32209f1466d2d77e_bree_woods.jpeg
   photoPath: bwoods.webp
   position: PhD Candidate
   positionType: Student
@@ -252,7 +238,6 @@
   researchProjectIn5Words: deep ocean squid and fish
 - name: Dr Claire Mason
   slug: claire-mason
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f926d585bf8f4b307_60baf866eafd7e4e27361c18_cmason.jpeg
   photoPath: cmason.webp
   position: PhD Candidate
   positionType: Student
@@ -270,7 +255,6 @@
   researchProjectIn5Words: Climate impacts on shy albatross.
 - name: Demelza Wall
   slug: demelza-wall
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd07050406e75f3557f0f_60bad020c2e03c5d16ef9224_dwall.jpeg
   photoPath: dwall.webp
   position: PhD Candidate
   positionType: Student
@@ -288,7 +272,6 @@
   researchProjectIn5Words: new vs old seal colonies
 - name: Coline Marciau
   slug: coline-marciau
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06facd22a7ccf3dd049_60bad6bc83017e5abb049263_cmarciau.jpeg
   photoPath: cmarciau.webp
   position: PhD Candidate
   positionType: Student
@@ -306,7 +289,6 @@
   researchProjectIn5Words: Adelie penguins ecophysiology and behaviour
 - name: Connor McGarry
   slug: connor-mcgarry
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/64599ebebc919a01d1297b6b_IMG_0943%20-%20Copy.JPG
   photoPath: cmcgarry.webp
   position: Honours Student
   positionType: Student
@@ -324,7 +306,6 @@
   researchProjectIn5Words: foraging ecology of southern elephant seals
 - name: Georgia Mergard
   slug: georgia-mergard
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/63ed9d3e730cbae357268e7a_326708672_2188228714694298_8758376112241024385_n.jpg
   photoPath: gmergard.webp
   position: PhD Candidate
   positionType: Student
@@ -342,7 +323,6 @@
   researchProjectIn5Words: DNA metabarcoding, poo, food webs
 - name: Melanie Wells
   slug: melanie-wells
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071ba41c87ef5ff2365_60bad0382070983422e254ca_mwells.jpeg
   photoPath: mwells.webp
   position: PhD Candidate
   positionType: Student
@@ -360,7 +340,6 @@
   researchProjectIn5Words: Factors that influence seabird parasitism
 - name: Milan Sojitra
   slug: milan-sojitra
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c626d05f3702cbfd3df91e_milan-soljitra.jpg
   photoPath: msojitra.webp
   position: PhD Candidate
   positionType: Student
@@ -378,7 +357,6 @@
   researchProjectIn5Words: Seabirds, marine mammals, climate change
 - name: 'Noémie Friscourt'
   slug: noemie-friscourt
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd07108f411259f6fd444_60936a9a8088e2604d26953e_IMG_2085.jpeg
   photoPath: nfriscourt.webp
   position: PhD Candidate
   positionType: Student
@@ -396,7 +374,6 @@
   researchProjectIn5Words: southern ocean, seal, whiskers, isotopes, trace metals
 - name: Olly Dove
   slug: olly-dove
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071e78b6d916da21fdd_60bad0eb37e076af08d3d52a_odove.jpeg
   photoPath: odove.webp
   position: PhD Candidate
   positionType: Student
@@ -414,7 +391,6 @@
   researchProjectIn5Words: Seabirds feeding in Storm Bay
 - name: Sophia Volzke
   slug: sophia-volzke
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c7831da7f16b640d2a6c1f_Kunanji%20Photography%20LR.jpg
   photoPath: svolzke.webp
   position: PhD Candidate
   positionType: Student
@@ -432,7 +408,6 @@
   researchProjectIn5Words: Modelling Southern Elephant Seal Demography
 - name: Dr Toby Travers
   slug: toby-travers
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd072f97098166ceb568b_60bad1e356e2982e265236ef_ttravers.jpeg
   photoPath: ttravers.webp
   position: PhD Candidate
   positionType: Student
@@ -450,7 +425,6 @@
   researchProjectIn5Words: Eradicate rabbits, some skuas die
 - name: Yash Gimonkar
   slug: yash-gimonkar
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd0728758bbb16280e3c4_60bacfd5143f63bb08e39753_ygimonkar.jpeg
   photoPath: ygimonkar.webp
   position: Masters Student
   positionType: Student
@@ -468,7 +442,6 @@
   researchProjectIn5Words: Killer whales are costly competitors
 - name: Dr Ben Arthur
   slug: ben-arthur
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06e622dd0be6076e5d3_60bad055cd17fffca87ec52e_barthur.jpeg
   photoPath: barthur.webp
   position: Adjunct Researcher
   positionType: Staff
@@ -486,7 +459,6 @@
   researchProjectIn5Words: marine science outreach and education
 - name: Dr Peter Puskic
   slug: peter-puskic
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd0727f5d65746527797a_60bad0ca09160a6462b0d57f_ppuskic.jpeg
   photoPath: ppuskic.webp
   position: PhD Candidate
   positionType: Student
@@ -504,7 +476,6 @@
   researchProjectIn5Words: Impacts of plastics on seabirds
 - name: Dr Amy Coghlan
   slug: amy-coghlan
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06eb115e06f098de928_622061ebb19093d6e7feb88a_amy_coghlan.png
   photoPath: acoghlan.webp
   position: PhD Candidate
   positionType: Student
@@ -522,7 +493,6 @@
   researchProjectIn5Words: ~
 - name: Ashleigh Fay
   slug: ashleigh-fay
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/630e93894b842f22937e4ed9_IMG_2320.JPG
   photoPath: afay.webp
   position: Masters Student
   positionType: Student
@@ -540,7 +510,6 @@
   researchProjectIn5Words: Australian fur seal behaviour and foraging ecology
 - name: Dr Javed Riaz
   slug: javed-riaz
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd0705ea0ee1ea7b5f312_60bad154e8d8f054fc049a92_jriaz.jpeg
   photoPath: jriaz.webp
   position: PhD Candidate
   positionType: Student
@@ -558,7 +527,6 @@
   researchProjectIn5Words: Adelie penguins as ecosystem indicators
 - name: Jo Serret
   slug: jo-serret
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/6450aa6240de0bb094e0ab8f_IMG-31472.JPG
   photoPath: jserret.webp
   position: Honours Student
   positionType: Student
@@ -576,7 +544,6 @@
   researchProjectIn5Words: Black-browed albatross parasites
 - name: Dr Paige Green
   slug: paige-green
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071acd22a1eea3dd04c_60bad0dd2551d76655865b50_pgreen.jpeg
   photoPath: pgreen.webp
   position: PhD Candidate
   positionType: Student
@@ -594,7 +561,6 @@
   researchProjectIn5Words: Crested penguins during winter migrations
 - name: Penny Beaver
   slug: penny-beaver
-  photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd07249a83b92ccef1721_60bad07a26b7c802734a0cd2_pbeaver.jpeg
   photoPath: pbeaver.webp
   position: Masters Student
   positionType: Student
