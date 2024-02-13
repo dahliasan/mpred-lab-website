@@ -51,6 +51,8 @@ We welcome contributions from everyone part of the lab. Here are the steps to co
 4. **Make your changes**
    Navigate to the local path of the repository and make your changes in the code.
 
+   Use `quarto preview` in the terminal to spin up a local version of the website to see the changes you made.
+
 5. **Commit your changes**
    Commit your changes using GitHub Desktop or the command line.
 
