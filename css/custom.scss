@@ -76,6 +76,12 @@ $card-color: $black;
 
 /*-- scss:rules --*/
 
+// Headings
+h1,
+h2 {
+  border: none;
+}
+
 // Navbar
 
 .navbar {
@@ -105,7 +111,7 @@ $card-color: $black;
 .hero-container {
   max-height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)),
-    url('https://uploads-ssl.webflow.com/5fd1a0c670b4e04386b63c5c/60bacd78c96519c915e08181_hero-ba.jpg');
+    url('/images/hero_barthur.jpg');
   background-size: cover;
   background-position: center 40%;
   background-attachment: scroll, fixed;
