@@ -24,8 +24,6 @@ jobs:
       - name: Install dependencies
         run: |
           Rscript -e 'install.packages("readr", dependencies=TRUE)'
-          Rscript -e 'install.packages("dplyr", dependencies=TRUE)'
-          Rscript -e 'install.packages("tidyr", dependencies=TRUE)'
           Rscript -e 'install.packages("yaml", dependencies=TRUE)'
 
       - name: Run R script
