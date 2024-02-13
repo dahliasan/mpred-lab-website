@@ -3,8 +3,6 @@
 
 library(readr)
 library(yaml)
-library(tidyr)
-library(dplyr)
 
 # Read CSV
 data <- read_csv("db/members.csv")
