@@ -4,6 +4,8 @@ format:
     toc: false
     page-layout: custom
     css: "css/home.scss"
+resources:
+  - "images/hero_barthur.jpg"
 listing:
   - id: blog-listings
     type: grid

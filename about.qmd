@@ -3,6 +3,8 @@ title: "About Us"
 format:
   html:
     page-layout: full
+resources:
+    - '/images/profile photos/*'
 listing:
   - id: members-active
     contents: "members.yaml"
