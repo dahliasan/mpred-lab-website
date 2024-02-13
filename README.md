@@ -6,9 +6,12 @@ IMAS MPred Lab Quarto Website
 
 ### Adding / Updating Members
 
-1. Add / update member details in `members.csv`
-2. Run `scripts/generateMembersDbYaml.R` to generate new `db/members.yaml`
-3. Optional: Create new `qmd` file for the member in `members/` directory.
+1. Add / update member details in `db/members.csv`
+2. Add your photo to `images/profile photos/` directory.
+   - Make sure the filename matches the `photoPath` column in `members.csv`.
+   - The photo should be square and at least 200x200 pixels. You can use [this tool](https://www.iloveimg.com/crop-image) to crop and resize your photo.
+3. Run `scripts/generateMembersDbYaml.R` to generate new `db/members.yaml`
+4. Optional: Create new `qmd` file for the member in `members/` directory.
    - Make sure `slug` in `members.csv` matches the filename of the `qmd` file.
 
 ### Build (update website) the website after changes
