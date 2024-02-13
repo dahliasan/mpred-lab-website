@@ -1,30 +1,33 @@
 <ul class="listing-grid" style="--column-width: 200px;">
   <% items.forEach((member) => { %>
-    <% if (member.isPastMember === false) { %>
-      <li>
-        <div class="profile-image mb-1" style="background-image:url('<%= member.photoUrl %>');"></div>
-        <h3 class="fs-5" style="margin:0;"><%= member.name %></h3>
-        <div class="fw-bold" style="font-size: 12px;"><%= member.position %></div>
-        <div class="font-monospace" style="font-size: 12px;"><%= member.researchProjectIn5Words %></div>
-        <ul class="social-links">
-          <% if (member.githubUrl) { %>
-            <li><a target="_blank" href="<%= member.githubUrl %>">{{< iconify bi github >}}</a></li>
-          <% } %>
-          <% if (member.xUrl) { %>
-            <li><a target="_blank" href="<%= member.xUrl %>">{{< iconify bi twitter-x >}}</a></li>
-          <% } %>
-          <!-- Repeat for other social media links as needed -->
-          <% if (member.gscholarUrl) { %>
-            <li><a target="_blank" href="<%= member.gscholarUrl %>">{{< ai google-scholar size=lg >}}</a></li>
-          <% } %>
-          <% if (member.researchgateUrl) { %>
-            <li><a target="_blank" href="<%= member.researchgateUrl %>">{{< ai researchgate size=lg >}}</a></li>
-          <% } %>
-          <% if (member.orcidUrl) { %>
-            <li><a target="_blank" href="<%= member.orcidUrl %>">{{< ai orcid >}}</a></li>
-          <% } %>
-        </ul>
-      </li>
-    <% } %>
+  <% if (member.isPastMember === 'no') { %>
+  <li>
+    <div class="profile-image mb-1" style="background-image:url('/images/profile photos/<%= member.photoPath %>');"></div>
+    <h3 class="fs-5" style="margin:0;"><%= member.name %></h3>
+    <div class="fw-bold" style="font-size: 12px;"><%= member.position %></div>
+    <div class="font-monospace" style="font-size: 12px;"><%= member.researchProjectIn5Words %></div>
+    <ul class="social-links">
+      <% if (member.githubHandle) { %>
+      <li><a target="_blank" href="https://github.com/<%= member.githubHandle %>">{{< iconify bi github >}}</a></li>
+      <% } %>
+      <% if (member.xHandle) { %>
+      <li><a target="_blank" href="https://twitter.com/<%= member.xHandle %>">{{< iconify bi twitter-x >}}</a></li>
+      <% } %>
+      <!-- Repeat for other social media links as needed -->
+      <% if (member.gscholarUrl) { %>
+      <li><a target="_blank" href="<%= member.gscholarUrl %>">{{< ai google-scholar size=lg >}}</a></li>
+      <% } %>
+      <% if (member.researchgateUrl) { %>
+      <li><a target="_blank" href="<%= member.researchgateUrl %>">{{< ai researchgate size=lg >}}</a></li>
+      <% } %>
+      <% if (member.orcidUrl) { %>
+      <li><a target="_blank" href="<%= member.orcidUrl %>">{{< ai orcid >}}</a></li>
+      <% } %>
+      <% if (member.instagramHandle) { %>
+      <li><a target="_blank" href="https://www.instagram.com/<%= member.instagramHandle %>">{{< iconify bi instagram >}}</a></li>
+      <% } %>
+    </ul>
+  </li>
+  <% } %>
   <% }); %>
 </ul>
