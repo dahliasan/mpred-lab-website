@@ -1,3 +1,6 @@
+# Run this every time members.csv changes.
+# Converts csv to yaml db for use on website
+
 library(readr)
 library(yaml)
 library(tidyr)
