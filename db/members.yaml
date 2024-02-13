@@ -1,587 +1,613 @@
-# Instructions
-# Add your profile under the corresponding sections. 
-# Appears on the website in the same order listed here.
-
-# Staff
 - name: Prof Mary-Anne Lea
   slug: mary-anne-lea
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071a056a230789909dd_60bad0084214cae8271ec17a_malea.jpeg
+  photoPath: malea.webp
   position: Lab Leader
   positionType: Staff
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: http://twitter.com/icetempete
-  instagramUrl: http://@mpred_lab
-  githubUrl: ~
-  linkedinUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: icetempete
+  instagramHandle: mpred_lab
+  githubHandle: .na.character
+  linkedinUrl: .na.character
   orcidUrl: https://orcid.org/0000-0001-8318-9299
   gscholarUrl: https://scholar.google.com.au/citations?user=U7aQd08AAAAJ&hl=en
   researchgateUrl: https://www.researchgate.net/profile/Mary-Anne-Lea
   utasProfileUrl: https://www.utas.edu.au/profiles/staff/imas/mary-anne-lea
-  peronsalUrl: ~
+  peronsalUrl: .na.character
   researchProjectIn5Words: marine predator ecology and behaviour
 - name: Dr Jane Younger
   slug: dr-jane-younger
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/6358f56f83fb345c9551044d_IMG_8187.jpg
+  photoPath: jyounger.webp
   position: Lecturer
   positionType: Staff
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: http://@jane_younger
-  instagramUrl: ~
-  githubUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: jane_younger
+  instagramHandle: .na.character
+  githubHandle: .na.character
   linkedinUrl: https://www.linkedin.com/in/janeyounger/
-  orcidUrl: ~
+  orcidUrl: .na.character
   gscholarUrl: https://scholar.google.com/citations?user=CEBV6KoAAAAJ&hl=en
   researchgateUrl: https://www.researchgate.net/profile/Jane-Younger-2
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: marine predators, disease, climate change
 - name: Dr Sophie Bestley
   slug: sophie-bestley
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c01c22ad9536f913d99059_62bfeaf248259b13dd6a772b_sophie-bestley_cropped.png
+  photoPath: sbestley.webp
   position: Senior Lecturer
   positionType: Staff
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: twitter.com/BestleySophie
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: BestleySophie
+  instagramHandle: .na.character
+  githubHandle: .na.character
+  linkedinUrl: .na.character
   orcidUrl: https://orcid.org/0000-0001-9342-669X
   gscholarUrl: https://scholar.google.com/citations?user=9Nl9LvkAAAAJ&hl=en
   researchgateUrl: https://www.researchgate.net/profile/Sophie-Bestley
   utasProfileUrl: https://www.utas.edu.au/profiles/staff/imas/sophie-bestley
-  peronsalUrl: ~
+  peronsalUrl: .na.character
   researchProjectIn5Words: Integrated Southern Ocean ecology
 - name: Dr Lauren Roman
   slug: lauren-roman
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070079cd35658326de7_60bad130320690eb03c2f935_lroman.jpeg
+  photoPath: lroman.webp
   position: DECRA Fellow Researcher
   positionType: Staff
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: https://twitter.com/DrLaurenRoman
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: DrLaurenRoman
+  instagramHandle: .na.character
+  githubHandle: .na.character
+  linkedinUrl: .na.character
   orcidUrl: https://orcid.org/0000-0003-3591-4905
-  gscholarUrl: ~
+  gscholarUrl: .na.character
   researchgateUrl: https://www.researchgate.net/profile/Lauren_Roman
   utasProfileUrl: https://rmdb.research.utas.edu.au/public/rmdb/q/indiv_detail_warp_trans/40837
-  peronsalUrl: ~
+  peronsalUrl: .na.character
   researchProjectIn5Words: threatened australian seabird conservation
 - name: Dr Julie McInnes
   slug: julie-mcinnes
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070024df8465e2bdb9e_60bad1409d47da2d53a95b99_jmcinnes.jpeg
+  photoPath: jmcinnes.webp
   position: Postdoc
   positionType: Staff
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: http://twitter.com/pengatross
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
-  orcidUrl: ~
-  gscholarUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: pengatross
+  instagramHandle: .na.character
+  githubHandle: .na.character
+  linkedinUrl: .na.character
+  orcidUrl: .na.character
+  gscholarUrl: .na.character
   researchgateUrl: https://www.researchgate.net/profile/Julie_McInnes
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Stool tool for any fool
 - name: Dr David Green
   slug: david-green
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f7f5d65d63c27796c_60bacfbf3cf7fc2fd1959e70_dgreen.jpeg
+  photoPath: dgreen.webp
   position: Postdoc
   positionType: Staff
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: http://twitter.com/davo.b.green
-  instagramUrl: http://instagram.com/davo.b.green
-  githubUrl: ~
-  linkedinUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: davo.b.green
+  instagramHandle: davo.b.green
+  githubHandle: .na.character
+  linkedinUrl: .na.character
   orcidUrl: https://orcid.org/0000-0002-0346-3129
-  gscholarUrl: ~
-  researchgateUrl: ~
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  gscholarUrl: .na.character
+  researchgateUrl: .na.character
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Prey models and marine predators
 - name: Dr Clive McMahon
   slug: clive-mcmahon
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f56ff43844999b5d4_60bacfa52551d71bc5865740_cm.jpeg
+  photoPath: cmcmahon.webp
   position: Adjunct Researcher
   positionType: Staff
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: ~
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: .na.character
+  instagramHandle: .na.character
+  githubHandle: .na.character
+  linkedinUrl: .na.character
   orcidUrl: https://orcid.org/0000-0001-5241-8917
   gscholarUrl: https://scholar.google.com/citations?user=s8Fg-CcAAAAJ&hl=en
   researchgateUrl: https://www.researchgate.net/profile/Clive-Mcmahon
   utasProfileUrl: https://www.utas.edu.au/profiles/staff/imas/clive-mcmahon
-  peronsalUrl: ~
+  peronsalUrl: .na.character
   researchProjectIn5Words: IMOS Antarctic seal tracking program
 - name: Prof Mark Hindell
   slug: mark-hindell
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070768f4420a04aa8f4_60bacff1c2e03c5617ef9189_mh.jpeg
+  photoPath: mhindell.webp
   position: Emeritus Professor
   positionType: Staff
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: ~
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: .na.character
+  instagramHandle: .na.character
+  githubHandle: .na.character
+  linkedinUrl: .na.character
   orcidUrl: https://orcid.org/0000-0002-7823-7185
   gscholarUrl: https://scholar.google.com.au/citations?user=8J8xm0kAAAAJ&hl=en
   researchgateUrl: https://www.researchgate.net/profile/Mark-Hindell
   utasProfileUrl: https://www.utas.edu.au/profiles/staff/imas-qms-utas/mark-hindell
-  peronsalUrl: ~
+  peronsalUrl: .na.character
   researchProjectIn5Words: antarctic southern ocean marine predators
 - name: Dr Penny Pascoe
   slug: penny-pascoe
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd072db3214e82d736da9_60bad2427a233c3af0e69407_ppascoe.jpeg
+  photoPath: ppascoe.webp
   position: Macquarie Island Project Researcher
   positionType: Staff
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: https://twitter.com/pppascoe
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: pppascoe
+  instagramHandle: .na.character
+  githubHandle: .na.character
+  linkedinUrl: .na.character
   orcidUrl: https://orcid.org/0000-0001-9586-1046
-  gscholarUrl: ~
+  gscholarUrl: .na.character
   researchgateUrl: https://www.researchgate.net/profile/Penelope-Pascoe
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Islands, guano, isotopes, recovery, time
 - name: Dr Dahlia Foo
   slug: dahlia-foo
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c01c2040626f7449cc844b_60bad1aa9d72e099e633bcfb_dfoo.jpeg
+  photoPath: dfoo.webp
   position: Adjunct Researcher
   positionType: Staff
-  isPastMember: false
+  isPastMember: no
   yearCompleted: 2020.0
-  xUrl: https://twitter.com/dahliafoo
-  instagramUrl: https://www.instagram.com/dahliafooo/
-  githubUrl: https://github.com/dahliasan
+  xHandle: dahliasan_
+  instagramHandle: dahliasan_
+  githubHandle: dahliasan
   linkedinUrl: https://linkedin.com/in/dahliafoo
   orcidUrl: https://orcid.org/0000-0002-4983-9208
   gscholarUrl: https://scholar.google.com/citations?user=XhccAjAAAAAJ&hl=en
   researchgateUrl: https://www.researchgate.net/profile/Dahlia-Foo
-  utasProfileUrl: ~
+  utasProfileUrl: .na.character
   peronsalUrl: http://dahliafoo.xyz
   researchProjectIn5Words: bad weather sucks for pups
 - name: Dr Madeleine Brasier
   slug: madeleine-brasier
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd070e78b6d224da21fd9_60baf4c8c880e7722324091e_mbrasier.jpeg
+  photoPath: mbrasier.webp
   position: Adjunct Researcher
   positionType: Staff
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: http://twitter.com/madsbrasier
-  instagramUrl: http://instagram.com/madsbrasier
-  githubUrl: ~
-  linkedinUrl: https://www.researchgate.net/profile/Madeleine-Brasier
-  orcidUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: madsbrasier
+  instagramHandle: madsbrasier
+  githubHandle: .na.character
+  linkedinUrl: .na.character
+  orcidUrl: .na.character
   gscholarUrl: https://scholar.google.com/citations?user=x0c84wMAAAAJ&hl=en
-  researchgateUrl: ~
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  researchgateUrl: https://www.researchgate.net/profile/Madeleine-Brasier
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: identifying humpback whales in Tasmania
-
-# Students
 - name: Angus Henderson
   slug: angus-henderson
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06e789023ae1819aeab_60bad06a7d16f450b4256cc6_ahenderson.jpeg
+  photoPath: ahenderson.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: http://twitter.com/afhender
-  instagramUrl: ~
-  githubUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: afhender
+  instagramHandle: .na.character
+  githubHandle: .na.character
   linkedinUrl: https://www.linkedin.com/in/angus-henderson-2a0435a2/
   orcidUrl: https://orcid.org/0000-0002-0112-3913
   gscholarUrl: https://scholar.google.com/citations?user=KWKcZT8AAAAJ&hl=en&oi=sra
-  researchgateUrl: ~
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  researchgateUrl: .na.character
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Whale Obs from Tourist Vessels
 - name: Benjamin Viola
   slug: benjamin-viola
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06e6d5c5045b4c0b683_60bad58183017e7256048f9c_bviola.jpeg
+  photoPath: bviola.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: https://twitter.com/bm_viola
-  instagramUrl: https://www.instagram.com/vsnaturephotography/
-  githubUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: bm_viola
+  instagramHandle: vsnaturephotography
+  githubHandle: .na.character
   linkedinUrl: https://www.linkedin.com/in/benjamin-viola/
-  orcidUrl: ~
-  gscholarUrl: ~
-  researchgateUrl: ~
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  orcidUrl: .na.character
+  gscholarUrl: .na.character
+  researchgateUrl: .na.character
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: future (sub)Antarctic seabird habitat use
 - name: Dr Bree Woods
   slug: bree-woods
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f44b606666d6b70c2_61986e8d32209f1466d2d77e_bree_woods.jpeg
+  photoPath: bwoods.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: true
+  isPastMember: yes
   yearCompleted: 2022.0
-  xUrl: http://twitter.com/breelwoods/
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
+  xHandle: breelwoods/
+  instagramHandle: .na.character
+  githubHandle: .na.character
+  linkedinUrl: .na.character
   orcidUrl: https://orcid.org/0000-0001-6735-3626
-  gscholarUrl: ~
+  gscholarUrl: .na.character
   researchgateUrl: https://www.researchgate.net/profile/Briannyn-Woods
-  utasProfileUrl: ~
+  utasProfileUrl: .na.character
   peronsalUrl: https://loop.frontiersin.org/people/1343934/bio
   researchProjectIn5Words: deep ocean squid and fish
 - name: Dr Claire Mason
   slug: claire-mason
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06f926d585bf8f4b307_60baf866eafd7e4e27361c18_cmason.jpeg
+  photoPath: cmason.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: true
-  yearCompleted: ~
-  xUrl: http://twitter.com/clairejmason
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
-  orcidUrl: ~
+  isPastMember: yes
+  yearCompleted: .na.real
+  xHandle: clairejmason
+  instagramHandle: .na.character
+  githubHandle: .na.character
+  linkedinUrl: .na.character
+  orcidUrl: .na.character
   gscholarUrl: https://scholar.google.com/citations?user=slRb2BQAAAAJ&hl=en
   researchgateUrl: https://www.researchgate.net/profile/Claire_Mason5
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Climate impacts on shy albatross.
 - name: Demelza Wall
   slug: demelza-wall
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd07050406e75f3557f0f_60bad020c2e03c5d16ef9224_dwall.jpeg
+  photoPath: dwall.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: http://twitter.com/demelzawall
-  instagramUrl: http://instagram.com/demelzawall
-  githubUrl: ~
-  linkedinUrl: ~
-  orcidUrl: ~
-  gscholarUrl: ~
-  researchgateUrl: ~
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: demelzawall
+  instagramHandle: demelzawall
+  githubHandle: .na.character
+  linkedinUrl: .na.character
+  orcidUrl: .na.character
+  gscholarUrl: .na.character
+  researchgateUrl: .na.character
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: new vs old seal colonies
 - name: Coline Marciau
   slug: coline-marciau
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06facd22a7ccf3dd049_60bad6bc83017e5abb049263_cmarciau.jpeg
+  photoPath: cmarciau.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: ~
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
-  orcidUrl: ~
-  gscholarUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: .na.character
+  instagramHandle: .na.character
+  githubHandle: .na.character
+  linkedinUrl: .na.character
+  orcidUrl: .na.character
+  gscholarUrl: .na.character
   researchgateUrl: https://www.researchgate.net/profile/Coline-Marciau
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Adelie penguins ecophysiology and behaviour
 - name: Connor McGarry
   slug: connor-mcgarry
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/64599ebebc919a01d1297b6b_IMG_0943%20-%20Copy.JPG
+  photoPath: cmcgarry.webp
   position: Honours Student
   positionType: Student
-  isPastMember: true
-  yearCompleted: 2023
-  xUrl: http://twitter.com/ConnorMcGarry04
-  instagramUrl: ~
-  githubUrl: ~
+  isPastMember: yes
+  yearCompleted: 2023.0
+  xHandle: ConnorMcGarry04
+  instagramHandle: .na.character
+  githubHandle: .na.character
   linkedinUrl: https://www.linkedin.com/in/connor-mcgarry-a8806821b/
-  orcidUrl: ~
-  gscholarUrl: ~
-  researchgateUrl: ~
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  orcidUrl: .na.character
+  gscholarUrl: .na.character
+  researchgateUrl: .na.character
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: foraging ecology of southern elephant seals
 - name: Georgia Mergard
   slug: georgia-mergard
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/63ed9d3e730cbae357268e7a_326708672_2188228714694298_8758376112241024385_n.jpg
+  photoPath: gmergard.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: http://twitter.com/georgiamergard
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
-  orcidUrl: ~
-  gscholarUrl: ~
-  researchgateUrl: ~
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: georgiamergard
+  instagramHandle: .na.character
+  githubHandle: .na.character
+  linkedinUrl: .na.character
+  orcidUrl: .na.character
+  gscholarUrl: .na.character
+  researchgateUrl: .na.character
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: DNA metabarcoding, poo, food webs
 - name: Melanie Wells
   slug: melanie-wells
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071ba41c87ef5ff2365_60bad0382070983422e254ca_mwells.jpeg
+  photoPath: mwells.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: https://twitter.com/MelRoseWells
-  instagramUrl: ~
-  githubUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: MelRoseWells
+  instagramHandle: .na.character
+  githubHandle: .na.character
   linkedinUrl: https://www.linkedin.com/in/melanie-wells-002b58186/
-  orcidUrl: ~
+  orcidUrl: .na.character
   gscholarUrl: https://scholar.google.com/citations?user=sQScD0AAAAAJ&hl=en&oi=ao
   researchgateUrl: https://www.researchgate.net/profile/Melanie-Wells-4
   utasProfileUrl: https://www.utas.edu.au/profiles/staff/biological-sciences/melanie,-wells
-  peronsalUrl: ~
+  peronsalUrl: .na.character
   researchProjectIn5Words: Factors that influence seabird parasitism
 - name: Milan Sojitra
   slug: milan-sojitra
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c626d05f3702cbfd3df91e_milan-soljitra.jpg
+  photoPath: msojitra.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: https://twitter.com/MilanS0jitra
-  instagramUrl: https://www.instagram.com/bluewingedowl/
-  githubUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: MilanS0jitra
+  instagramHandle: bluewingedowl
+  githubHandle: .na.character
   linkedinUrl: https://www.linkedin.com/in/milans0jitra/
   orcidUrl: https://orcid.org/0000-0001-5545-2440
-  gscholarUrl: ~
+  gscholarUrl: .na.character
   researchgateUrl: https://www.researchgate.net/profile/Milan-Sojitra
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Seabirds, marine mammals, climate change
-- name: "No\xE9mie Friscourt"
+- name: 'Noémie Friscourt'
   slug: noemie-friscourt
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd07108f411259f6fd444_60936a9a8088e2604d26953e_IMG_2085.jpeg
+  photoPath: nfriscourt.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: http://twitter.com/noemie_roronoa
-  instagramUrl: http://instagram.com/noemie_roronoa
-  githubUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: noemie_roronoa
+  instagramHandle: noemie_roronoa
+  githubHandle: .na.character
   linkedinUrl: https://www.linkedin.com/in/no%C3%A9mie-friscourt-841088136/
   orcidUrl: https://orcid.org/0000-0001-8470-2795
-  gscholarUrl: ~
+  gscholarUrl: .na.character
   researchgateUrl: https://www.researchgate.net/profile/Noemie_Friscourt
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: southern ocean, seal, whiskers, isotopes, trace metals
 - name: Olly Dove
   slug: olly-dove
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071e78b6d916da21fdd_60bad0eb37e076af08d3d52a_odove.jpeg
+  photoPath: odove.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: https://twitter.com/littledove440
-  instagramUrl: https://www.instagram.com/ols_dove/
-  githubUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: littledove440
+  instagramHandle: ols_dove
+  githubHandle: .na.character
   linkedinUrl: https://www.linkedin.com/in/ollydove
   orcidUrl: https://orcid.org/0000-0002-4469-3596
-  gscholarUrl: ~
-  researchgateUrl: ~
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  gscholarUrl: .na.character
+  researchgateUrl: .na.character
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Seabirds feeding in Storm Bay
 - name: Sophia Volzke
   slug: sophia-volzke
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62c7831da7f16b640d2a6c1f_Kunanji%20Photography%20LR.jpg
+  photoPath: svolzke.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: false
-  yearCompleted: ~
-  xUrl: http://twitter.com/SophiaVolzke
-  instagramUrl: http://instagram.com/sophtopus
-  githubUrl: ~
+  isPastMember: no
+  yearCompleted: .na.real
+  xHandle: SophiaVolzke
+  instagramHandle: sophtopus
+  githubHandle: .na.character
   linkedinUrl: https://www.linkedin.com/in/sophia-volzke-a06b0368/
-  orcidUrl: ~
+  orcidUrl: .na.character
   gscholarUrl: https://scholar.google.com.au/citations?hl=en&user=2GqSFtUAAAAJ
   researchgateUrl: https://www.researchgate.net/profile/Sophia-Volzke
   utasProfileUrl: https://rmdb.research.utas.edu.au/public/rmdb/q/indiv_detail_warp_trans/57848
   peronsalUrl: https://sophia-volzke.myportfolio.com/
   researchProjectIn5Words: Modelling Southern Elephant Seal Demography
-
-# Alumni
 - name: Dr Toby Travers
   slug: toby-travers
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd072f97098166ceb568b_60bad1e356e2982e265236ef_ttravers.jpeg
+  photoPath: ttravers.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: true
+  isPastMember: yes
   yearCompleted: 2021.0
-  xUrl: https://twitter.com/TobyTravers_
-  instagramUrl: ~
-  githubUrl: ~
+  xHandle: TobyTravers_
+  instagramHandle: .na.character
+  githubHandle: .na.character
   linkedinUrl: https://www.linkedin.com/in/td-travers
-  orcidUrl: ~
-  gscholarUrl: ~
-  researchgateUrl: ~
+  orcidUrl: .na.character
+  gscholarUrl: .na.character
+  researchgateUrl: .na.character
   utasProfileUrl: https://rmdb.research.utas.edu.au/public/rmdb/q/indiv_detail_warp_trans/41431
-  peronsalUrl: ~
+  peronsalUrl: .na.character
   researchProjectIn5Words: Eradicate rabbits, some skuas die
 - name: Yash Gimonkar
   slug: yash-gimonkar
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd0728758bbb16280e3c4_60bacfd5143f63bb08e39753_ygimonkar.jpeg
+  photoPath: ygimonkar.webp
   position: Masters Student
   positionType: Student
-  isPastMember: true
+  isPastMember: yes
   yearCompleted: 2020.0
-  xUrl: ~
-  instagramUrl: ~
-  githubUrl: ~
+  xHandle: .na.character
+  instagramHandle: .na.character
+  githubHandle: .na.character
   linkedinUrl: https://www.linkedin.com/in/yash-gimonkar/
-  orcidUrl: ~
-  gscholarUrl: ~
+  orcidUrl: .na.character
+  gscholarUrl: .na.character
   researchgateUrl: https://www.researchgate.net/profile/Yash-Gimonkar
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Killer whales are costly competitors
 - name: Dr Ben Arthur
   slug: ben-arthur
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06e622dd0be6076e5d3_60bad055cd17fffca87ec52e_barthur.jpeg
+  photoPath: barthur.webp
   position: Adjunct Researcher
   positionType: Staff
-  isPastMember: true
+  isPastMember: yes
   yearCompleted: 2016.0
-  xUrl: http://twitter.com/bluewaterben
-  instagramUrl: ~
-  githubUrl: ~
+  xHandle: bluewaterben
+  instagramHandle: .na.character
+  githubHandle: .na.character
   linkedinUrl: https://www.linkedin.com/in/benjamin-arthur-450a5649/
-  orcidUrl: ~
+  orcidUrl: .na.character
   gscholarUrl: https://scholar.google.com.au/citations?user=QS_-u7MAAAAJ&hl=en
-  researchgateUrl: ~
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  researchgateUrl: .na.character
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: marine science outreach and education
 - name: Dr Peter Puskic
   slug: peter-puskic
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd0727f5d65746527797a_60bad0ca09160a6462b0d57f_ppuskic.jpeg
+  photoPath: ppuskic.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: true
-  yearCompleted: 2023
-  xUrl: http://twitter.com/peterpuskic
-  instagramUrl: http://instagram.com/peterpuskic
-  githubUrl: ~
+  isPastMember: yes
+  yearCompleted: 2023.0
+  xHandle: peterpuskic
+  instagramHandle: peterpuskic
+  githubHandle: .na.character
   linkedinUrl: http://linkedin.com/in/peterpuskic
   orcidUrl: https://orcid.org/0000-0003-1352-8843
-  gscholarUrl: ~
-  researchgateUrl: ~
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  gscholarUrl: .na.character
+  researchgateUrl: .na.character
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Impacts of plastics on seabirds
 - name: Dr Amy Coghlan
   slug: amy-coghlan
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd06eb115e06f098de928_622061ebb19093d6e7feb88a_amy_coghlan.png
+  photoPath: acoghlan.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: true
+  isPastMember: yes
   yearCompleted: 2022.0
-  xUrl: ~
-  instagramUrl: ~
-  githubUrl: https://github.com/amroco
-  linkedinUrl: ~
-  orcidUrl: ~
+  xHandle: .na.character
+  instagramHandle: .na.character
+  githubHandle: amroco
+  linkedinUrl: .na.character
+  orcidUrl: .na.character
   gscholarUrl: https://scholar.google.fr/citations?user=Y_1F4-UAAAAJ&hl=en&oi=ao
   researchgateUrl: https://www.researchgate.net/profile/Amy-Coghlan
-  utasProfileUrl: ~
-  peronsalUrl: ~
-  researchProjectIn5Words: ~
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
+  researchProjectIn5Words: .na.character
 - name: Ashleigh Fay
   slug: ashleigh-fay
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/630e93894b842f22937e4ed9_IMG_2320.JPG
+  photoPath: afay.webp
   position: Masters Student
   positionType: Student
-  isPastMember: true
-  yearCompleted: 2022
-  xUrl: http://twitter.com/ashleighhfay
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
-  orcidUrl: ~
+  isPastMember: yes
+  yearCompleted: 2022.0
+  xHandle: ashleighhfay
+  instagramHandle: .na.character
+  githubHandle: .na.character
+  linkedinUrl: .na.character
+  orcidUrl: .na.character
   gscholarUrl: https://scholar.google.com/citations?hl=en&user=qzRQGbMAAAAJ&view_op=list_works&gmla=AJsN-F4nhssB-uXponKO5jflu0zdtWtCcRZ65rIZ03-kqel3bPMSILX4-psF6RucgoVQ4QA-zTlT1OOnol7TJG3k75fQdlxhqmITSVSkNAIS8KpQSIIu0iU
-  researchgateUrl: ~
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  researchgateUrl: .na.character
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Australian fur seal behaviour and foraging ecology
 - name: Dr Javed Riaz
   slug: javed-riaz
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd0705ea0ee1ea7b5f312_60bad154e8d8f054fc049a92_jriaz.jpeg
+  photoPath: jriaz.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: true
-  yearCompleted: 2022
-  xUrl: ~
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
-  orcidUrl: ~
-  gscholarUrl: ~
+  isPastMember: yes
+  yearCompleted: 2022.0
+  xHandle: .na.character
+  instagramHandle: .na.character
+  githubHandle: .na.character
+  linkedinUrl: .na.character
+  orcidUrl: .na.character
+  gscholarUrl: .na.character
   researchgateUrl: https://www.researchgate.net/profile/Javed_Riaz
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Adelie penguins as ecosystem indicators
 - name: Jo Serret
   slug: jo-serret
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/6450aa6240de0bb094e0ab8f_IMG-31472.JPG
+  photoPath: jserret.webp
   position: Honours Student
   positionType: Student
-  isPastMember: true
-  yearCompleted: ~
-  xUrl: ~
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
-  orcidUrl: ~
-  gscholarUrl: ~
-  researchgateUrl: ~
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  isPastMember: yes
+  yearCompleted: .na.real
+  xHandle: .na.character
+  instagramHandle: .na.character
+  githubHandle: .na.character
+  linkedinUrl: .na.character
+  orcidUrl: .na.character
+  gscholarUrl: .na.character
+  researchgateUrl: .na.character
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Black-browed albatross parasites
 - name: Dr Paige Green
   slug: paige-green
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd071acd22a1eea3dd04c_60bad0dd2551d76655865b50_pgreen.jpeg
+  photoPath: pgreen.webp
   position: PhD Candidate
   positionType: Student
-  isPastMember: true
-  yearCompleted: ~
-  xUrl: http://twitter.com/seagreenpaige
-  instagramUrl: ~
-  githubUrl: ~
-  linkedinUrl: ~
+  isPastMember: yes
+  yearCompleted: .na.real
+  xHandle: seagreenpaige
+  instagramHandle: .na.character
+  githubHandle: .na.character
+  linkedinUrl: .na.character
   orcidUrl: https://orcid.org/0000-0002-3582-8321
-  gscholarUrl: ~
-  researchgateUrl: ~
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  gscholarUrl: .na.character
+  researchgateUrl: .na.character
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Crested penguins during winter migrations
 - name: Penny Beaver
   slug: penny-beaver
   photoUrl: https://uploads-ssl.webflow.com/5fd1a0c7dbb4ed0df94ae3f6/62bfd07249a83b92ccef1721_60bad07a26b7c802734a0cd2_pbeaver.jpeg
+  photoPath: pbeaver.webp
   position: Masters Student
   positionType: Student
-  isPastMember: true
+  isPastMember: yes
   yearCompleted: 2021.0
-  xUrl: https://twitter.com/pennybeaver
-  instagramUrl: ~
-  githubUrl: ~
+  xHandle: pennybeaver
+  instagramHandle: .na.character
+  githubHandle: .na.character
   linkedinUrl: https://www.linkedin.com/in/penny-beaver-6733b41ba/
   orcidUrl: https://orcid.org/0000-0002-2038-4369
-  gscholarUrl: ~
+  gscholarUrl: .na.character
   researchgateUrl: https://www.researchgate.net/profile/Penny_Beaver2
-  utasProfileUrl: ~
-  peronsalUrl: ~
+  utasProfileUrl: .na.character
+  peronsalUrl: .na.character
   researchProjectIn5Words: Habitat selection, niche space
+
