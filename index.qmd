@@ -3,7 +3,7 @@ format:
   html:
     toc: false
     page-layout: custom
-    css: "css/home.scss"
+    css: "css/home.css"
 resources:
   - "images/hero_barthur.jpg"
 listing:
