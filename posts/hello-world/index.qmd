@@ -1,18 +1,11 @@
 ---
-title: "Post With Code"
-description: "Post description"
+title: "Hello world! bloop bloop."
+description: "Our first post 🥳"
+image: 'lnfs-adult-female-malea.jpeg'
 author: "Dahlia Foo"
-date: "9/22/2023"
+date: "2023-09-22"
 categories:
   - news
-  - code
-  - analysis
 ---
 
-HELLO HELLO
-
-![](images/thumbnail.png)
-
-# new heading
-
-test test
+This is the first post for the mpredlab website. Woohoo! 🥳
