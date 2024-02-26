@@ -7,4 +7,6 @@ categories:
   - code
 ---
 
+![image credit: https://happygitwithr.com/](watch-me-diff-watch-me-rebase-smaller.png){fig-alt="blog post featured image"}
+
 Oh hi! Go here to start your adventure 👉 <https://fxhd.notion.site/Hey-I-think-it-s-about-time-you-start-using-git-and-github-in-your-research-8f144c9f60384bb0b212df4645675f3f?pvs=25>
