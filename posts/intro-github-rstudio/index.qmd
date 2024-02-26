@@ -1,5 +1,10 @@
 ---
-title: "Don't stop git it git it."
+title: "Don't stop git it git it"
+description: "A mini workshop for mpredlab to get started with git and github and copilot!"
+author: "Dahlia Foo"
+date: "2023-02-27"
+categories:
+  - code
 ---
 
 Oh hi! Go here to start your adventure 👉 <https://fxhd.notion.site/Hey-I-think-it-s-about-time-you-start-using-git-and-github-in-your-research-8f144c9f60384bb0b212df4645675f3f?pvs=25>
