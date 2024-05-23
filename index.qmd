@@ -19,6 +19,8 @@ listing:
   - id: research-themes
     contents: research.yaml
     template: "templates/research.ejs"
+include-in-header:
+  text: <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 ---
 
 ::: {.grid .hero-container style="padding-top: 0;"}
@@ -40,5 +42,8 @@ We study Southern Ocean and other marine predators to improve our understanding 
 
 ::: {#blog-listings}
 :::
+
+<a class="twitter-timeline" data-theme="dark" href="https://twitter.com/mpred_lab?ref_src=twsrc%5Etfw">Tweets by mpred_lab</a> 
+
 :::
 :::
